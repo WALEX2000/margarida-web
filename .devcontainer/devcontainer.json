@@ -16,7 +16,12 @@
 			// Set *default* container specific settings.json values on container create.
 			"settings": { 
 				"html.format.templating": true
-			}
+			},
+			"extensions": [
+				"budparr.language-hugo-vscode",
+				"bradlc.vscode-tailwindcss",
+				"budparr.language-hugo-vscode"
+			]
 		}
 	},
 
