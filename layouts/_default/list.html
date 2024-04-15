@@ -1,12 +1,9 @@
 {{ define "main" }}
-<h1> LIST </h1>
-<div class="mw7 center">
-  <ul class="flex-ns flex-wrap mhn1-ns pa3">
-        {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
-          <h1>Page name: {{ .Permalink | replaceRE "^/([^/]+)/$" "$1" }}</h1>
-          {{ .Render "li"}}
-        {{ end }}
+<div class="mw7 mx-auto flex justify-center">
+  <ul class="flex flex-wrap flex-col justify-between space-y-5 p-3">
+    {{ range (.Paginator 4).Pages }}
+      {{ .Render "li"}}
+    {{ end }}
   </ul>
 </div>
-
 {{end}}

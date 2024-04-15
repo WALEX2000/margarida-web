@@ -5,6 +5,6 @@
   <meta name="description" content="Photography and Architecture website.">
   
   {{/*  CSS  */}}
-  {{ $style := resources.Get "scss/base.scss" | toCSS | postCSS }}
+  {{ $style := resources.Get "css/base.scss" | toCSS | postCSS }}
   <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" />
 </head>
