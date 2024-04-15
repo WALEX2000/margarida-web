@@ -2,11 +2,10 @@
 <h1> LIST </h1>
 <div class="mw7 center">
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
-      {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
-          <div class="w-50-ns ph1-ns flex">
-            {{ .Render "li"}}
-          </div>
-      {{ end }}
+        {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+          <h1>Page name: {{ .Permalink | replaceRE "^/([^/]+)/$" "$1" }}</h1>
+          {{ .Render "li"}}
+        {{ end }}
   </ul>
 </div>
 

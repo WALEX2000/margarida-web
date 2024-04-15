@@ -3,4 +3,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
   <meta name="description" content="Photography and Architecture website.">
+  
+  {{/*  CSS  */}}
+  {{ $style := resources.Get "scss/base.scss" | toCSS | postCSS }}
+  <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" />
 </head>

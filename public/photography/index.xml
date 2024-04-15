@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Margarida Website</title>
+    <title>Photographies on Margarida Website</title>
     <link>http://localhost:1313/photography/</link>
-    <description>Recent content on Margarida Website</description>
+    <description>Recent content in Photographies on Margarida Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/photography/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Casamentos</title>
-      <link>http://localhost:1313/photography/weddings.pt/</link>
+      <title>Batizados</title>
+      <link>http://localhost:1313/photography/baptisms/index.pt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/photography/weddings.pt/</guid>
-      <description>Casamentos Eu faço casamentos muito bons. Yey</description>
+      <guid>http://localhost:1313/photography/baptisms/index.pt/</guid>
+      <description>Eu faço batizados muito sagrados 🙏 Yey</description>
+    </item>
+    <item>
+      <title>Casamentos</title>
+      <link>http://localhost:1313/photography/weddings/index.pt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photography/weddings/index.pt/</guid>
+      <description>Eu faço casamentos muito bons. Yey</description>
+    </item>
+    <item>
+      <title>Eventos</title>
+      <link>http://localhost:1313/photography/events/index.pt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photography/events/index.pt/</guid>
+      <description>Eu faço grandes Eventos 🎉 Yey</description>
     </item>
   </channel>
 </rss>
