@@ -1,0 +1,6 @@
+<div class="categories-container">
+    {{ range (.Paginator 7).Pages }}
+        {{ .Render "li"}}
+    {{ end }}
+</div>
+  
