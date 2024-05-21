@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="mw7 mx-auto flex justify-center">
+  <ul class="flex flex-wrap flex-col justify-between space-y-5 p-3">
+    {{ range (.Paginator 4).Pages }}
+      {{ .Render "li"}}
+    {{ end }}
+  </ul>
+</div>
+{{end}}
