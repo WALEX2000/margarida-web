@@ -1109,6 +1109,9 @@ input:checked + .toggle-bg {
 .h-screen {
   height: 100vh;
 }
+.min-h-full {
+  min-height: 100%;
+}
 .w-1\/2 {
   width: 50%;
 }
@@ -1117,6 +1120,9 @@ input:checked + .toggle-bg {
 }
 .w-64 {
   width: 16rem;
+}
+.min-w-full {
+  min-width: 100%;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -1279,12 +1285,20 @@ input:checked + .toggle-bg {
   --tw-bg-opacity: 1;
   background-color: rgb(3 84 63 / var(--tw-bg-opacity));
 }
+.bg-stone-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 162 158 / var(--tw-bg-opacity));
+}
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-white\/50 {
   background-color: rgb(255 255 255 / 0.5);
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .p-1 {
   padding: 0.25rem;
@@ -1429,22 +1443,35 @@ input:checked + .toggle-bg {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  gap: 20px;
+  gap: 8px;
   padding: 20px; }
   .category-container .category-item {
-    width: 250px;
+    min-width: 250px;
+    max-width: 350px;
     background-color: #f3f3f3;
     border-radius: 8px;
     text-align: center;
-    padding: 10px; }
+    padding: 0;
+    position: relative; }
     .category-container .category-item .category-title {
       font-size: 1.2rem;
       font-weight: bold;
-      margin-bottom: 10px; }
+      color: #e0e0e0;
+      position: absolute;
+      top: 8px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out; }
+    .category-container .category-item .category-thumbnail:hover .category-title {
+      opacity: 1; }
     .category-container .category-item .category-thumbnail {
       height: 500px;
       background-color: #e0e0e0;
-      border-radius: 8px; }
+      border-radius: 8px;
+      overflow: hidden; }
     .category-container .category-item:nth-child(odd) .category-thumbnail {
       height: 550px; }
     .category-container .category-item:nth-child(even) .category-thumbnail {

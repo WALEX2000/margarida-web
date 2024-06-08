@@ -1,7 +1,7 @@
 ---
 title: "Casamentos"
 description: "Me gusta mucho"
-thumbnail: "wedding.jpg"
+thumbnail: "casamento.jpg"
 ---
 Eu faço casamentos muito bons.
 Yey

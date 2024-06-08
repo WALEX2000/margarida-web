@@ -29,11 +29,25 @@
       <description>Eu faço casamentos muito bons. Yey</description>
     </item>
     <item>
+      <title>Editorial</title>
+      <link>http://localhost:1313/photography/editorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photography/editorial/</guid>
+      <description>Eu faço batizados muito sagrados 🙏 Yey</description>
+    </item>
+    <item>
       <title>Eventos</title>
       <link>http://localhost:1313/photography/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/photography/events/</guid>
       <description>Eu faço grandes Eventos 🎉 Yey</description>
+    </item>
+    <item>
+      <title>Family Sessions</title>
+      <link>http://localhost:1313/photography/family/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photography/family/</guid>
+      <description>Eu faço batizados muito sagrados 🙏 Yey</description>
     </item>
   </channel>
 </rss>

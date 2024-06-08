@@ -10,7 +10,11 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/photography/editorial/</loc>
+  </url><url>
     <loc>http://localhost:1313/photography/events/</loc>
+  </url><url>
+    <loc>http://localhost:1313/photography/family/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>

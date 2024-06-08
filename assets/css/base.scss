@@ -8,26 +8,41 @@
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 20px;
+    gap: 8px;
     padding: 20px;
   
     .category-item {
-        width: 250px; // You can adjust the width as needed
+        min-width: 250px; // You can adjust the width as needed
+        max-width: 350px; // You can adjust the width as needed
         background-color: #f3f3f3; // Placeholder background color
         border-radius: 8px;
         text-align: center;
-        padding: 10px;
+        padding: 0;
+        position: relative;
     
         .category-title {
             font-size: 1.2rem;
             font-weight: bold;
-            margin-bottom: 10px;
+            color: #e0e0e0;
+            position: absolute;
+            top: 8px;
+            left: 0;
+            right: 0;
+            margin-left: auto; 
+            margin-right: auto; 
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .category-thumbnail:hover .category-title {
+            opacity: 1;
         }
     
         .category-thumbnail {
             height: 500px; // Default height
             background-color: #e0e0e0; // Placeholder color
             border-radius: 8px;
+            overflow: hidden;
         }
     
         &:nth-child(odd) .category-thumbnail {

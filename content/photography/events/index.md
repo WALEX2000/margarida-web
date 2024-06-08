@@ -1,7 +1,7 @@
 ---
 title: "Eventos"
 description: "Eventos com musica porfa"
-thumbnail: "party.jpg"
+thumbnail: "concert.jpg"
 ---
 Eu faço grandes Eventos 🎉
 Yey
