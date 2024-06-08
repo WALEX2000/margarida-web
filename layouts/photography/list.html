@@ -1,9 +1,15 @@
 {{ define "main" }}
-<div class="mw7 mx-auto flex justify-center">
-    <div class="category-container mx-auto">
+<div id="photgraphy-page-content" class="h-full flex flex-col">
+    <div class="category-container mx-auto flex-auto">
         {{ range (.Paginator 7).Pages }}
             {{ .Render "li"}}
         {{ end }}
+    </div>
+    <div class="flex-auto">
+        <div class="contact-info">
+            <p>Contact us at: example@example.com</p>
+            <p>Phone: 123-456-7890</p>
+        </div>
     </div>
 </div>
 {{end}}

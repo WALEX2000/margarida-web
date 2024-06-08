@@ -2,15 +2,16 @@
 <html
   itemscope
   itemtype="http://schema.org/WebPage"
-  lang="{{ $.Site.Language.Lang }}">
+  lang="{{ $.Site.Language.Lang }}"
+  class="h-full">
   <head>
     {{ partial "head" . }}
   </head>
-  <body>
+  <body class="h-full">
     <header>
       {{ partial "header" . }}
     </header>
-    <main>
+    <main class="h-full">
       {{ block "main" . }}{{ end }}
     </main>
   </body>
