@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    grid-template-rows: auto 1fr;
+}
+
 .category-container {
     display: flex;
     flex-direction: row;
