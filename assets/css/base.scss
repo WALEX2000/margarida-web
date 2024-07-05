@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+main {
+    background-color: #f6f4f2;
+}
+
 body {
     grid-template-rows: auto 1fr;
 }

@@ -1439,6 +1439,9 @@ input:checked + .toggle-bg {
 .ease-out {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
+main {
+  background-color: #f6f4f2; }
+
 body {
   grid-template-rows: auto 1fr; }
 
