@@ -1,9 +1,7 @@
-<a class="category-item" href="{{ .Permalink }}">
-    <div class="category-thumbnail">
-        <div class="category-title">{{ .Title }}</div>
-        <img
-            class="object-cover min-w-full min-h-full"
-            src="{{ path.Base .Permalink }}/{{ .Params.thumbnail }}"
-            alt="Thumbnail for {{ .Title }} section.">
-    </div>
+<a class="category-thumbnail" href="{{ .Permalink }}">
+    <h1 class="category-title">{{ .Title }}</h1>
+    <img
+        class="object-cover min-w-full min-h-full"
+        src="{{ path.Base .Permalink }}/{{ .Params.thumbnail }}"
+        alt="Thumbnail for {{ .Title }} section.">
 </a>

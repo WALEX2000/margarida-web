@@ -10,7 +10,7 @@ body {
     grid-template-rows: auto 1fr;
 }
 
-.category-container {
+.categories-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -18,57 +18,64 @@ body {
     flex-wrap: nowrap;
     gap: 8px;
     padding: 20px;
-  
-    .category-item {
+
+    .category-thumbnail {
+        height: 500px; // Default height
         min-width: 250px; // You can adjust the width as needed
         max-width: 350px; // You can adjust the width as needed
+        
         background-color: #f3f3f3; // Placeholder background color
-        border-radius: 8px;
-        text-align: center;
-        padding: 0;
-        position: relative;
-    
-        .category-title {
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: #e0e0e0;
-            position: absolute;
-            top: 8px;
-            left: 0;
-            right: 0;
-            margin-left: auto; 
-            margin-right: auto; 
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-        }
+        border-radius: 5px;
 
-        .category-thumbnail:hover .category-title {
-            opacity: 1;
-        }
-    
-        .category-thumbnail {
-            height: 500px; // Default height
-            background-color: #e0e0e0; // Placeholder color
-            border-radius: 8px;
-            overflow: hidden;
-        }
-    
-        &:nth-child(odd) .category-thumbnail {
+        overflow: hidden;
+        position: relative;
+
+        &:nth-child(odd) {
             height: 550px;
         }
     
-        &:nth-child(even) .category-thumbnail {
+        &:nth-child(even) {
             height: 500px;
         }
     
-        &:nth-child(3n) .category-thumbnail {
+        &:nth-child(3n) {
             height: 600px;
+        }
+
+        .category-title {
+            text-align: center;
+            margin-left: auto; 
+            margin-right: auto; 
+
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #e0e0e0;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            opacity: 1;
+            width: 100%;
+        }
+
+        * {
+            transition: all 0.4s ease-in-out;
+        }
+
+        &:hover .category-title {
+            opacity: 1;
+        }
+
+        &:hover img {
+            -webkit-filter: blur(2px);
+            filter: blur(2px);
         }
     }
 }
 
 @media (max-width: 768px) {
-    .category-container {
+    .categories-container {
       flex-direction: column;
       align-items: stretch;
   

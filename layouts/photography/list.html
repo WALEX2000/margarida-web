@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div id="photgraphy-page-content" class="h-full flex flex-col">
-    <div class="mx-auto flex-auto category-container ">
+    <div class="mx-auto flex-auto categories-container ">
         {{ range (.Paginator 7).Pages }}
             {{ .Render "li"}}
         {{ end }}
