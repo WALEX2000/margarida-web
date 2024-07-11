@@ -20,8 +20,8 @@ body {
     padding: 20px;
 
     .category-thumbnail {
-        height: 500px; // Default height
-        min-width: 250px; // You can adjust the width as needed
+        height: 75%; // Default height
+        min-width: 18%; // You can adjust the width as needed
         max-width: 350px; // You can adjust the width as needed
 
         background-color: #f3f3f3; // Placeholder background color
@@ -31,15 +31,15 @@ body {
         position: relative;
 
         &:nth-child(odd) {
-            height: 550px;
+            height: 80%;
         }
     
         &:nth-child(even) {
-            height: 500px;
+            height: 70%;
         }
     
         &:nth-child(3n) {
-            height: 600px;
+            height: 85%;
         }
 
         .category-title {
@@ -47,7 +47,7 @@ body {
             margin-left: auto; 
             margin-right: auto; 
 
-            font-size: 2rem;
+            font-size: 2.5rem;
             font-weight: bold;
             color: #e0e0e0;
 
@@ -55,8 +55,11 @@ body {
             top: 40%;
             left: 0;
             bottom: 0;
-            opacity: 0;
             width: 100%;
+            
+            opacity: 0;
+            -webkit-filter: blur(2px);
+            filter: blur(2px);
         }
 
         * {
@@ -65,6 +68,8 @@ body {
 
         &:hover .category-title {
             opacity: 1;
+            -webkit-filter: blur(0);
+            filter: blur(0);
         }
 
         &:hover img {
@@ -74,7 +79,15 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (pointer: coarse) {
+    .category-thumbnail .category-title {
+        opacity: 1;
+        -webkit-filter: blur(0);
+        filter: blur(0);
+    }
+}
+
+@media (max-width: 767) {
     .categories-container {
         flex-direction: column;
         align-items: stretch;
@@ -87,5 +100,3 @@ body {
         }
     }
 }
-  
-  
