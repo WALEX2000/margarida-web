@@ -4,6 +4,8 @@
   <url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
+    <loc>http://localhost:1313/photography/architecture/</loc>
+  </url><url>
     <loc>http://localhost:1313/photography/baptisms/</loc>
   </url><url>
     <loc>http://localhost:1313/photography/weddings/</loc>
@@ -12,9 +14,9 @@
   </url><url>
     <loc>http://localhost:1313/photography/editorial/</loc>
   </url><url>
-    <loc>http://localhost:1313/photography/events/</loc>
+    <loc>http://localhost:1313/photography/shows/</loc>
   </url><url>
-    <loc>http://localhost:1313/photography/family/</loc>
+    <loc>http://localhost:1313/photography/experiences/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>

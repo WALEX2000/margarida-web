@@ -10,6 +10,8 @@ body {
     grid-template-rows: auto 1fr;
 }
 
+// Casamentos, Batizados, Experiências Fotográficas, Editorial, Espetáculos, Arquitetura
+
 .categories-container {
     display: flex;
     flex-direction: row;
@@ -21,7 +23,7 @@ body {
 
     .category-thumbnail {
         height: 75%; // Default height
-        min-width: 18%; // You can adjust the width as needed
+        min-width: 15%; // You can adjust the width as needed
         max-width: 350px; // You can adjust the width as needed
 
         background-color: #f3f3f3; // Placeholder background color
@@ -49,7 +51,7 @@ body {
 
             font-size: 2.5rem;
             font-weight: bold;
-            color: #e0e0e0;
+            color: #dfe229;
 
             position: absolute;
             top: 40%;
@@ -73,8 +75,8 @@ body {
         }
 
         &:hover img {
-            -webkit-filter: blur(2px);
-            filter: blur(2px);
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
         }
     }
 }
