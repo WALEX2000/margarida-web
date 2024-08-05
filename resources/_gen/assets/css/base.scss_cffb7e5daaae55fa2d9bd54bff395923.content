@@ -1051,6 +1051,9 @@ input:checked + .toggle-bg {
 .z-50 {
   z-index: 50;
 }
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1060,6 +1063,9 @@ input:checked + .toggle-bg {
 }
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
 }
 .ml-2 {
   margin-left: 0.5rem;
@@ -1103,6 +1109,9 @@ input:checked + .toggle-bg {
 .h-9 {
   height: 2.25rem;
 }
+.h-auto {
+  height: auto;
+}
 .h-dvh {
   height: 100dvh;
 }
@@ -1123,6 +1132,9 @@ input:checked + .toggle-bg {
 }
 .w-64 {
   width: 16rem;
+}
+.w-full {
+  width: 100%;
 }
 .min-w-full {
   min-width: 100%;
@@ -1181,6 +1193,9 @@ input:checked + .toggle-bg {
 .resize {
   resize: both;
 }
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -1213,6 +1228,9 @@ input:checked + .toggle-bg {
 }
 .justify-between {
   justify-content: space-between;
+}
+.gap-6 {
+  gap: 1.5rem;
 }
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -1316,6 +1334,9 @@ input:checked + .toggle-bg {
 }
 .p-4 {
   padding: 1rem;
+}
+.p-6 {
+  padding: 1.5rem;
 }
 .px-2 {
   padding-left: 0.5rem;
@@ -1473,7 +1494,7 @@ body {
       margin-right: auto;
       font-size: 2.5rem;
       font-weight: bold;
-      color: #dfe229;
+      color: #03543f;
       position: absolute;
       top: 40%;
       left: 0;
@@ -1482,7 +1503,7 @@ body {
       opacity: 0;
       filter: blur(2px); }
     .categories-container .category-thumbnail * {
-      transition: all 0.3s ease-in-out; }
+      transition: all 0.2s ease-in-out; }
     .categories-container .category-thumbnail:hover .category-title {
       opacity: 1;
       filter: blur(0); }
@@ -1656,6 +1677,17 @@ body {
 .dark\:hover\:text-white:hover:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+
+  .md\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 .rtl\:rotate-180:where([dir="rtl"], [dir="rtl"] *) {
