@@ -13,9 +13,15 @@
   
   
   <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/base.css" />
+
+  
+  <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/photography_single.css" />
+
+  
+  <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/photography_list.css" />
 </head>
   </head>
-  <body class="h-dvh grid">
+  <body class="h-dvh grid grid-rows-auto-1fr">
     <header>
       <div class="bg-gray-200 h-16 flex items-center justify-start">
     <a class="px-4" href="http://localhost:1313/">
@@ -24,29 +30,18 @@
             <path d="M80 26C80 40.3594 68.3594 52 54 52C39.6406 52 28 40.3594 28 26C28 11.6406 39.6406 0 54 0C68.3594 0 80 11.6406 80 26Z" fill="#78E0AF"/>
         </svg>
     </a>
-    </a>
 </div>
     </header>
-    <main>
+    <main class="min-h-full flex-grow">
       
-    <div class="container mx-auto">
-        <h1 class="text-4xl font-bold text-center mb-8">Experiências Fotográficas</h1>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="col-span-1 md:col-span-1">
-                <img src="http://localhost:1313/photography/experiences//familia.jpg" alt="Experiências Fotográficas cover image." class="w-full h-auto rounded-lg shadow-lg">
-            </div>
-            <div class="col-span-1 md:col-span-1 flex items-center">
-                <p class="text-lg">
-                    Commodo consequat mollit dolor deserunt velit consectetur elit Lorem magna ullamco sunt do. Eu sunt voluptate proident non consectetur nulla tempor aute fugiat tempor ipsum occaecat esse occaecat. Laborum reprehenderit veniam aliqua commodo eiusmod anim ea. 
-                    <br><br>
-                    Veniam cillum sit nostrud minim elit mollit quis ullamco. Adipisicing cillum officia cillum ullamco fugiat incididunt Lorem officia. Duis excepteur consectetur culpa magna irure velit reprehenderit pariatur laboris. Amet exercitation enim ad veniam ut voluptate eu.
-                </p>
-            </div>
-            <div class="col-span-1 md:col-span-1">
-                <img src="http://localhost:1313/photography/experiences//wedding_photo.jpg" alt="Wedding Image 2" class="w-full h-auto rounded-lg shadow-lg">
-            </div>
-        </div>
+<div class="h-full flex overflow-x-scroll">
+    <img src="http://localhost:1313/photography/experiences//familia.jpg" alt="Experiências Fotográficas cover image." class="h-full w-1/3 object-cover">
+    <div class="flex-1 ml-8">
+        <p class="text-7xl mb-8 mt-2 font-italiana-regular overflow-x-visible whitespace-nowrap">EXPERIÊNCIAS FOTOGRÁFICAS</p>
+        <p>Muitas fotos &lt;3</p>
+
     </div>
+</div>
 
     </main>
   </body>

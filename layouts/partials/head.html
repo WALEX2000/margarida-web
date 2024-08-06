@@ -7,4 +7,10 @@
   {{/*  CSS  */}}
   {{ $style := resources.Get "css/base.scss" | toCSS | postCSS }}
   <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" />
+
+  {{ $style := resources.Get "css/photography_single.scss" | toCSS | postCSS }}
+  <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" />
+
+  {{ $style := resources.Get "css/photography_list.scss" | toCSS | postCSS }}
+  <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" />
 </head>

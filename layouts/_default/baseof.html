@@ -6,11 +6,11 @@
   <head>
     {{ partial "head" . }}
   </head>
-  <body class="h-dvh grid">
+  <body class="h-dvh grid grid-rows-auto-1fr">
     <header>
       {{ partial "header" . }}
     </header>
-    <main>
+    <main class="min-h-full flex-grow">
       {{ block "main" . }}{{ end }}
     </main>
   </body>

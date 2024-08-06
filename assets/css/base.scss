@@ -2,101 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-main {
+html {
     background-color: #f6f4f2;
 }
 
-body {
+.grid-rows-auto-1fr {
     grid-template-rows: auto 1fr;
-}
-
-.categories-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    gap: 8px;
-    padding: 20px;
-
-    .category-thumbnail {
-        height: 75%; // Default height
-        min-width: 15%; // You can adjust the width as needed
-        max-width: 350px; // You can adjust the width as needed
-
-        background-color: #f3f3f3; // Placeholder background color
-        border-radius: 5px;
-
-        overflow: hidden;
-        position: relative;
-
-        &:nth-child(odd) {
-            height: 80%;
-        }
-    
-        &:nth-child(even) {
-            height: 70%;
-        }
-    
-        &:nth-child(3n) {
-            height: 85%;
-        }
-
-        .category-title {
-            text-align: center;
-            margin-left: auto; 
-            margin-right: auto; 
-
-            font-size: 2.5rem;
-            font-weight: bold;
-            color: #03543f;
-
-            position: absolute;
-            top: 40%;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            
-            opacity: 0;
-            -webkit-filter: blur(2px);
-            filter: blur(2px);
-        }
-
-        * {
-            transition: all 0.2s ease-in-out;
-        }
-
-        &:hover .category-title {
-            opacity: 1;
-            -webkit-filter: blur(0);
-            filter: blur(0);
-        }
-
-        &:hover img {
-            -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-        }
-    }
-}
-
-@media (pointer: coarse) {
-    .category-thumbnail .category-title {
-        opacity: 1;
-        -webkit-filter: blur(0);
-        filter: blur(0);
-    }
-}
-
-@media (max-width: 767px) {
-    .categories-container {
-        flex-direction: column;
-        align-items: stretch;
-  
-        .category-thumbnail {
-            width: 100%;
-            margin-bottom: 20px;
-            height: auto;
-            aspect-ratio: 16 / 9;
-        }
-    }
 }
