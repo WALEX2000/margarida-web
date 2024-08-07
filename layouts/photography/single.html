@@ -1,10 +1,10 @@
 {{ define "main" }}
 <div id="content_wrapper">
     <img id="cover_image" src="{{ .Permalink }}/{{ .Params.thumbnail }}" alt="{{ .Title }} cover image." class="h-full object-cover">
-    <div class="ml-8 max-h-full grid grid-rows-auto-1fr">
-        <p class="text-7xl mb-14 mt-2 font-italiana-regular overflow-x-visible whitespace-nowrap">{{ .Title | upper }}</p>
-        <div id="content_container" class="min-h-full">
-            {{ .Content }}
+    <div class="ml-8 h-full grid grid-rows-auto-1fr">
+        <p class="text-7xl mb-10 mt-2 font-italiana-regular overflow-x-visible whitespace-nowrap">{{ .Title | upper }}</p>
+        <div id="content_container" class="min-h-0">
+            {{ partial "content" . }}
         </div>
     </div>
 </div>

@@ -1,0 +1,5 @@
+{{ $content := .Content }}
+
+{{ $content = $content | replaceRE "<h6.*></h6>" "</section><section>" }}
+
+{{ $content | safeHTML }}
