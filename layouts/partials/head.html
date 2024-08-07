@@ -13,4 +13,8 @@
 
   {{ $style := resources.Get "css/photography_list.scss" | toCSS | postCSS }}
   <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" />
+
+  {{/*  SCRIPTS  */}}
+  {{ $script := resources.Get "js/horizontal_scroller.js" }}
+  <script src="{{ $script.Permalink }}" defer></script>
 </head>

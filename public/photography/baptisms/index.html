@@ -19,11 +19,15 @@
 
   
   <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/photography_list.css" />
+
+  
+  
+  <script src="http://localhost:1313/js/horizontal_scroller.js" defer></script>
 </head>
   </head>
-  <body class="h-dvh grid grid-rows-auto-1fr">
+  <body class="h-dvh w-dvh grid grid-rows-auto-1fr">
     <header>
-      <div class="bg-gray-200 h-16 flex items-center justify-start">
+      <div class="bg-gray-200 h-16 flex items-center justify-start w-full">
     <a class="px-4" href="http://localhost:1313/">
         <svg width="80" height="52" viewBox="0 0 80 52" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M27.5 3L54.7798 50.25H0.220215L27.5 3Z" fill="#FF6060"/>
@@ -34,13 +38,15 @@
     </header>
     <main class="min-h-full flex-grow">
       
-<div class="h-full flex overflow-x-scroll">
-    <img src="http://localhost:1313/photography/baptisms//batizado.jpg" alt="Batizados cover image." class="h-full w-1/3 object-cover">
-    <div class="flex-1 ml-8">
-        <p class="text-7xl mb-8 mt-2 font-italiana-regular overflow-x-visible whitespace-nowrap">BATIZADOS</p>
-        <p>Eu faço batizados muito sagrados 🙏
+<div id="content_wrapper" class="h-full flex overflow-x-auto">
+    <img id="cover_image" src="http://localhost:1313/photography/baptisms//batizado.jpg" alt="Batizados cover image." class="h-full w-[calc(100vw/4)] object-cover">
+    <div class="flex-1 ml-8 max-h-full grid grid-rows-auto-1fr">
+        <p class="text-7xl mb-14 mt-2 font-italiana-regular overflow-x-visible whitespace-nowrap">BATIZADOS</p>
+        <div id="content_container" class="min-h-full flex-grow">
+            <p>Eu faço batizados muito sagrados 🙏
 Yey</p>
 
+        </div>
     </div>
 </div>
 
