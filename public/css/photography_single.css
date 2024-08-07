@@ -1340,7 +1340,9 @@ input:checked + .toggle-bg{
     font-size: 1rem; }
   #content_container * img {
     -o-object-fit: cover;
-       object-fit: cover; }
+       object-fit: cover;
+    height: 100%;
+    margin: auto; }
 
 #content_wrapper {
   height: 100%;
