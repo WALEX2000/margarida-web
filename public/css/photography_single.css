@@ -1338,11 +1338,15 @@ input:checked + .toggle-bg{
     margin-bottom: 1rem;
     font-family: monospace;
     font-size: 1rem; }
+  #content_container section:has(> img.landscape) {
+    grid-column: span 2; }
   #content_container * img {
     -o-object-fit: cover;
        object-fit: cover;
     height: 100%;
     margin: auto; }
+  #content_container * img[aspect-ratio="16/9"] {
+    grid-column: span 2; }
 
 #content_wrapper {
   height: 100%;

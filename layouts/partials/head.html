@@ -17,4 +17,7 @@
   {{/*  SCRIPTS  */}}
   {{ $script := resources.Get "js/horizontal_scroller.js" }}
   <script src="{{ $script.Permalink }}" defer></script>
+
+  {{ $script := resources.Get "js/landscape_image_setter.js" }}
+  <script src="{{ $script.Permalink }}" defer></script>
 </head>
