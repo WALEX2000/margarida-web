@@ -13,12 +13,7 @@ Laborum reprehenderit veniam aliqua commodo eiusmod anim ea. Veniam cillum sit n
 Amet exercitation enim ad veniam ut voluptate eu.
 Laborum culpa sint nostrud et enim ullamco ut eiusmod consectetur excepteur. Ea occaecat consequat enim sint elit fugiat ad aliquip consectetur mollit ex do occaecat velit.
 ######
-
-Culpa dolor proident ipsum consectetur aliqua laborum proident eu magna. Nostrud sit et minim duis in elit ullamco consectetur ea. Dolor Lorem tempor aliquip qui et consectetur duis ut. Reprehenderit incididunt eiusmod tempor occaecat tempor laborum ut dolore officia. Ea aliqua adipisicing nulla exercitation amet veniam ipsum ut ad veniam laborum ullamco do excepteur. Ea incididunt eiusmod quis ut magna deserunt. Incididunt mollit fugiat est duis velit ullamco elit est eiusmod veniam proident consectetur.
-
-######
 ![Photo of a Wedding](wedding_photo.jpg)
-
 ######
 Ex ut do dolor amet esse ullamco minim id officia consequat officia. Consequat laborum deserunt quis voluptate pariatur dolor dolor proident. Eiusmod esse nulla adipisicing labore et culpa laborum ad cupidatat excepteur. Nisi et nisi dolor non anim cillum ex dolore exercitation consequat eiusmod laboris. Sunt non duis mollit aute. Minim est culpa ipsum dolor. Consequat ex cupidatat proident fugiat reprehenderit velit pariatur voluptate velit nostrud sint ut consectetur ea.
 

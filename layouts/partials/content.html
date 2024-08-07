@@ -1,5 +1,9 @@
 {{ $content := .Content }}
 
+<!-- Add section wrappers on empty h6 headings. -->
 {{ $content = $content | replaceRE "<h6.*></h6>" "</section><section>" }}
+
+<!-- Remove paragraph wrapper from images. -->
+{{ $content = $content | replaceRE "<p><img(.*)></p>" "<img$1>" }}
 
 {{ $content | safeHTML }}

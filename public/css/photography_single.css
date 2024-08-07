@@ -1004,9 +1004,6 @@ input:checked + .toggle-bg{
 .flex-auto{
   flex: 1 1 auto;
 }
-.flex-initial{
-  flex: 0 1 auto;
-}
 .flex-shrink{
   flex-shrink: 1;
 }
@@ -1331,19 +1328,19 @@ input:checked + .toggle-bg{
   font-weight: 400; }
 
 #content_container {
+  margin: 1rem;
   display: grid;
   grid-template-rows: 100%;
   gap: 1rem;
   grid-auto-flow: column;
   grid-auto-columns: 50ch; }
   #content_container p {
-    margin: 2rem;
+    margin-bottom: 1rem;
     font-family: monospace;
     font-size: 1rem; }
-  #content_container img {
+  #content_container * img {
     -o-object-fit: cover;
-       object-fit: cover;
-    height: 100%; }
+       object-fit: cover; }
 
 #content_wrapper {
   height: 100%;
