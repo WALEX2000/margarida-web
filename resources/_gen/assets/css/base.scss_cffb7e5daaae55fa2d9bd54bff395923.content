@@ -1130,9 +1130,6 @@ input:checked + .toggle-bg {
 .w-64 {
   width: 16rem;
 }
-.w-\[calc\(100vw\/4\)\] {
-  width: calc(100vw / 4);
-}
 .w-full {
   width: 100%;
 }
@@ -1241,9 +1238,6 @@ input:checked + .toggle-bg {
 }
 .overflow-hidden {
   overflow: hidden;
-}
-.overflow-x-auto {
-  overflow-x: auto;
 }
 .overflow-x-visible {
   overflow-x: visible;
