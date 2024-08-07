@@ -26,9 +26,9 @@
   <script src="http://localhost:1313/js/horizontal_scroller.js" defer></script>
 </head>
   </head>
-  <body class="h-dvh w-dvh grid grid-rows-auto-1fr">
-    <header>
-      <div class="bg-gray-200 h-16 flex items-center justify-start w-full">
+  <body class="h-dvh w-max flex flex-col overflow-x-scroll">
+    <header id="header">
+      <div class="bg-gray-200 h-16 w-dvw flex items-center justify-start sticky left-0">
     <a class="px-4" href="http://localhost:1313/">
         <svg width="80" height="52" viewBox="0 0 80 52" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M27.5 3L54.7798 50.25H0.220215L27.5 3Z" fill="#FF6060"/>
@@ -37,7 +37,7 @@
     </a>
 </div>
     </header>
-    <main class="min-h-full flex-grow">
+    <main id="main"class="flex-grow min-h-0">
       
   <h1 class="text-4xl font-bold text-center">This is the website home page</h1>
   <div class="flex flex-col justify-center items-start h-screen">

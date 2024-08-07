@@ -1,5 +1,9 @@
-// document.getElementById('content_wrapper').addEventListener('wheel', function(e) {
-//     let delta = Math.abs(e.deltaY) > Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
-//     this.scrollLeft += delta;
-//     e.preventDefault();
-// }, false);
+const horizontalScroller = (e) => {
+    e.preventDefault();
+    let delta = Math.abs(e.deltaY) > Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
+    document.scrollingElement.scrollLeft += delta;
+}
+
+document.getElementById("header").addEventListener('wheel', horizontalScroller, false);
+
+document.getElementById("main").addEventListener('wheel', horizontalScroller, false);

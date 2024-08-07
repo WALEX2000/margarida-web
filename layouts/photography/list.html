@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{- $sortedPages := .Pages.ByParam "order" }}
-<div id="photgraphy-page-content" class="h-full flex flex-col">
+<div id="photgraphy-page-content" class="h-full w-dvw flex flex-col">
     <div class="mx-auto flex-auto categories-container">
         {{ range (.Paginate $sortedPages).Pages }}
             {{ .Render "li"}}

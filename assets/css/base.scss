@@ -6,6 +6,11 @@ html {
     background-color: #f6f4f2;
 }
 
-.grid-rows-auto-1fr {
-    grid-template-rows: auto 1fr;
+/* hide scrollbar for all browsers */
+* {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }

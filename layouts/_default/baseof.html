@@ -6,11 +6,11 @@
   <head>
     {{ partial "head" . }}
   </head>
-  <body class="h-dvh w-dvh grid grid-rows-auto-1fr">
-    <header>
+  <body class="h-dvh w-max flex flex-col overflow-x-scroll">
+    <header id="header">
       {{ partial "header" . }}
     </header>
-    <main class="min-h-full flex-grow">
+    <main id="main"class="flex-grow min-h-0">
       {{ block "main" . }}{{ end }}
     </main>
   </body>

@@ -9,15 +9,6 @@
     font-weight: 400;
 }
 
-/* hide scrollbar for all browsers */
-* {
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    ::-webkit-scrollbar {
-        display: none;
-    }
-}
-
 #content_container {
     display: grid;
     grid-template-rows: 100%;
@@ -41,5 +32,9 @@
     height: 100%;
     display: grid;
     grid-template-rows: 100%;
-    grid-template-columns: calc(100svw/4) auto;
+    grid-template-columns: calc(100dvw/4) auto;
+}
+
+.grid-rows-auto-1fr {
+    grid-template-rows: auto 1fr;
 }
