@@ -10,7 +10,8 @@
 }
 
 #content_container {
-    margin: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
     display: grid;
     grid-template-rows: 100%;
     gap: 1rem;
@@ -18,7 +19,7 @@
     grid-auto-columns: 50ch;
 
     p {
-        margin-bottom: 1rem;
+        margin-top: 1rem;
         font-family: monospace;
         font-size: 1rem;
     }
@@ -31,10 +32,6 @@
         object-fit: cover;
         height: 100%;
         margin: auto;
-    }
-    
-    * img[aspect-ratio = "16/9"] {
-        grid-column: span 2;
     }
 }
 

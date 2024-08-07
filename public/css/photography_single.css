@@ -916,11 +916,11 @@ input:checked + .toggle-bg{
 .mb-1{
   margin-bottom: 0.25rem;
 }
-.mb-10{
-  margin-bottom: 2.5rem;
-}
 .mb-2{
   margin-bottom: 0.5rem;
+}
+.mb-6{
+  margin-bottom: 1.5rem;
 }
 .ml-8{
   margin-left: 2rem;
@@ -1328,14 +1328,15 @@ input:checked + .toggle-bg{
   font-weight: 400; }
 
 #content_container {
-  margin: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
   display: grid;
   grid-template-rows: 100%;
   gap: 1rem;
   grid-auto-flow: column;
   grid-auto-columns: 50ch; }
   #content_container p {
-    margin-bottom: 1rem;
+    margin-top: 1rem;
     font-family: monospace;
     font-size: 1rem; }
   #content_container section:has(> img.landscape) {
@@ -1345,8 +1346,6 @@ input:checked + .toggle-bg{
        object-fit: cover;
     height: 100%;
     margin: auto; }
-  #content_container * img[aspect-ratio="16/9"] {
-    grid-column: span 2; }
 
 #content_wrapper {
   height: 100%;
