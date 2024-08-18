@@ -2,71 +2,74 @@
 @tailwind components;
 @tailwind utilities;
 
-.categories-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    gap: 8px;
-    padding: 20px;
+@media (min-width: 768px) {
+    .categories-container {
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 auto;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 0.5rem;
+        padding: 1rem;
 
-    .category-thumbnail {
-        height: 75%; // Default height
-        min-width: 15%; // You can adjust the width as needed
-        max-width: 350px; // You can adjust the width as needed
+        .category-thumbnail {
+            height: 75%; // Default height
+            min-width: 15%; // You can adjust the width as needed
+            max-width: 350px; // You can adjust the width as needed
 
-        background-color: #f3f3f3; // Placeholder background color
-        border-radius: 5px;
+            background-color: #f3f3f3; // Placeholder background color
+            border-radius: 5px;
 
-        overflow: hidden;
-        position: relative;
+            overflow: hidden;
+            position: relative;
 
-        &:nth-child(odd) {
-            height: 80%;
-        }
-    
-        &:nth-child(even) {
-            height: 70%;
-        }
-    
-        &:nth-child(3n) {
-            height: 85%;
-        }
+            &:nth-child(odd) {
+                height: 80%;
+            }
+        
+            &:nth-child(even) {
+                height: 70%;
+            }
+        
+            &:nth-child(3n) {
+                height: 85%;
+            }
 
-        .category-title {
-            text-align: center;
-            margin-left: auto; 
-            margin-right: auto; 
+            .category-title {
+                text-align: center;
+                margin-left: auto; 
+                margin-right: auto; 
 
-            font-size: 2.5rem;
-            font-weight: bold;
-            color: #03543f;
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: #03543f;
 
-            position: absolute;
-            top: 40%;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            
-            opacity: 0;
-            -webkit-filter: blur(2px);
-            filter: blur(2px);
-        }
+                position: absolute;
+                top: 40%;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                
+                opacity: 0;
+                -webkit-filter: blur(2px);
+                filter: blur(2px);
+            }
 
-        * {
-            transition: all 0.2s ease-in-out;
-        }
+            * {
+                transition: all 0.2s ease-in-out;
+            }
 
-        &:hover .category-title {
-            opacity: 1;
-            -webkit-filter: blur(0);
-            filter: blur(0);
-        }
+            &:hover .category-title {
+                opacity: 1;
+                -webkit-filter: blur(0);
+                filter: blur(0);
+            }
 
-        &:hover img {
-            -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
+            &:hover img {
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+            }
         }
     }
 }
@@ -80,29 +83,33 @@
 }
 
 // Mobile
+// TODO: snap on the center of the photo
+// TODO: Make the first elements appear (they are not appearing for some reason)
+// TOOD: Make the Scroll infinite (After the last it should cycle back to the first
+// TODO: Make the other categories appear slightly on the sides of the screen (so that it becomes apparent that it can be scrolled through)
 @media (max-width: 767px) {
     .categories-container {
-        display: inline-flex;
+        display: flex;
+        flex-direction: row;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
         -ms-overflow-style: none;
         scrollbar-width: none;
         scroll-snap-align: center;
-        padding: 1rem;
+        padding: 0;
 
         :not([hidden]) ~ :not([hidden]) {
             --tw-space-x-reverse: 0;
             margin-right: calc(1rem /* 16px */ * var(--tw-space-x-reverse));
             margin-left: calc(1rem /* 16px */ * calc(1 - var(--tw-space-x-reverse)));
         }
-  
+
         .category-thumbnail {
-            box-sizing: content-box;
-            display: flex;
-            flex: none;
-            scroll-snap-align: start;
-            height: 95% !important;
+            scroll-snap-align: center;
+            height: 75% !important;
+            aspect-ratio: 2 / 3;
+            border-radius: 5px;
         }
     }
 }

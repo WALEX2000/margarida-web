@@ -1146,9 +1146,6 @@ input:checked + .toggle-bg {
 .flex-1 {
   flex: 1 1 0%;
 }
-.flex-auto {
-  flex: 1 1 auto;
-}
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1468,49 +1465,51 @@ input:checked + .toggle-bg {
 .ease-out {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
-.categories-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 8px;
-  padding: 20px; }
-  .categories-container .category-thumbnail {
-    height: 75%;
-    min-width: 15%;
-    max-width: 350px;
-    background-color: #f3f3f3;
-    border-radius: 5px;
-    overflow: hidden;
-    position: relative; }
-    .categories-container .category-thumbnail:nth-child(odd) {
-      height: 80%; }
-    .categories-container .category-thumbnail:nth-child(even) {
-      height: 70%; }
-    .categories-container .category-thumbnail:nth-child(3n) {
-      height: 85%; }
-    .categories-container .category-thumbnail .category-title {
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-      font-size: 2.5rem;
-      font-weight: bold;
-      color: #03543f;
-      position: absolute;
-      top: 40%;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      opacity: 0;
-      filter: blur(2px); }
-    .categories-container .category-thumbnail * {
-      transition: all 0.2s ease-in-out; }
-    .categories-container .category-thumbnail:hover .category-title {
-      opacity: 1;
-      filter: blur(0); }
-    .categories-container .category-thumbnail:hover img {
-      filter: grayscale(100%); }
+@media (min-width: 768px) {
+  .categories-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    padding: 1rem; }
+    .categories-container .category-thumbnail {
+      height: 75%;
+      min-width: 15%;
+      max-width: 350px;
+      background-color: #f3f3f3;
+      border-radius: 5px;
+      overflow: hidden;
+      position: relative; }
+      .categories-container .category-thumbnail:nth-child(odd) {
+        height: 80%; }
+      .categories-container .category-thumbnail:nth-child(even) {
+        height: 70%; }
+      .categories-container .category-thumbnail:nth-child(3n) {
+        height: 85%; }
+      .categories-container .category-thumbnail .category-title {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #03543f;
+        position: absolute;
+        top: 40%;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        opacity: 0;
+        filter: blur(2px); }
+      .categories-container .category-thumbnail * {
+        transition: all 0.2s ease-in-out; }
+      .categories-container .category-thumbnail:hover .category-title {
+        opacity: 1;
+        filter: blur(0); }
+      .categories-container .category-thumbnail:hover img {
+        filter: grayscale(100%); } }
 
 @media (pointer: coarse) {
   .category-thumbnail .category-title {
@@ -1519,24 +1518,24 @@ input:checked + .toggle-bg {
 
 @media (max-width: 767px) {
   .categories-container {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
     scroll-snap-align: center;
-    padding: 1rem; }
+    padding: 0; }
     .categories-container :not([hidden]) ~ :not([hidden]) {
       --tw-space-x-reverse: 0;
       margin-right: calc(1rem /* 16px */ * var(--tw-space-x-reverse));
       margin-left: calc(1rem /* 16px */ * calc(1 - var(--tw-space-x-reverse))); }
     .categories-container .category-thumbnail {
-      box-sizing: content-box;
-      display: flex;
-      flex: none;
-      scroll-snap-align: start;
-      height: 95% !important; } }
+      scroll-snap-align: center;
+      height: 75% !important;
+      aspect-ratio: 2 / 3;
+      border-radius: 5px; } }
 
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
