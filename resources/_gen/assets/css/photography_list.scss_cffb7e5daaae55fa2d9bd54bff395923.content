@@ -1518,24 +1518,20 @@ input:checked + .toggle-bg {
 
 @media (max-width: 767px) {
   .categories-container {
+    padding: 0;
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    scroll-snap-align: center;
-    padding: 0; }
-    .categories-container :not([hidden]) ~ :not([hidden]) {
-      --tw-space-x-reverse: 0;
-      margin-right: calc(1rem /* 16px */ * var(--tw-space-x-reverse));
-      margin-left: calc(1rem /* 16px */ * calc(1 - var(--tw-space-x-reverse))); }
+    align-items: center;
+    flex-wrap: nowrap;
+    position: absolute;
+    overflow: hidden; }
     .categories-container .category-thumbnail {
-      scroll-snap-align: center;
       height: 75% !important;
       aspect-ratio: 2 / 3;
-      border-radius: 5px; } }
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center; } }
 
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;

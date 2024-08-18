@@ -89,27 +89,25 @@
 // TODO: Make the other categories appear slightly on the sides of the screen (so that it becomes apparent that it can be scrolled through)
 @media (max-width: 767px) {
     .categories-container {
-        display: flex;
-        flex-direction: row;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-        scroll-behavior: smooth;
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-        scroll-snap-align: center;
         padding: 0;
 
-        :not([hidden]) ~ :not([hidden]) {
-            --tw-space-x-reverse: 0;
-            margin-right: calc(1rem /* 16px */ * var(--tw-space-x-reverse));
-            margin-left: calc(1rem /* 16px */ * calc(1 - var(--tw-space-x-reverse)));
-        }
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+
+        position: absolute;
+        overflow: hidden;
 
         .category-thumbnail {
-            scroll-snap-align: center;
             height: 75% !important;
             aspect-ratio: 2 / 3;
+
             border-radius: 5px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-    }
+    } 
 }
