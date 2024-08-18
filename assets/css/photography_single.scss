@@ -4,11 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.font-italiana-regular {
-    font-family:'Italiana', sans-serif;
-    font-weight: 400;
-}
-
 #content_container {
     margin-bottom: 2rem;
     margin-left: 1rem;
@@ -44,4 +39,19 @@
 
 .grid-rows-auto-1fr {
     grid-template-rows: auto 1fr;
+}
+
+// Mobile
+@media (max-width: 767px) {
+    .categories-container {
+        flex-direction: column;
+        align-items: stretch;
+  
+        .category-thumbnail {
+            width: 100%;
+            margin-bottom: 20px;
+            height: auto;
+            aspect-ratio: 16 / 9;
+        }
+    }
 }
