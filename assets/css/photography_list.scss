@@ -91,6 +91,7 @@
     .categories-container {
         display: flex;
         flex-direction: row;
+        align-items: center;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
@@ -99,17 +100,18 @@
         scroll-snap-align: center;
         padding: 0;
 
-        :not([hidden]) ~ :not([hidden]) {
-            --tw-space-x-reverse: 0;
-            margin-right: calc(1rem /* 16px */ * var(--tw-space-x-reverse));
-            margin-left: calc(1rem /* 16px */ * calc(1 - var(--tw-space-x-reverse)));
-        }
-
         .category-thumbnail {
             scroll-snap-align: center;
             height: 75% !important;
             aspect-ratio: 2 / 3;
             border-radius: 5px;
+
+            margin-right: 0.5rem;
+            margin-left: 0.5rem;
+        }
+
+        .active {
+            border: 2px solid #03543f;
         }
     }
 }

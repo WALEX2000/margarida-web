@@ -1520,6 +1520,7 @@ input:checked + .toggle-bg {
   .categories-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -1527,15 +1528,15 @@ input:checked + .toggle-bg {
     scrollbar-width: none;
     scroll-snap-align: center;
     padding: 0; }
-    .categories-container :not([hidden]) ~ :not([hidden]) {
-      --tw-space-x-reverse: 0;
-      margin-right: calc(1rem /* 16px */ * var(--tw-space-x-reverse));
-      margin-left: calc(1rem /* 16px */ * calc(1 - var(--tw-space-x-reverse))); }
     .categories-container .category-thumbnail {
       scroll-snap-align: center;
       height: 75% !important;
       aspect-ratio: 2 / 3;
-      border-radius: 5px; } }
+      border-radius: 5px;
+      margin-right: 0.5rem;
+      margin-left: 0.5rem; }
+    .categories-container .active {
+      border: 2px solid #03543f; } }
 
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;

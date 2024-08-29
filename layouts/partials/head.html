@@ -14,10 +14,19 @@
   {{ $style := resources.Get "css/photography_list.scss" | toCSS | postCSS }}
   <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" />
 
+  
+  {{/*  INSTALL GSAP  */}}
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+
   {{/*  SCRIPTS  */}}
   {{ $script := resources.Get "js/horizontal_scroller.js" }}
   <script src="{{ $script.Permalink }}" defer></script>
 
   {{ $script := resources.Get "js/landscape_image_setter.js" }}
+  <script src="{{ $script.Permalink }}" defer></script>
+
+  {{ $script := resources.Get "js/infinite_caroussel.js" }}
   <script src="{{ $script.Permalink }}" defer></script>
 </head>
