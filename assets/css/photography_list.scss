@@ -98,6 +98,7 @@
         -ms-overflow-style: none;
         scrollbar-width: none;
         scroll-snap-align: center;
+        scroll-snap-stop: always;
         padding: 0;
 
         .category-thumbnail {

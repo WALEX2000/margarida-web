@@ -1527,6 +1527,7 @@ input:checked + .toggle-bg {
     -ms-overflow-style: none;
     scrollbar-width: none;
     scroll-snap-align: center;
+    scroll-snap-stop: always;
     padding: 0; }
     .categories-container .category-thumbnail {
       scroll-snap-align: center;
