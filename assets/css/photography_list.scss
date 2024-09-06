@@ -83,15 +83,13 @@
 }
 
 // Mobile
-// TODO: snap on the center of the photo
-// TODO: Make the first elements appear (they are not appearing for some reason)
-// TOOD: Make the Scroll infinite (After the last it should cycle back to the first
-// TODO: Make the other categories appear slightly on the sides of the screen (so that it becomes apparent that it can be scrolled through)
 @media (max-width: 767px) {
     .categories-container {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        flex: 1 1 auto;
+        gap: 1rem;
+        // align-items: center;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
@@ -103,16 +101,20 @@
 
         .category-thumbnail {
             scroll-snap-align: center;
-            height: 75% !important;
-            aspect-ratio: 2 / 3;
-            border-radius: 5px;
+            height: 85% !important;
+            min-width: 80dvw;
+            margin-top: 1rem;
 
-            margin-right: 0.5rem;
-            margin-left: 0.5rem;
-        }
+            img {
+                aspect-ratio: 2 / 3;
+                border-radius: 5px;
+            }
 
-        .active {
-            border: 2px solid #03543f;
+            .category-title {
+                font-size: 2rem;
+                line-height: 1;
+                text-align: center;
+            }
         }
     }
 }
