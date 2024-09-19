@@ -928,9 +928,6 @@ input:checked + .toggle-bg{
 .mt-2{
   margin-top: 0.5rem;
 }
-.mt-4{
-  margin-top: 1rem;
-}
 .block{
   display: block;
 }
@@ -1227,6 +1224,10 @@ input:checked + .toggle-bg{
 }
 .text-center{
   text-align: center;
+}
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .text-lg{
   font-size: 1.125rem;
