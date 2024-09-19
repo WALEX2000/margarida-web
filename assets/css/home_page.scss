@@ -5,10 +5,6 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background:
-        linear-gradient(0deg, rgba(0,0,0,.4), rgba(0,0,0,0) 10%),
-        linear-gradient(-90deg, rgba(0,0,0,.4), rgba(0,0,0,0) 30%),
-        linear-gradient(90deg, rgba(0,0,0,.4), rgba(0,0,0,0) 30%);
 }
 
 #background-slideshow {
@@ -27,11 +23,21 @@
 }
 // Non-Mobile
 @media (min-width: 768px) {
-    
+    #background-overlay {
+        background:
+            linear-gradient(0deg, rgba(0,0,0,.4), rgba(0,0,0,0) 10%),
+            linear-gradient(-90deg, rgba(0,0,0,.4), rgba(0,0,0,0) 30%),
+            linear-gradient(90deg, rgba(0,0,0,.4), rgba(0,0,0,0) 30%);
+    }
 }
 
 
 // Mobile
 @media (max-width: 767px) {
-    
+    #background-overlay {
+        background:
+            linear-gradient(0deg, rgba(0,0,0,.25), rgba(0,0,0,0) 10%),
+            linear-gradient(-90deg, rgba(0,0,0,.25), rgba(0,0,0,0) 20%),
+            linear-gradient(90deg, rgba(0,0,0,.25), rgba(0,0,0,0) 20%);
+    }
 }
