@@ -1330,6 +1330,10 @@ html {
   font-family: 'Italiana', sans-serif;
   font-weight: 400; }
 
+.header-color {
+  background-color: #E6E6E6;
+  opacity: 0.85; }
+
 /* hide scrollbar for all browsers */
 * {
   scrollbar-width: none;
