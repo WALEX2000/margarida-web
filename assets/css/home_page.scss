@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#background-slideshow {
+    width: 100dvw;
+    min-height: 100dvh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    img {
+        width: 100dvw;
+        height: 100dvh;
+        object-fit: cover;
+    }
+}
+// Non-Mobile
+@media (min-width: 768px) {
+    
+}
+
+
+// Mobile
+@media (max-width: 767px) {
+    
+}

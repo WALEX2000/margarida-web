@@ -8,11 +8,17 @@
   {{ $style := resources.Get "css/base.scss" | toCSS | postCSS }}
   <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" />
 
+  {{ $style := resources.Get "css/home_page.scss" | toCSS | postCSS }}
+  <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" />
+
   {{ $style := resources.Get "css/photography_single.scss" | toCSS | postCSS }}
   <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" />
 
   {{ $style := resources.Get "css/photography_list.scss" | toCSS | postCSS }}
   <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" />
+
+  {{/*  INSTALL FLOWBITE  */}}  
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js" defer></script>
 
   
   {{/*  INSTALL GSAP  */}}
@@ -28,5 +34,8 @@
   <script src="{{ $script.Permalink }}" defer></script>
 
   {{ $script := resources.Get "js/infinite_caroussel.js" }}
+  <script src="{{ $script.Permalink }}" defer></script>
+
+  {{ $script := resources.Get "js/home_page.js" }}
   <script src="{{ $script.Permalink }}" defer></script>
 </head>

@@ -16,10 +16,16 @@
   <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/base.css" />
 
   
+  <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/home_page.css" />
+
+  
   <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/photography_single.css" />
 
   
   <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/photography_list.css" />
+
+    
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js" defer></script>
 
   
   
@@ -36,6 +42,9 @@
 
   
   <script src="http://localhost:1313/js/infinite_caroussel.js" defer></script>
+
+  
+  <script src="http://localhost:1313/js/home_page.js" defer></script>
 </head>
   </head>
   <body class="h-dvh w-max flex flex-col overflow-x-scroll">
@@ -53,12 +62,43 @@
     </header>
     <main id="main"class="flex-grow min-h-0">
       
-  <h1 class="text-4xl font-bold text-center">This is the website home page</h1>
-  <div class="flex flex-col justify-center items-start h-screen">
-    <a href="http://localhost:1313//architecture" class="mt-4" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%);">Architecture</a>
-    <a href="http://localhost:1313//photography" class="mt-4" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%);">Photography</a>
-    <a href="http://localhost:1313//about" class="mt-4" style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);">About</a>
+<div id="background-slideshow" class="overflow-hidden" data-carousel="slide">
+  
+  
+  <div class="hidden duration-700 ease-in-out" data-carousel-item>
+    <img src="http://localhost:1313/images/sample-1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
   </div>
+  
+  
+  <div class="hidden duration-700 ease-in-out" data-carousel-item>
+    <img src="http://localhost:1313/images/sample-2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+  </div>
+  
+  
+  <div class="hidden duration-700 ease-in-out" data-carousel-item>
+    <img src="http://localhost:1313/images/sample-3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+  </div>
+  
+  
+  <div class="hidden duration-700 ease-in-out" data-carousel-item>
+    <img src="http://localhost:1313/images/sample-4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+  </div>
+</div>
+
+<div id="homepage_container" class="grid grid-cols-1 justify-center h-screen">
+  <div>
+    
+    <a href="http://localhost:1313//architecture" class="mt-4" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%);">Architecture</a>
+  </div>
+  <div>
+    
+    <a href="http://localhost:1313//photography" class="mt-4" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%);">Photography</a>
+  </div>
+  <div>
+    
+    <a href="http://localhost:1313//about" class="mt-4" style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);">About Me</a>
+  </div>
+</div>
 
     </main>
   </body>
