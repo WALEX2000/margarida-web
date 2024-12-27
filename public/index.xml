@@ -2,80 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Margarida Website</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:36035/</link>
     <description>Recent content in Home on Margarida Website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:36035/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:36035/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:36035/about/</guid>
       <description>&lt;p&gt;Here is some content.&#xA;Super simple to write&#xA;standard md&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;list&lt;/li&gt;&#xA;&lt;li&gt;item&lt;/li&gt;&#xA;&lt;li&gt;three&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Apartamento Viana</title>
-      <link>http://localhost:1313/architecture/viana/</link>
+      <link>http://localhost:36035/architecture/viana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/architecture/viana/</guid>
+      <guid>http://localhost:36035/architecture/viana/</guid>
       <description>&lt;p&gt;Renovação do Apartamento da Sofia&lt;/p&gt;&#xA;&lt;h6 id=&#34;heading&#34;&gt;&lt;/h6&gt;&#xA;&lt;p&gt;Mais colunas&lt;/p&gt;</description>
     </item>
     <item>
       <title>Arquitetura</title>
-      <link>http://localhost:1313/photography/architecture/</link>
+      <link>http://localhost:36035/photography/architecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/photography/architecture/</guid>
+      <guid>http://localhost:36035/photography/architecture/</guid>
       <description>&lt;p&gt;Muita arquitetura&lt;/p&gt;</description>
     </item>
     <item>
       <title>Batizados</title>
-      <link>http://localhost:1313/photography/baptisms/</link>
+      <link>http://localhost:36035/photography/baptisms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/photography/baptisms/</guid>
+      <guid>http://localhost:36035/photography/baptisms/</guid>
       <description>&lt;p&gt;Eu faço batizados muito sagrados 🙏&#xA;Yey&lt;/p&gt;</description>
     </item>
     <item>
       <title>Casamentos</title>
-      <link>http://localhost:1313/photography/weddings/</link>
+      <link>http://localhost:36035/photography/weddings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/photography/weddings/</guid>
+      <guid>http://localhost:36035/photography/weddings/</guid>
       <description>&lt;h6 id=&#34;heading&#34;&gt;&lt;/h6&gt;&#xA;&lt;p&gt;Commodo consequat mollit dolor deserunt velit consectetur elit Lorem magna ullamco sunt do. Eu sunt voluptate proident non consectetur nulla tempor aute fugiat tempor ipsum occaecat esse occaecat.&lt;/p&gt;&#xA;&lt;p&gt;Laborum reprehenderit veniam aliqua commodo eiusmod anim ea. Veniam cillum sit nostrud minim elit mollit quis ullamco. Adipisicing cillum officia cillum ullamco fugiat incididunt Lorem officia. Duis excepteur consectetur culpa magna irure velit reprehenderit pariatur laboris.&lt;/p&gt;&#xA;&lt;p&gt;Amet exercitation enim ad veniam ut voluptate eu.&#xA;Laborum culpa sint nostrud et enim ullamco ut eiusmod consectetur excepteur. Ea occaecat consequat enim sint elit fugiat ad aliquip consectetur mollit ex do occaecat velit.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cerveira</title>
-      <link>http://localhost:1313/architecture/cerveira/</link>
+      <link>http://localhost:36035/architecture/cerveira/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/architecture/cerveira/</guid>
+      <guid>http://localhost:36035/architecture/cerveira/</guid>
       <description>&lt;p&gt;Este projeto é muito fixe porque é o meu primeiro projeto.&lt;/p&gt;&#xA;&lt;h6 id=&#34;heading&#34;&gt;&lt;/h6&gt;&#xA;&lt;p&gt;Mais colunas&lt;/p&gt;</description>
     </item>
     <item>
       <title>Editorial</title>
-      <link>http://localhost:1313/photography/editorial/</link>
+      <link>http://localhost:36035/photography/editorial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/photography/editorial/</guid>
+      <guid>http://localhost:36035/photography/editorial/</guid>
       <description>&lt;p&gt;Eu faço batizados muito sagrados 🙏&#xA;Yey&lt;/p&gt;</description>
     </item>
     <item>
       <title>Eventos</title>
-      <link>http://localhost:1313/photography/shows/</link>
+      <link>http://localhost:36035/photography/shows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/photography/shows/</guid>
+      <guid>http://localhost:36035/photography/shows/</guid>
       <description>&lt;p&gt;Eu faço grandes Eventos 🎉&#xA;Yey&lt;/p&gt;</description>
     </item>
     <item>
       <title>Experiências Fotográficas</title>
-      <link>http://localhost:1313/photography/experiences/</link>
+      <link>http://localhost:36035/photography/experiences/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/photography/experiences/</guid>
+      <guid>http://localhost:36035/photography/experiences/</guid>
       <description>&lt;p&gt;Muitas fotos &amp;lt;3&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tese</title>
-      <link>http://localhost:1313/architecture/tese/</link>
+      <link>http://localhost:36035/architecture/tese/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/architecture/tese/</guid>
+      <guid>http://localhost:36035/architecture/tese/</guid>
       <description>&lt;p&gt;Esta tese foi super gira!&lt;/p&gt;&#xA;&lt;h6 id=&#34;heading&#34;&gt;&lt;/h6&gt;&#xA;&lt;p&gt;Mais colunas&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>http://localhost:36035/architecture/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:36035/architecture/test/</guid>
+      <description>&lt;p&gt;Isto é um teste simples.&lt;/p&gt;&#xA;&lt;p&gt;Estou a ver que vai ser um bocado de trabalho meter o rendering a funcionar direito aqui.&lt;/p&gt;&#xA;&lt;h1 id=&#34;dá-para-usar-os-estilos-diferentes-out-of-the-box&#34;&gt;Dá para usar os estilos diferentes out of the box&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Isso é bom&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mas faltam algumas coisas, &lt;strong&gt;como underline&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Também falta meter as column breaks&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:36035/images/uploads/alex-compressed.jpeg&#34; alt=&#34;alex é lindo&#34; title=&#34;Alex&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mais texto&lt;/p&gt;&#xA;&lt;p&gt;só naquela de experimentar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Teste</title>
+      <link>http://localhost:36035/architecture/teste/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:36035/architecture/teste/</guid>
+      <description>&lt;p&gt;Isto é um teste simples.&lt;/p&gt;&#xA;&lt;p&gt;Estou a ver que vai ser um bocado de trabalho meter o rendering a funcionar direito aqui.&lt;/p&gt;&#xA;&lt;h1 id=&#34;dá-para-usar-os-estilos-diferentes-out-of-the-box&#34;&gt;Dá para usar os estilos diferentes out of the box&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Isso é bom&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mas faltam algumas coisas, &lt;strong&gt;como underline&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Também falta meter as column breaks&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

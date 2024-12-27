@@ -1,6 +1,7 @@
 ---
 title: Teste
 thumbnail: /images/uploads/cerveira.jpg
+order: 1
 ---
 Isto é um teste simples.
 

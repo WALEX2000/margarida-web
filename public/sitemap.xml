@@ -2,40 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:46677/about/</loc>
+    <loc>http://localhost:36035/about/</loc>
   </url><url>
-    <loc>http://localhost:46677/architecture/</loc>
+    <loc>http://localhost:36035/architecture/viana/</loc>
   </url><url>
-    <loc>http://localhost:46677/architecture/architecture/</loc>
+    <loc>http://localhost:36035/architecture/</loc>
   </url><url>
-    <loc>http://localhost:46677/photography/architecture/</loc>
+    <loc>http://localhost:36035/photography/architecture/</loc>
   </url><url>
-    <loc>http://localhost:46677/architecture/baptisms/</loc>
+    <loc>http://localhost:36035/photography/baptisms/</loc>
   </url><url>
-    <loc>http://localhost:46677/photography/baptisms/</loc>
+    <loc>http://localhost:36035/photography/weddings/</loc>
   </url><url>
-    <loc>http://localhost:46677/architecture/weddings/</loc>
+    <loc>http://localhost:36035/categories/</loc>
   </url><url>
-    <loc>http://localhost:46677/photography/weddings/</loc>
+    <loc>http://localhost:36035/architecture/cerveira/</loc>
   </url><url>
-    <loc>http://localhost:46677/categories/</loc>
+    <loc>http://localhost:36035/photography/editorial/</loc>
   </url><url>
-    <loc>http://localhost:46677/architecture/editorial/</loc>
+    <loc>http://localhost:36035/photography/shows/</loc>
   </url><url>
-    <loc>http://localhost:46677/photography/editorial/</loc>
+    <loc>http://localhost:36035/photography/experiences/</loc>
   </url><url>
-    <loc>http://localhost:46677/architecture/shows/</loc>
+    <loc>http://localhost:36035/</loc>
   </url><url>
-    <loc>http://localhost:46677/photography/shows/</loc>
+    <loc>http://localhost:36035/photography/</loc>
   </url><url>
-    <loc>http://localhost:46677/architecture/experiences/</loc>
+    <loc>http://localhost:36035/tags/</loc>
   </url><url>
-    <loc>http://localhost:46677/photography/experiences/</loc>
+    <loc>http://localhost:36035/architecture/tese/</loc>
   </url><url>
-    <loc>http://localhost:46677/</loc>
+    <loc>http://localhost:36035/architecture/test/</loc>
   </url><url>
-    <loc>http://localhost:46677/photography/</loc>
-  </url><url>
-    <loc>http://localhost:46677/tags/</loc>
+    <loc>http://localhost:36035/architecture/teste/</loc>
   </url>
 </urlset>
