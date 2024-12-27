@@ -11,5 +11,27 @@
     <!-- Include the script that builds the page and powers Decap CMS -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
     <script>CMS.registerPreviewStyle("/admin/preview.css");</script>
+    <script>
+      var PostPreview = createClass({
+        render: function() {
+          var entry = this.props.entry;
+          var thumbnail_path = entry.getIn(['data', 'thumbnail']);
+          var thumbnail = this.props.getAsset(thumbnail_path);
+          return h('body', {"id": "body"},
+            h('main', {"id": "main"},
+              h('div', {"id": "content_wrapper"},
+                h('img', {src: thumbnail, "id": "cover_image"}),
+                h('div', {"id": "content_box"},
+                  h('h1', {"id": "page_title", "className": "font-italiana-regular"}, entry.getIn(['data', 'title'])),
+                  h('div', {"id": "content_container"}, this.props.widgetFor('body'))
+                ),
+              ),
+            ),
+          );
+        }
+      });
+    
+      CMS.registerPreviewTemplate("photography", PostPreview);
+    </script>
   </body>
 </html>

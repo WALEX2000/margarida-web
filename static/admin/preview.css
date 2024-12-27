@@ -1,3 +1,49 @@
+/* BASE */
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+html {
+    background-color: #f6f4f2;
+}
+
+.font-italiana-regular {
+    font-family:'Italiana', sans-serif;
+    font-weight: 400;
+}
+
+.header-color {
+    background-color: #E6E6E6;
+    opacity: 0.85;
+}
+
+#body {
+    height: 100dvh;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+}
+
+#main {
+    display: flex;
+    flex-grow: 1;
+    min-height: 0px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    overflow: clip;
+}
+
+@media (max-width: 767px) {
+    .photography-header-link {
+        display: none;
+    }
+}
+
+/* SINGLE PAGE */
+
 @media (min-width: 768px) {
     #content_box {
         margin-left: 2rem;
@@ -7,7 +53,8 @@
     }
 
 
-    #content_container {
+    #content_container div {
+        min-height: 0px;
         margin-bottom: 2rem;
         margin-left: 1rem;
         display: grid;
@@ -47,6 +94,11 @@
         margin-top: 0.5rem /* 8px */;
         white-space: nowrap;
     }
+
+    #cover_image {
+        object-fit: cover;
+        height: 100%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -67,7 +119,9 @@
         margin-right: 1rem;
     }
 
-    #content_container {
+    #content_container div {
+        min-height: 0px;
+
         section {
             margin-bottom: 1rem;
 
