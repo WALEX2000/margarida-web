@@ -2,45 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Architectures on Margarida Website</title>
-    <link>http://localhost:36035/architecture/</link>
+    <link>http://localhost:1313/architecture/</link>
     <description>Recent content in Architectures on Margarida Website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:36035/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apartamento Viana</title>
-      <link>http://localhost:36035/architecture/viana/</link>
+      <link>http://localhost:1313/architecture/viana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:36035/architecture/viana/</guid>
+      <guid>http://localhost:1313/architecture/viana/</guid>
       <description>&lt;p&gt;Renovação do Apartamento da Sofia&lt;/p&gt;&#xA;&lt;h6 id=&#34;heading&#34;&gt;&lt;/h6&gt;&#xA;&lt;p&gt;Mais colunas&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cerveira</title>
-      <link>http://localhost:36035/architecture/cerveira/</link>
+      <link>http://localhost:1313/architecture/cerveira/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:36035/architecture/cerveira/</guid>
+      <guid>http://localhost:1313/architecture/cerveira/</guid>
       <description>&lt;p&gt;Este projeto é muito fixe porque é o meu primeiro projeto.&lt;/p&gt;&#xA;&lt;h6 id=&#34;heading&#34;&gt;&lt;/h6&gt;&#xA;&lt;p&gt;Mais colunas&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tese</title>
-      <link>http://localhost:36035/architecture/tese/</link>
+      <link>http://localhost:1313/architecture/tese/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:36035/architecture/tese/</guid>
+      <guid>http://localhost:1313/architecture/tese/</guid>
       <description>&lt;p&gt;Esta tese foi super gira!&lt;/p&gt;&#xA;&lt;h6 id=&#34;heading&#34;&gt;&lt;/h6&gt;&#xA;&lt;p&gt;Mais colunas&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test</title>
-      <link>http://localhost:36035/architecture/test/</link>
+      <link>http://localhost:1313/architecture/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:36035/architecture/test/</guid>
-      <description>&lt;p&gt;Isto é um teste simples.&lt;/p&gt;&#xA;&lt;p&gt;Estou a ver que vai ser um bocado de trabalho meter o rendering a funcionar direito aqui.&lt;/p&gt;&#xA;&lt;h1 id=&#34;dá-para-usar-os-estilos-diferentes-out-of-the-box&#34;&gt;Dá para usar os estilos diferentes out of the box&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Isso é bom&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mas faltam algumas coisas, &lt;strong&gt;como underline&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Também falta meter as column breaks&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:36035/images/uploads/alex-compressed.jpeg&#34; alt=&#34;alex é lindo&#34; title=&#34;Alex&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mais texto&lt;/p&gt;&#xA;&lt;p&gt;só naquela de experimentar&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Teste</title>
-      <link>http://localhost:36035/architecture/teste/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:36035/architecture/teste/</guid>
-      <description>&lt;p&gt;Isto é um teste simples.&lt;/p&gt;&#xA;&lt;p&gt;Estou a ver que vai ser um bocado de trabalho meter o rendering a funcionar direito aqui.&lt;/p&gt;&#xA;&lt;h1 id=&#34;dá-para-usar-os-estilos-diferentes-out-of-the-box&#34;&gt;Dá para usar os estilos diferentes out of the box&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Isso é bom&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mas faltam algumas coisas, &lt;strong&gt;como underline&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Também falta meter as column breaks&lt;/p&gt;</description>
+      <guid>http://localhost:1313/architecture/test/</guid>
+      <description>&lt;p&gt;Isto é um teste simples.&lt;/p&gt;&#xA;&lt;p&gt;Estou a ver que vai ser um bocado de trabalho meter o rendering a funcionar direito aqui.&lt;/p&gt;&#xA;&lt;h1 id=&#34;dá-para-usar-os-estilos-diferentes-out-of-the-box&#34;&gt;Dá para usar os estilos diferentes out of the box&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Isso é bom&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mas faltam algumas coisas, &lt;strong&gt;como underline&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Também falta meter as column breaks&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/uploads/alex-compressed.jpeg&#34; alt=&#34;alex é lindo&#34; title=&#34;Alex&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mais texto&lt;/p&gt;&#xA;&lt;p&gt;só naquela de experimentar&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
