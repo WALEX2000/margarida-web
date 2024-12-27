@@ -5,10 +5,11 @@ media_folder: "static/images/uploads" # Folder where user uploaded files should 
 public_folder: "/images/uploads"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "page"
-    label: "Page" # Used in the UI, ie.: "New Post"
-    folder: "content" # The path to the folder where the documents are stored
+  - name: "architecture"
+    label: "New Architecture Page" # Used in the UI, ie.: "New Post"
+    folder: "content/architecture" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Thumbnail", name: "thumbnail", widget: "string"}
