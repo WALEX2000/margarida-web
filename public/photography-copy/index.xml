@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photography Copies on Margarida Website</title>
+    <link>http://localhost:1313/photography-copy/</link>
+    <description>Recent content in Photography Copies on Margarida Website</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/photography-copy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Editorial</title>
+      <link>http://localhost:1313/photography-copy/editorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photography-copy/editorial/</guid>
+      <description>&lt;p&gt;Eu faço batizados muito sagrados 🙏&#xA;Yey&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eventos</title>
+      <link>http://localhost:1313/photography-copy/shows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photography-copy/shows/</guid>
+      <description>&lt;p&gt;Eu faço grandes Eventos 🎉&#xA;Yey&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experiências Fotográficas</title>
+      <link>http://localhost:1313/photography-copy/experiences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photography-copy/experiences/</guid>
+      <description>&lt;p&gt;Muitas fotos &amp;lt;3&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
