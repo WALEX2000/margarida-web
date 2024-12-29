@@ -22,12 +22,12 @@
             font-family: monospace;
             font-size: 1rem;
         }
-        
-        section:has(> img.landscape) {
+
+        img.landscape {
             grid-column: span 2;
         }
 
-        * img {
+        img {
             object-fit: cover;
             height: 100%;
             margin: auto;
@@ -46,7 +46,14 @@
         line-height: 1;
         margin-bottom: 1.5rem /* 24px */;
         margin-top: 0.5rem /* 8px */;
+        padding-left: 0.5rem /* 8px */;
         white-space: nowrap;
+        
+        position: sticky;
+        width: 100px;
+        top: 0;
+        left: 0;
+        align-self: start;
     }
 }
 
@@ -70,6 +77,10 @@
     }
 
     #content_container {
+        img {
+            margin-bottom: 1rem;
+        }
+
         section {
             margin-bottom: 1rem;
 
