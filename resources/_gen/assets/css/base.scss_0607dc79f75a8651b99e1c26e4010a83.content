@@ -1346,9 +1346,9 @@ html {
   .photography-header-link {
     display: none; } }
 
-#instagram-link {
+.contact-me {
   margin-left: auto; }
-  #instagram-link img {
+  .contact-me img {
     width: 2.5rem;
     height: 2.5rem; }
   .hover\:border-gray-300:hover{

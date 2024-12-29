@@ -23,8 +23,15 @@
         {{ end }}
     {{ end}}
 
-    {{ $insta := resources.Get "images/insta.png" }}
-    <a id="instagram-link" class="px-4" href="https://www.instagram.com/ana_calheiros/n">
-        <img src="{{ $insta.Permalink }}" alt="Instagram">
-    </a>
+    <div class="contact-me flex">
+        {{ $email := resources.Get "images/email.png" }}
+        <a class="px-4" href="mailto:a_calheiros@hotmail.com">
+            <img src="{{ $email.Permalink }}" alt="Email me!">
+        </a>
+
+        {{ $insta := resources.Get "images/insta.png" }}
+        <a class="px-4" href="https://www.instagram.com/ana_calheiros">
+            <img src="{{ $insta.Permalink }}" alt="Instagram">
+        </a>
+    </div>
 </div>
