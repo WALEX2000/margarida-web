@@ -33,5 +33,29 @@
     
       CMS.registerPreviewTemplate("photography", PostPreview);
     </script>
+    <script>
+      CMS.registerEditorComponent({
+        id: "section",
+        label: "Column Section",
+        fields: [{
+                name: "content",
+                label: "Section Content",
+                widget: "markdown"
+            },
+        ],
+        pattern: /^<section>(.*)<\/section>/,
+        fromBlock: function(match) {
+            return {
+              content: match[1],
+            };
+        },
+        toBlock: function(obj) {
+            return `<section> ${obj.content} <\/section>`;
+        },
+        toPreview: function(obj) {
+            return `<section> ${obj.content} <\/section>`;
+        },
+      });
+    </script>
   </body>
 </html>

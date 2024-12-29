@@ -1,3 +1,9 @@
 baseURL = 'https://anamargaridacalheiros.netlify.app/'
 languageCode = 'en-us'
 title = 'Margarida Website'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.goldmark.parser]
+wrapStandAloneImageWithinParagraph = false

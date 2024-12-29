@@ -16,9 +16,9 @@
       margin-top: 1rem;
       font-family: monospace;
       font-size: 1rem; }
-    #content_container section:has(> img.landscape) {
+    #content_container img.landscape {
       grid-column: span 2; }
-    #content_container * img {
+    #content_container img {
       -o-object-fit: cover;
          object-fit: cover;
       height: 100%;
@@ -33,7 +33,13 @@
     line-height: 1;
     margin-bottom: 1.5rem;
     margin-top: 0.5rem;
-    white-space: nowrap; } }
+    padding-left: 0.5rem;
+    white-space: nowrap;
+    position: sticky;
+    width: 100px;
+    top: 0;
+    left: 0;
+    align-self: start; } }
 
 @media (max-width: 767px) {
   #page_title {
@@ -47,6 +53,8 @@
   #content_box {
     margin-left: 1rem;
     margin-right: 1rem; }
+  #content_container img {
+    margin-bottom: 1rem; }
   #content_container section {
     margin-bottom: 1rem; }
     #content_container section p {
