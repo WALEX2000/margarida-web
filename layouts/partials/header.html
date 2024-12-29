@@ -1,5 +1,9 @@
 {{- $photography_pages := where .Site.RegularPages "Section" "photography" }}
 {{- $sortedPages := $photography_pages.ByParam "order" }}
+
+{{- $architecture_pages := where .Site.RegularPages "Section" "architecture" }}
+{{- $sorted_architecture_pages := $architecture_pages.ByParam "order" }}
+
 <div class="header-color h-16 w-dvw flex items-center justify-start sticky left-0">
     <a class="px-4" href="{{ .Site.BaseURL }}">
         <svg width="80" height="52" viewBox="0 0 80 52" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -12,4 +16,15 @@
             <a class="px-4 photography-header-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ end }}
     {{ end}}
+
+    {{ if eq .Section "architecture"}}
+        {{ range $sorted_architecture_pages }}
+            <a class="px-4 photography-header-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ end }}
+    {{ end}}
+
+    {{ $insta := resources.Get "images/insta.png" }}
+    <a id="instagram-link" class="px-4" href="https://www.instagram.com/ana_calheiros/n">
+        <img src="{{ $insta.Permalink }}" alt="Instagram">
+    </a>
 </div>
