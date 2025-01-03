@@ -63,21 +63,30 @@ img {
         grid-auto-flow: column;
         grid-auto-columns: 50ch;
 
+        div {
+            margin: 0;
+        }
+
         p {
             margin-top: 1rem;
             font-family: monospace;
             font-size: 1rem;
         }
         
-        img.landscape {
+        div > img.landscape {
             grid-column: span 2;
         }
 
-        img {
+        div img {
             object-fit: cover;
             height: 100%;
             margin: auto;
         }
+
+        img:where([aspect-ratio="landscape"]) {
+            border-color: red;
+            border: 10px;
+        }          
     }
 
     #content_wrapper {

@@ -12,7 +12,7 @@
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
     <script>CMS.registerPreviewStyle("/admin/preview.css");</script>
     <script>
-      var PostPreview = createClass({
+      var PagePreviewer = createClass({
         render: function() {
           var entry = this.props.entry;
           var thumbnail_path = entry.getIn(['data', 'thumbnail']);
@@ -31,7 +31,7 @@
         }
       });
     
-      CMS.registerPreviewTemplate("photography", PostPreview);
+      CMS.registerPreviewTemplate("photography", PagePreviewer);
     </script>
     <script>
       CMS.registerEditorComponent({
