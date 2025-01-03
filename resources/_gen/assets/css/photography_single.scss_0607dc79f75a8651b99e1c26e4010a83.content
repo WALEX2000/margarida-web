@@ -62,6 +62,8 @@
     align-self: start; } }
 
 @media (max-width: 767px) {
+  #header {
+    position: sticky; }
   #background_page {
     display: none; }
   #screen-effect {
@@ -76,7 +78,8 @@
     width: 100dvw; }
   #content_box {
     margin-left: 1rem;
-    margin-right: 1rem; }
+    margin-right: 1rem;
+    padding-bottom: 0.5rem; }
   #content_container img {
     margin-bottom: 1rem; }
   #content_container section {

@@ -83,6 +83,10 @@
 
 // Mobile
 @media (max-width: 767px) {
+    #header {
+        position: sticky;
+    }
+
     #background_page {
         display: none;
     }
@@ -106,6 +110,7 @@
     #content_box {
         margin-left: 1rem;
         margin-right: 1rem;
+        padding-bottom: 0.5rem;
     }
 
     #content_container {
