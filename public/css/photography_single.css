@@ -27,25 +27,25 @@
     display: grid;
     grid-template-rows: auto 1fr; }
   #content_container {
-    margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    display: grid;
-    grid-template-rows: 100%;
-    gap: 1rem;
-    grid-auto-flow: column;
-    grid-auto-columns: 50ch; }
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    gap: 1rem; }
     #content_container p {
       margin-top: 1rem;
       font-family: monospace;
-      font-size: 1rem; }
+      font-size: 1rem;
+      max-width: 50ch; }
     #content_container img.landscape {
-      grid-column: span 2; }
+      flex: 2 1 auto; }
     #content_container img {
       -o-object-fit: cover;
          object-fit: cover;
       height: 100%;
-      margin: auto; }
+      margin: 0; }
   #page_title {
     font-size: 4.5rem;
     line-height: 1;
