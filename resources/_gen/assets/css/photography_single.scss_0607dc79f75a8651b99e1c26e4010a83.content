@@ -34,9 +34,13 @@
     flex-direction: row;
     height: 100%;
     gap: 1rem;
-    padding-left: 1.5rem; }
+    padding-left: 1.5rem;
+    padding-top: 0.4rem; }
     #content_container p {
-      font-family: monospace;
+      font-family: "Source Serif 4", serif;
+      font-optical-sizing: auto;
+      font-weight: 350;
+      font-style: normal;
       font-size: 1rem;
       max-width: 50ch; }
     #content_container img.landscape {
@@ -47,7 +51,7 @@
       height: 100%;
       margin: 0; }
   #page_title {
-    font-size: 4.5rem;
+    font-size: 4rem;
     line-height: 1;
     white-space: nowrap;
     padding-left: 1.5rem;
@@ -58,13 +62,17 @@
     align-self: start; } }
 
 @media (max-width: 767px) {
+  #background_page {
+    display: none; }
+  #screen-effect {
+    display: none; }
   #page_title {
     font-size: 3rem;
     line-height: 1;
     margin-bottom: 1.5rem;
     margin-top: 0.5rem;
     text-align: center; }
-  #content_wrapper {
+  #pop-up {
     width: 100dvw; }
   #content_box {
     margin-left: 1rem;

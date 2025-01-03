@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="h-full w-dvw mx-auto categories-container">
+<div id="background_page" class="h-full w-dvw mx-auto categories-container">
     {{ $related := where .Site.RegularPages "Section" "architecture" }}
     {{ $sortedPages := $related.ByParam "order" }}
     {{ range $sortedPages }}

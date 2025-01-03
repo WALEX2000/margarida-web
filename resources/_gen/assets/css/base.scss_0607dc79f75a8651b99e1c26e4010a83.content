@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
-/*
-! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
-*/
+/* italiana */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+/* ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com */
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -1331,15 +1331,26 @@ html {
   font-family: 'Italiana', sans-serif;
   font-weight: 400; }
 
+.source-serif-4 {
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal; }
+
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal; }
+
 .header-color {
   background-color: #E6E6E6;
   opacity: 0.85; }
 
 /* hide scrollbar for all browsers */
-* {
+html {
   scrollbar-width: none;
   -ms-overflow-style: none; }
-  * ::-webkit-scrollbar {
+  html ::-webkit-scrollbar {
     display: none; }
 
 @media (max-width: 767px) {
