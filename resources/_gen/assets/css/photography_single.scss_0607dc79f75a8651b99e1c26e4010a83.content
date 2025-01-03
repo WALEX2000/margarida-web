@@ -25,17 +25,17 @@
     min-width: max-content;
     width: 100%;
     display: grid;
-    grid-template-rows: auto 1fr; }
+    grid-template-rows: auto 1fr;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; }
   #content_container {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding-bottom: 1rem;
     display: flex;
     flex-direction: row;
     height: 100%;
-    gap: 1rem; }
+    gap: 1rem;
+    padding-left: 1.5rem; }
     #content_container p {
-      margin-top: 1rem;
       font-family: monospace;
       font-size: 1rem;
       max-width: 50ch; }
@@ -49,10 +49,8 @@
   #page_title {
     font-size: 4.5rem;
     line-height: 1;
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
-    padding-left: 0.5rem;
     white-space: nowrap;
+    padding-left: 1.5rem;
     position: sticky;
     width: 100px;
     top: 0;
