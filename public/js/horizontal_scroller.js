@@ -1,9 +1,12 @@
 if (window.matchMedia("(max-width: 767px)").matches) throw "Mobile";
 
+
+scrolling_content = document.getElementById("pop-up");
+
 const horizontalScroller = (e) => {
     e.preventDefault();
     let delta = Math.abs(e.deltaY) > Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
-    document.scrollingElement.scrollLeft += delta;
+    scrolling_content.scrollLeft += delta;
 }
 
 document.getElementById("header").addEventListener('wheel', horizontalScroller, false);
