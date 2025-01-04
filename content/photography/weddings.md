@@ -14,28 +14,6 @@ Casamento é sobre sentimento, partilha e celebração, com o coração cheio e 
 \
 \
 \
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
 E o meu papel no vosso dia?
 
 </section>
