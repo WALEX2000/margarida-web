@@ -22,9 +22,6 @@ Casamento é sobre sentimento, partilha e celebração, com o coração cheio e 
 \
 \
 \
-\
-\
-\
 **E o meu papel no vosso dia?**\
 \
 \
@@ -39,7 +36,7 @@ Procuro o detalhe, os toques suaves e os sorrisos tímidos, porque acredito os s
 
 <section>
 
-Gostariam de saber um pouco mais do processo e da presença de um fotógrafo no vosso casamento?\
+O processo e a presença de um fotógrafo num casamento não é igual para todos e a dinâmica é sempre estabelecida com os noivos.\
 É importante recordar que todas as cerimónias são diferentes e tudo que é o 'habitual' pode ser adaptado aos vossos gostos e ideias! No entanto, apresento-vos uma leve sequência de momentos e retratos de alguns dias especiais.\
 \
 No dia de casamento, fotografar a preparação do noivo e da noiva é um momento especial, porque os nervos começam a florescer e algumas lágrimas derramam-se ainda em casa. Captam-se alguns detalhes de vestuário e acessórios e as pessoas que lhes são mais próximas e que auxiliam nesta preparação.
@@ -57,19 +54,21 @@ No dia de casamento, fotografar a preparação do noivo e da noiva é um momento
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-14.jpg)
 
 \
-Segue-se a cerimónia. Pela igreja ou civil, vocês é que decidem! Este registo marca o momento em que prometeram amar para sempre a pessoa com quem escolheram partilhar a vida.
+Segue-se a cerimónia. Pela igreja ou civil, vocês é que decidem! Este registo marca o momento em que prometeram amar para sempre a pessoa com quem escolheram partilhar a vida. Durante o copo de água presenciam-se os brindes à felicidade, o lançamento do ramo, as danças exóticas e as declarações de amizade que vão marcar o dia.\
+\
+Sugiro que reservem algum tempo do vosso dia especial para fotografias a dois, para captar alguns detalhes e vos trazer de volta ao motivo de toda esta festa: o amor que escolheram partilhar com o mundo.
 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-23.jpg)
 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-25.jpg)
 
-Durante o copo de água presenciamos os brindes à felicidade, o lançamento do ramo, as danças exóticas e as declarações de amizade que vão marcar o dia.
+
 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-48.jpg)
 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-50.jpg)
 
-Sugiro sempre que reservem algum tempo do vosso dia especial para fotografias a dois, para captar alguns detalhes e vos trazer de volta ao motivo de toda esta festa: o amor que escolheram partilhar com o mundo.
+
 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-43.jpg)
 
