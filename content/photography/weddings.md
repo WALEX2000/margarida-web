@@ -53,7 +53,6 @@ No dia de casamento, fotografar a preparação do noivo e da noiva é um momento
 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-14.jpg)
 
-\
 Segue-se a cerimónia. Pela igreja ou civil, vocês é que decidem! Este registo marca o momento em que prometeram amar para sempre a pessoa com quem escolheram partilhar a vida. Durante o copo de água presenciam-se os brindes à felicidade, o lançamento do ramo, as danças exóticas e as declarações de amizade que vão marcar o dia.\
 \
 Sugiro que reservem algum tempo do vosso dia especial para fotografias a dois, para captar alguns detalhes e vos trazer de volta ao motivo de toda esta festa: o amor que escolheram partilhar com o mundo.
