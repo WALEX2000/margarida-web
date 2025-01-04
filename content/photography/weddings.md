@@ -4,14 +4,39 @@ thumbnail: /images/uploads/casamento.jpg
 order: 1
 draft: false
 ---
-<section>
-
-Commodo consequat mollit dolor deserunt velit consectetur elit Lorem magna ullamco sunt do. Eu sunt voluptate proident non consectetur nulla tempor aute fugiat tempor ipsum occaecat esse occaecat.
-
-Laborum reprehenderit veniam aliqua commodo eiusmod anim ea. Veniam cillum sit nostrud minim elit mollit quis ullamco. Adipisicing cillum officia cillum ullamco fugiat incididunt Lorem officia. Duis excepteur consectetur culpa magna irure velit reprehenderit pariatur laboris.
-
-Amet exercitation enim ad veniam ut voluptate eu.
-Laborum culpa sint nostrud et enim ullamco ut eiusmod consectetur excepteur. Ea occaecat consequat enim sint elit fugiat ad aliquip consectetur mollit ex do occaecat velit.
+Casamento é sobre sentimento, partilha e celebração, com o coração cheio e um grande sorriso no rosto.\
+\
+É um dia sobre os noivos, as suas famílias e todos aqueles que estão presentes para testemunhar o amor. Não temam ser vocês mesmos, num dia em que nada mais importa além da vossa história! Façam tudo que vos deixa feliz, rodopiem na pista, abracem quem mais gostam e beijem tanto quanto querem.\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+E o meu papel no vosso dia?
 
 </section>
 
