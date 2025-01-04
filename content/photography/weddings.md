@@ -13,7 +13,13 @@ Casamento é sobre sentimento, partilha e celebração, com o coração cheio e 
 \
 \
 \
+\
+\
+\
+\
 E o meu papel no vosso dia?
+
+Estou presente para documentar emoções e vivências de forma natural. Vou acompanhar-vos ao longo do dia e soltar algumas lágrimas tímidas por trás da câmera fotográfica que me acompanha.
 
 </section>
 
