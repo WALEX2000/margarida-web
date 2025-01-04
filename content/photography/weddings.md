@@ -23,12 +23,6 @@ E o meu papel no vosso dia?\
 \
 \
 \
-\
-\
-\
-\
-\
-\
 Estou presente para documentar emoções e vivências de forma natural. Vou acompanhar-vos ao longo do dia e soltar algumas lágrimas tímidas por trás da câmera fotográfica que me esconde.\
 \
 Procuro o detalhe, os toques suaves e os sorrisos tímidos, porque acredito os sentimentos estão em todos os *nossos* lugares. Prometo celebrar-vos nesse dia tão especial.
@@ -39,9 +33,13 @@ Procuro o detalhe, os toques suaves e os sorrisos tímidos, porque acredito os s
 
 <section>
 
-Ex ut do dolor amet esse ullamco minim id officia consequat officia. Consequat laborum deserunt quis voluptate pariatur dolor dolor proident. Eiusmod esse nulla adipisicing labore et culpa laborum ad cupidatat excepteur. Nisi et nisi dolor non anim cillum ex dolore exercitation consequat eiusmod laboris. Sunt non duis mollit aute. Minim est culpa ipsum dolor. Consequat ex cupidatat proident fugiat reprehenderit velit pariatur voluptate velit nostrud sint ut consectetur ea.
+São novos no mundo do casamento e gostariam de saber um pouco mais do processo? Eu explico como costumamos trabalhar, mas tenham em consideração que todas as cerimónias são diferentes e tudo que é o 'habitual' pode ser adaptado aos vossos gostos e ideias!\
+\
+No dia de casamento, costumamos começar por fotografar a preparação do noivo e da noiva,  alguns detalhes de vestuário e acessórios e as pessoas que lhes são mais próximas e que auxiliam nesta preparação.
 
-Dolor commodo qui consequat ad consequat duis Lorem anim. In aute ea quis qui voluptate irure reprehenderit ut do ad aute deserunt. Labore nostrud adipisicing cillum deserunt est. Consectetur velit dolor aute nulla fugiat. Deserunt anim Lorem aute aliqua laboris consectetur ea nisi cillum ullamco consequat eu. Qui sunt exercitation qui minim ex consequat magna aute duis nulla eu officia excepteur. Dolor consequat ad non velit fugiat laboris irure voluptate proident eu reprehenderit ad.
+
+
+Segue-se a cerimónia. Pela igreja, civil, vocês é que decidem! Estaremos presentes para que nunca esqueçam o momento em que prometeram amar para sempre a pessoa com quem escolheram partilhar a vida.
 
 </section>
 
