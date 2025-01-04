@@ -8,10 +8,6 @@ Casamento é sobre sentimento, partilha e celebração, com o coração cheio e 
 \
 É um dia sobre os noivos, as suas famílias e todos aqueles que estão presentes para testemunhar o amor. Não temam ser vocês mesmos, num dia em que nada mais importa além da vossa história! Façam tudo que vos deixa feliz, rodopiem na pista, abracem quem mais gostam e beijem tanto quanto querem.
 
-
-
-
-
 \
 \
 \
