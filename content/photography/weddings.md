@@ -39,10 +39,10 @@ Procuro o detalhe, os toques suaves e os sorrisos tímidos, porque acredito os s
 
 <section>
 
-São novos no mundo do casamento e gostariam de saber um pouco mais do processo?\
-Eu explico como costumamos trabalhar, mas tenham em consideração que todas as cerimónias são diferentes e tudo que é o 'habitual' pode ser adaptado aos vossos gostos e ideias!\
+Gostariam de saber um pouco mais do processo e da presença de um fotógrafo no vosso casamento?\
+É importante recordar que todas as cerimónias são diferentes e tudo que é o 'habitual' pode ser adaptado aos vossos gostos e ideias! No entanto, apresento-vos uma leve sequência de momentos e retratos de alguns dias especiais.\
 \
-No dia de casamento, costumamos começar por fotografar a preparação do noivo e da noiva,  alguns detalhes de vestuário e acessórios e as pessoas que lhes são mais próximas e que auxiliam nesta preparação.
+No dia de casamento, fotografar a preparação do noivo e da noiva é um momento especial, porque os nervos começam a florescer e algumas lágrimas derramam-se ainda em casa. Captam-se alguns detalhes de vestuário e acessórios e as pessoas que lhes são mais próximas e que auxiliam nesta preparação.
 
 </section>
 
@@ -57,13 +57,12 @@ No dia de casamento, costumamos começar por fotografar a preparação do noivo 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-14.jpg)
 
 \
-Segue-se a cerimónia. Pela igreja ou civil, vocês é que decidem! Estaremos presentes para que nunca esqueçam o momento em que prometeram amar para sempre a pessoa com quem escolheram partilhar a vida.
+Segue-se a cerimónia. Pela igreja ou civil, vocês é que decidem! Este registo marca o momento em que prometeram amar para sempre a pessoa com quem escolheram partilhar a vida.
 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-23.jpg)
 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-25.jpg)
 
-Preparados para a festa? Aqui vamos nós!\
 Durante o copo de água presenciamos os brindes à felicidade, o lançamento do ramo, as danças exóticas e as declarações de amizade que vão marcar o dia.
 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-48.jpg)
