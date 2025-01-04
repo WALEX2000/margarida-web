@@ -10,7 +10,6 @@ Casamento é sobre sentimento, partilha e celebração, com o coração cheio e 
 É um dia sobre os noivos, as suas famílias e todos aqueles que estão presentes para testemunhar o amor. Não temam ser vocês mesmos, num dia em que nada mais importa além da vossa história! Façam tudo que vos deixa feliz, rodopiem na pista, abracem quem mais gostam e beijem tanto quanto querem.
 
 \
-E o meu papel no vosso dia?\
 \
 \
 \
@@ -20,6 +19,13 @@ E o meu papel no vosso dia?\
 \
 \
 \
+\
+\
+\
+\
+\
+\
+**E o meu papel no vosso dia?**\
 \
 \
 \
@@ -33,30 +39,39 @@ Procuro o detalhe, os toques suaves e os sorrisos tímidos, porque acredito os s
 
 <section>
 
-São novos no mundo do casamento e gostariam de saber um pouco mais do processo? Eu explico como costumamos trabalhar, mas tenham em consideração que todas as cerimónias são diferentes e tudo que é o 'habitual' pode ser adaptado aos vossos gostos e ideias!\
+São novos no mundo do casamento e gostariam de saber um pouco mais do processo?\
+Eu explico como costumamos trabalhar, mas tenham em consideração que todas as cerimónias são diferentes e tudo que é o 'habitual' pode ser adaptado aos vossos gostos e ideias!\
 \
 No dia de casamento, costumamos começar por fotografar a preparação do noivo e da noiva,  alguns detalhes de vestuário e acessórios e as pessoas que lhes são mais próximas e que auxiliam nesta preparação.
-
-
-
-Segue-se a cerimónia. Pela igreja, civil, vocês é que decidem! Estaremos presentes para que nunca esqueçam o momento em que prometeram amar para sempre a pessoa com quem escolheram partilhar a vida.
 
 </section>
 
 <section>
 
-Minim laborum exercitation Lorem anim consectetur do reprehenderit laboris tempor dolore elit. Ad do eu occaecat aliqua proident commodo sint sint eu. Deserunt sint veniam do irure veniam duis.
-
-Enim non nulla deserunt ipsum tempor. Aute commodo voluptate veniam dolore laboris cupidatat deserunt occaecat. Ipsum Lorem eiusmod cillum veniam in ad tempor sint nisi. Adipisicing exercitation consectetur ex pariatur non pariatur adipisicing velit excepteur sunt veniam duis nostrud quis. Aliquip dolor proident nulla sit veniam laborum velit.
-
-Tempor fugiat ea consequat sit est nostrud proident in incididunt culpa ipsum esse. Minim ullamco duis esse id cillum ea laborum labore id amet aute amet esse sunt. Quis dolore aliquip laboris irure velit. Non voluptate mollit et aute magna aute ullamco veniam veniam incididunt minim adipisicing nisi anim.
-
 </section>
 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-7.jpg)
 
+
+
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-14.jpg)
+
+\
+Segue-se a cerimónia. Pela igreja ou civil, vocês é que decidem! Estaremos presentes para que nunca esqueçam o momento em que prometeram amar para sempre a pessoa com quem escolheram partilhar a vida.
 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-23.jpg)
 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-25.jpg)
+
+Preparados para a festa? Aqui vamos nós!\
+Durante o copo de água presenciamos os brindes à felicidade, o lançamento do ramo, as danças exóticas e as declarações de amizade que vão marcar o dia.
+
+![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-48.jpg)
+
+![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-50.jpg)
+
+Sugiro sempre que reservem algum tempo do vosso dia especial para fotografias a dois, para captar alguns detalhes e vos trazer de volta ao motivo de toda esta festa: o amor que escolheram partilhar com o mundo.
+
+![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-43.jpg)
+
+![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-38.jpg)
