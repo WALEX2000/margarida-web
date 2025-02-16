@@ -1343,7 +1343,7 @@ html {
     display: none; }
 
 @media (max-width: 767px) {
-  .photography-header-link {
+  .header-link {
     display: none; } }
 
 .hover\:border-gray-300:hover{

@@ -42,9 +42,13 @@ html {
 }
 
 @media (max-width: 767px) {
-    .photography-header-link {
+    .header-link {
         display: none;
     }
+}
+
+.header-link-current {
+    text-decoration: underline;
 }
 
 .contact-me {

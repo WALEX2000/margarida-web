@@ -37,7 +37,7 @@ img {
 }
 
 @media (max-width: 767px) {
-    .photography-header-link {
+    .header-link {
         display: none;
     }
 }
