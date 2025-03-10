@@ -6,3 +6,7 @@ node_modules/
 
 # Examples
 themes/hugoplate
+
+# macOS system files
+**/.DS_Store
+

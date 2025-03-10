@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
 /* italiana */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
 /* ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com */
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -995,6 +996,9 @@ input:checked + .toggle-bg{
   width: -moz-max-content;
   width: max-content;
 }
+.w-screen{
+  width: 100vw;
+}
 .min-w-full{
   min-width: 100%;
 }
@@ -1229,6 +1233,10 @@ input:checked + .toggle-bg{
   font-size: 1.5rem;
   line-height: 2rem;
 }
+.text-7xl{
+  font-size: 4.5rem;
+  line-height: 1;
+}
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1236,6 +1244,9 @@ input:checked + .toggle-bg{
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+.font-bold{
+  font-weight: 700;
 }
 .font-medium{
   font-weight: 500;
@@ -1334,7 +1345,6 @@ html {
 .source-serif-4 {
   font-family: "Source Serif 4", serif;
   font-optical-sizing: auto;
-  font-weight: 350;
   font-style: normal; }
 
 .roboto-regular {
@@ -1343,8 +1353,9 @@ html {
   font-style: normal; }
 
 .header-color {
+  display: none;
   background-color: #E6E6E6;
-  opacity: 0.85; }
+  position: absolute; }
 
 /* hide scrollbar for all browsers */
 html {
