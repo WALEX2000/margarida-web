@@ -1,20 +1,19 @@
 {{ define "main" }}
-{{ $desktopVideo := resources.Get "videos/gigi_placeholder.mp4" }}
-{{ $mobileVideo  := resources.Get "videos/gigi_placeholder.mp4" }}
+{{ $desktopVideo := resources.Get "videos/placeholder.mp4" }}
+{{ $mobileVideo  := resources.Get "videos/placeholder.mp4" }}
 
-<div id="background-overlay"></div>
 <!-- Video Background Container -->
-<div id="background-video" class="inset-0 z-0 overflow-hidden">
+<div id="background-video" >
   <!-- Desktop Video -->
   <video autoplay loop muted playsinline
-    class="hidden sm:block absolute top-0 left-0 w-full h-full object-cover"
+    class="hidden sm:block absolute -z-10 top-0 left-0 w-full h-full object-cover overlay"
     poster="{{ $desktopVideo.RelPermalink }}?width=1920&quality=70">
     <source src="{{ $desktopVideo.RelPermalink }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <!-- Mobile Video -->
   <video autoplay loop muted playsinline
-    class="block sm:hidden absolute top-0 left-0 w-full h-full object-cover"
+    class="block sm:hidden absolute -z-10 top-0 left-0 w-full h-full object-cover overlay"
     poster="{{ $mobileVideo.RelPermalink }}?width=640&quality=70">
     <source src="{{ $mobileVideo.RelPermalink }}" type="video/mp4">
     Your browser does not support the video tag.
