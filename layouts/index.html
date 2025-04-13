@@ -1,26 +1,24 @@
 {{ define "main" }}
+{{ $desktopVideo := resources.Get "videos/gigi_placeholder.mp4" }}
+{{ $mobileVideo  := resources.Get "videos/gigi_placeholder.mp4" }}
+
 <div id="background-overlay"></div>
-<div id="background-slideshow" class="overflow-hidden" data-carousel="slide">
-  <!-- Item 1 -->
-  {{ $image := resources.Get "images/sample-1.jpg" }}
-  <div class="hidden duration-700 ease-in-out" data-carousel-item>
-    <img src="{{ $image.Permalink }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-  </div>
-  <!-- Item 2 -->
-  {{ $image := resources.Get "images/sample-2.jpg" }}
-  <div class="hidden duration-700 ease-in-out" data-carousel-item>
-    <img src="{{ $image.Permalink }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-  </div>
-  <!-- Item 3 -->
-  {{ $image := resources.Get "images/sample-3.jpg" }}
-  <div class="hidden duration-700 ease-in-out" data-carousel-item>
-    <img src="{{ $image.Permalink }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-  </div>
-  <!-- Item 4 -->
-  {{ $image := resources.Get "images/sample-4.jpg" }}
-  <div class="hidden duration-700 ease-in-out" data-carousel-item>
-    <img src="{{ $image.Permalink }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-  </div>
+<!-- Video Background Container -->
+<div id="background-video" class="inset-0 z-0 overflow-hidden">
+  <!-- Desktop Video -->
+  <video autoplay loop muted playsinline
+    class="hidden sm:block absolute top-0 left-0 w-full h-full object-cover"
+    poster="{{ $desktopVideo.RelPermalink }}?width=1920&quality=70">
+    <source src="{{ $desktopVideo.RelPermalink }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <!-- Mobile Video -->
+  <video autoplay loop muted playsinline
+    class="block sm:hidden absolute top-0 left-0 w-full h-full object-cover"
+    poster="{{ $mobileVideo.RelPermalink }}?width=640&quality=70">
+    <source src="{{ $mobileVideo.RelPermalink }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 <div id="homepage_container" class="grid grid-cols-1 justify-center h-screen">
