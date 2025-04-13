@@ -992,6 +992,9 @@ input:checked + .toggle-bg{
   width: -moz-max-content;
   width: max-content;
 }
+.w-screen{
+  width: 100vw;
+}
 .min-w-full{
   min-width: 100%;
 }

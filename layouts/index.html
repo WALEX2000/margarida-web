@@ -20,6 +20,11 @@
   </video>
 </div>
 
+{{ $logo_big := resources.Get "images/logos/completo_branco.png" }}
+<div class="flex items-center justify-center h-screen mx-auto w-screen">
+  <img src="{{ $logo_big.Permalink }} " style="height: 500px; width: auto;" alt="My logo!">
+</div>
+
 <div id="homepage_container" class="grid grid-cols-1 justify-center h-screen">
   <div>
     <!-- Link for architecture content -->
