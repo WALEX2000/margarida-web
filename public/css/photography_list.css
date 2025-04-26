@@ -49,7 +49,7 @@
     opacity: 1;
     filter: blur(0); } }
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .categories-container {
     display: flex;
     flex-direction: row;

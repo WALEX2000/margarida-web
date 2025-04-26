@@ -1,4 +1,4 @@
-if (window.matchMedia("(max-width: 767px)").matches) throw "Mobile";
+if (window.matchMedia("(max-width: 769px)").matches) throw "Can't run Horizontal Scroll on Mobile";
 
 
 scrolling_content = document.getElementById("pop-up");

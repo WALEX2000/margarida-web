@@ -1343,7 +1343,7 @@ html {
   html ::-webkit-scrollbar {
     display: none; }
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .header-link {
     display: none; } }
 

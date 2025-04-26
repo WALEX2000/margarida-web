@@ -1,4 +1,4 @@
-if (window.matchMedia("(pointer: fine)").matches) throw "Not Mobile";
+if (window.matchMedia("(min-width: 769px)").matches || window.matchMedia("(pointer: fine)").matches) throw "Can't run Infinite Caroussel on Desktop";
 
 
 const container = document.querySelector('.categories-container');

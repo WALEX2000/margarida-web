@@ -1,5 +1,5 @@
 if (window.matchMedia('(max-width: 769px)').matches) {
-	return;
+	throw "Can't run Content Swapper on Mobile";
 }
 
 const swup = new Swup({

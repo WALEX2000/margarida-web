@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   #screen-effect {
     position: absolute;
     top: 0;
@@ -59,7 +59,7 @@
     left: 0;
     align-self: start; } }
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   #header {
     position: sticky; }
   #background_page {
