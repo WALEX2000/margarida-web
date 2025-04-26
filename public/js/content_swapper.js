@@ -5,15 +5,17 @@ const swup = new Swup({
   linkSelector: 'a.pop-up-link[href]' // This makes sure that swup ignores everything that is not a pop-up
 });
 
+const pop_up_element = document.getElementById('pop-up');
+const screen_effect_element = document.getElementById('screen-effect');
+
 document.querySelectorAll('.pop-up-link').forEach(link => {
     link.addEventListener('click', function(e) {
-      console.log("Clicked link", e.currentTarget)
       
       e.preventDefault(); // Stop normal navigation
       e.stopImmediatePropagation();
   
       const url = e.currentTarget.href;
-      const section = url.split('/').pop();
+      const section = url.endsWith('/') ? url.split('/').slice(0, -1).pop() : url.split('/').pop();
       
       // Optionally push state to reflect the modal's URL.
       history.pushState({section}, '', `#${section}`);
@@ -33,7 +35,6 @@ function extractAndShowModal(html) {
     const parser = new DOMParser();
     // Parse the HTML string into a Document object
     const doc = parser.parseFromString(html, 'text/html');
-    console.log(doc);
     // Query the document for the desired element
     const modalPageContent = doc.querySelector('#content_box');
 
@@ -47,17 +48,14 @@ function extractAndShowModal(html) {
 }
 
 function openModal() {
-    const modal = document.getElementById('pop-up');
-    modal.classList.remove('hidden');
-
-    const screen_effect = document.getElementById('screen-effect');
-    screen_effect.classList.remove('hidden');
+    pop_up_element.classList.remove('hidden');
+    screen_effect_element.classList.remove('hidden');
 }
 
   
-document.getElementById('screen-effect').addEventListener('click', function() {
-    document.getElementById('screen-effect').classList.add('hidden');
-    document.getElementById('pop-up').classList.add('hidden');
+screen_effect_element.addEventListener('click', function() {
+    screen_effect_element.classList.add('hidden');
+    pop_up_element.classList.add('hidden');
     
     const currentURL = window.location.href;
     const newURL = currentURL.split('#')[0];
