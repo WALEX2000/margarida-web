@@ -30,7 +30,7 @@ Procuro o detalhe, os toques suaves e os sorrisos tímidos, porque acredito os s
 
 </section>
 
-![Casamento Sofia e Bernardo](/images/margarida-draw.png)
+![Margarida](/images/margarida_drawing.png)
 
 <section>
 
