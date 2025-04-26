@@ -17,9 +17,9 @@
     {{ end }}
     
     {{ if eq .Title "About Me"}}
-        <a class="px-4 header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/about">About Me</a>
+        <a class="px-4 header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}about">About Me</a>
     {{ else }}
-        <a class="px-4 header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/about">About Me</a>
+        <a class="px-4 header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}about">About Me</a>
     {{ end }}
 
     {{/*  <div class="contact-me flex">

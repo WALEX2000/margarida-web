@@ -34,6 +34,9 @@
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
 
   
+  <script src="https://unpkg.com/swup@4"></script>
+
+  
   
   <script src="http://localhost:1313/js/horizontal_scroller.js" defer></script>
 
@@ -45,6 +48,9 @@
 
   
   <script src="http://localhost:1313/js/home_page.js" defer></script>
+
+  
+  <script src="http://localhost:1313/js/content_swapper.js" defer></script>
 </head>
   </head>
   <body class="h-dvh w-max flex flex-col overflow-x-scroll">
@@ -64,7 +70,7 @@
     
     
     
-        <a class="px-4 header-link text-white font-italiana-regular text-xl" href="http://localhost:1313//about">About Me</a>
+        <a class="px-4 header-link text-white font-italiana-regular text-xl" href="http://localhost:1313/about">About Me</a>
     
 
     
@@ -101,15 +107,21 @@
 <div id="homepage_container" class="grid grid-cols-1 justify-center h-screen">
   <div>
     
-    <a href="http://localhost:1313//architecture" class="font-italiana-regular text-2xl text-white" style="position: absolute; left: 0; top: 50%; transform: translateX(-30%) rotate(90deg);">Architecture</a>
+    <a href="http://localhost:1313/architecture" class="font-italiana-regular text-2xl text-white" style="position: absolute; left: 0; top: 50%; transform: translateX(-30%) rotate(90deg);">Architecture</a>
   </div>
   <div>
     
-    <a href="http://localhost:1313//photography" class="font-italiana-regular text-2xl text-white" style="position: absolute; right: 0; top: 50%; transform: translateX(30%) rotate(-90deg);">Photography</a>
+    <a href="http://localhost:1313/photography" class="font-italiana-regular text-2xl text-white" style="position: absolute; right: 0; top: 50%; transform: translateX(30%) rotate(-90deg);">Photography</a>
   </div>
   <div>
     
-    <a href="http://localhost:1313//about" class="font-italiana-regular text-2xl text-white" style="position: absolute; bottom: 0; left: 50%; transform: translateY(-20%) translateX(-50%);">About Me</a>
+    <a href="http://localhost:1313/about" class="font-italiana-regular text-2xl text-white pop-up-link" style="position: absolute; bottom: 0; left: 50%; transform: translateY(-20%) translateX(-50%);">About Me</a>
+  </div>
+</div>
+
+<a id="screen-effect" class="hidden"></a>
+<div id="pop-up" class="hidden">
+  <div id="content_box">
   </div>
 </div>
 

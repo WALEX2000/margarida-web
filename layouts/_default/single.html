@@ -1,4 +1,10 @@
 {{ define "main" }}
-    <h1> {{ .Title }}</h1>
-    {{ .Content }}
+<div id="pop-up">
+    <div id="content_box">
+        <p id="page_title" class="source-serif-4">{{ .Title | upper }}</p>
+        <div id="content_container" class="min-h-0">
+            {{ partial "content" . }}
+        </div>
+    </div>
+</div>
 {{ end }}

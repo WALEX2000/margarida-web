@@ -1,10 +1,42 @@
 ---
-title: "About Me"
+title: About Me
+draft: false
 ---
-Here is some content.
-Super simple to write
-standard md
-- list
-- item
-- three
-- four
+\
+Olá, eu sou a Panducha!\
+\
+Como vai o vosso dia?
+
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+**E o meu papel no vosso dia?**\
+\
+\
+Estou presente para documentar emoções e vivências de forma natural. Vou acompanhar-vos ao longo do dia e soltar algumas lágrimas tímidas por trás da câmera fotográfica que me esconde.\
+\
+Procuro o detalhe, os toques suaves e os sorrisos tímidos, porque acredito os sentimentos estão em todos os *nossos* lugares. Prometo celebrar-vos nesse dia tão especial.
+
+</section>
+
+![Casamento Sofia e Bernardo](/images/margarida-draw.png)
+
+<section>
+
+O processo e a presença de um fotógrafo num casamento não é igual para todos e a dinâmica é sempre estabelecida com os noivos.\
+É importante recordar que todas as cerimónias são diferentes e tudo que é o 'habitual' pode ser adaptado aos vossos gostos e ideias! No entanto, apresento-vos uma leve sequência de momentos e retratos de alguns dias especiais.\
+\
+No dia de casamento, fotografar a preparação do noivo e da noiva é um momento especial, porque os nervos começam a florescer e algumas lágrimas derramam-se ainda em casa. Captam-se alguns detalhes de vestuário e acessórios e as pessoas que lhes são mais próximas e que auxiliam nesta preparação.
+
+</section>

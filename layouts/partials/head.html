@@ -26,6 +26,9 @@
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
 
+  {{/*  INSTALL SWUP  */}}
+  <script src="https://unpkg.com/swup@4"></script>
+
   {{/*  SCRIPTS  */}}
   {{ $script := resources.Get "js/horizontal_scroller.js" }}
   <script src="{{ $script.Permalink }}" defer></script>
@@ -37,5 +40,8 @@
   <script src="{{ $script.Permalink }}" defer></script>
 
   {{ $script := resources.Get "js/home_page.js" }}
+  <script src="{{ $script.Permalink }}" defer></script>
+
+  {{ $script := resources.Get "js/content_swapper.js" }}
   <script src="{{ $script.Permalink }}" defer></script>
 </head>
