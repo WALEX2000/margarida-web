@@ -5,7 +5,6 @@ module.exports = {
   plugins: [
     require('flowbite/plugin')
   ],
-
   content: [
     "./content/**/*.{html,js}",
     "./layouts/**/*.{html,js}",
