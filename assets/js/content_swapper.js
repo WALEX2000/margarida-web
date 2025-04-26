@@ -1,4 +1,6 @@
-// import Swup from "swup";
+if (window.matchMedia('(max-width: 769px)').matches) {
+	return;
+}
 
 const swup = new Swup({
   containers: ['#pop-up'], // the container that swup will manage
