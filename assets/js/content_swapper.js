@@ -61,3 +61,12 @@ screen_effect_element.addEventListener('click', function() {
     const newURL = currentURL.split('#')[0];
     window.history.replaceState({}, '', newURL);
 });
+
+// Load the modal if the user navigates directly to a url with the format #<section>
+if (window.location.hash) {
+    const section = window.location.hash.replace('#', '');
+    const link = document.querySelector(`a.pop-up-link[href*="${section}"`);
+    if (link) {
+		link.dispatchEvent(new Event('click'));
+    }
+}
