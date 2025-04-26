@@ -50,6 +50,12 @@ function extractAndShowModal(html) {
 function openModal() {
     pop_up_element.classList.remove('hidden');
     screen_effect_element.classList.remove('hidden');
+
+	// TODO: Remove specific logic for about me
+	const aboutMeLink = document.querySelector('a.header-link[href$="#about"]');
+	if (window.location.hash === '#about' || link.href.endsWith('/about')) {
+		aboutMeLink.classList.add('header-link-current');
+	} 
 }
 
   
@@ -60,13 +66,23 @@ screen_effect_element.addEventListener('click', function() {
     const currentURL = window.location.href;
     const newURL = currentURL.split('#')[0];
     window.history.replaceState({}, '', newURL);
+
+	// TODO: Remove specific logic for about me
+	const aboutMeLink = document.querySelector('a.header-link[href$="#about"]');
+	aboutMeLink.classList.remove('header-link-current');
 });
 
 // Load the modal if the user navigates directly to a url with the format #<section>
-if (window.location.hash) {
+function loadModalFromHash() {
     const section = window.location.hash.replace('#', '');
     const link = document.querySelector(`a.pop-up-link[href*="${section}"`);
     if (link) {
-		link.dispatchEvent(new Event('click'));
+        link.dispatchEvent(new Event('click'));
     }
 }
+
+if (window.location.hash) {
+	loadModalFromHash();
+}
+window.addEventListener('hashchange', loadModalFromHash);
+
