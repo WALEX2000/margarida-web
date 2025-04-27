@@ -37,28 +37,36 @@
       CMS.registerEditorComponent({
         id: "section",
         label: "Column Section",
-        fields: [{
+        fields: [
+          	{
+				name: "alignment",
+				label: "Section Alignment",
+				widget: "select",
+				options: ["top", "center", "bottom"]
+        	},    
+        	{
                 name: "content",
                 label: "Section Content",
                 widget: "markdown"
             },
         ],
-        pattern: /<section>(.*?)<\/section>/ms,
+        pattern: /<section(?: class="section-(top|center|bottom)-aligned")?>(.*?)<\/section>/ms,
         fromBlock: function(match) {
             return {
-              content: match[1],
+				alignment: match[1] || "top",
+              	content: match[2],
             };
         },
         toBlock: function(obj) {
             return `
-<section>
+<section class="section-${obj.alignment}-aligned">
 
 ${obj.content}
 <\/section>`;
         },
         toPreview: function(obj) {
             return `
-<section>
+<section class="section-${obj.alignment}-aligned">
 
 ${obj.content}
 <\/section>`;
