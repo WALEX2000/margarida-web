@@ -5,21 +5,21 @@
     </a>
 
     {{ if eq .Section "architecture"}}
-        <a class="px-4 header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/architecture">Architecture</a>
+        <a class="px-4 header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/architecture">Arquitetura</a>
     {{ else }}
-        <a class="px-4 header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/architecture">Architecture</a>
+        <a class="px-4 header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/architecture">Arquitetura</a>
     {{ end }}
     
     {{ if eq .Section "photography"}}
-        <a class="px-4 header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/photography">Photography</a>
+        <a class="px-4 header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/photography">Fotografia</a>
     {{ else }}
-        <a class="px-4 header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/photography">Photography</a>
+        <a class="px-4 header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/photography">Fotografia</a>
     {{ end }}
     
     {{ if eq .Title "About Me"}}
-        <a class="px-4 header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#about">About Me</a>
+        <a class="px-4 header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
     {{ else }}
-        <a class="px-4 header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#about">About Me</a>
+        <a class="px-4 header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
     {{ end }}
 
     {{/* TODO: Remove this when I have the contacts elsewhere */}}
