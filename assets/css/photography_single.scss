@@ -45,6 +45,7 @@
         padding-top: 0.4rem;
 
         p {
+            margin-top: 1rem;
             font-family: "Source Serif 4", serif;
             font-optical-sizing: auto;
             font-weight: 350;
@@ -76,6 +77,24 @@
         top: 0;
         left: 0;
         align-self: start;
+    }
+
+    .section-bottom-aligned {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .section-center-aligned {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-top-aligned {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 }
 
@@ -118,10 +137,6 @@
 
         section {
             margin-bottom: 1rem;
-
-            p {
-                text-align: center;
-            }
         }
     }
     
