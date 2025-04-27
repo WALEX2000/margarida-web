@@ -5,7 +5,9 @@ order: 1
 draft: false
 ---
 
-<section>
+<section class="section-top-aligned">
+
+
 
 
                        
@@ -14,22 +16,28 @@ Casamento é sobre sentimento, partilha e celebração, com o coração cheio e 
 
 É um dia sobre os noivos, as suas famílias e todos aqueles que estão presentes para testemunhar o amor. Não temam ser vocês mesmos, num dia em que nada mais importa além da vossa história! Façam tudo que vos deixa feliz, rodopiem na pista, abracem quem mais gostam e beijem tanto quanto querem. 
                     
+
 </section>
 
 
-<section>
+<section class="section-bottom-aligned">
+
+
 
 **E o meu papel no vosso dia?**
 
 Estou presente para documentar emoções e vivências de forma natural. Vou acompanhar-vos ao longo do dia e soltar algumas lágrimas tímidas por trás da câmera fotográfica que me esconde.
 
 Procuro o detalhe, os toques suaves e os sorrisos tímidos, porque acredito os sentimentos estão em todos os *nossos* lugares. Prometo celebrar-vos nesse dia tão especial.
+
 </section>
 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-42.jpg)
 
 
-<section>
+<section class="section-top-aligned">
+
+
 
 
                        
@@ -39,6 +47,7 @@ O processo e a presença de um fotógrafo num casamento não é igual para todos
 
 No dia de casamento, fotografar a preparação do noivo e da noiva é um momento especial, porque os nervos começam a florescer e algumas lágrimas derramam-se ainda em casa. Captam-se alguns detalhes de vestuário e acessórios e as pessoas que lhes são mais próximas e que auxiliam nesta preparação. 
                     
+
 </section>
 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-7.jpg)
@@ -46,7 +55,9 @@ No dia de casamento, fotografar a preparação do noivo e da noiva é um momento
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-14.jpg)
 
 
-<section>
+<section class="section-top-aligned">
+
+
 
 
                        
@@ -55,6 +66,7 @@ Cerimónia pela igreja, civil, ou declarada por amigos, a história de amor é v
 
 Sugiro que reservem algum tempo do vosso dia especial para fotografias a dois, para captar alguns detalhes e vos trazer de volta ao motivo de toda esta festa: o amor que escolheram partilhar com o mundo. 
                     
+
 </section>
 
 ![Casamento Sofia e Bernardo](/images/uploads/sofia-e-bernardo-23.jpg)
