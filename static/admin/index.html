@@ -43,17 +43,21 @@
                 widget: "markdown"
             },
         ],
-        pattern: /^<section>(.*)<\/section>/,
+        pattern: /<section>(.*?)<\/section>/ms,
         fromBlock: function(match) {
             return {
               content: match[1],
             };
         },
         toBlock: function(obj) {
-            return `<section> ${obj.content} <\/section>`;
+            return `<section>
+                      ${obj.content}
+                    <\/section>`;
         },
         toPreview: function(obj) {
-            return `<section> ${obj.content} <\/section>`;
+            return `<section>
+                      ${obj.content}
+                    <\/section>`;
         },
       });
     </script>
