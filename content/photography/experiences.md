@@ -13,3 +13,25 @@ A vida acontece rápido, e é essencial cada um tirar algum tempo para registar 
 </section>
 
 ![](/images/uploads/amargarida_calheiros-41.jpg)
+
+![](/images/uploads/img_9928.jpg)
+
+
+<section class="section-bottom-aligned">
+
+A preparação para uma Experiência Fotográfica inclui uma primeira reunião para discutirmos quais os locais mais especiais para os protagonistas e planearmos o horário e sítios onde a nossa experiência irá acontecer. Nessa mesma instância, falamos um pouco sobre a roupa a utilizar, aquilo com se sentem mais confortáveis e cores ou acessórios que queiram utilizar durante a sessão fotográfica.\
+\
+É realizado um *moodboard* personalizado que será utilizado como referência no dia da sessão fotográfica, para que ninguém se sinta perdido ou sem saber o que fazer.
+</section>
+
+![]()
+
+![]()
+
+![]()
+
+
+<section class="section-undefined-aligned">
+
+undefined
+</section>
