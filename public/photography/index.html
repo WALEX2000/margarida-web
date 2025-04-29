@@ -106,13 +106,13 @@
         <img
           id="slideFrontRight"
           class="slide absolute inset-0 w-full h-full object-contain z-20 transition-opacity duration-1000 ease-in-out"
-          src="/images/uploads/batizado.jpg"
+          src="/images/uploads/familia.jpg"
           alt="Showcase image"
         >
         <img
           id="slideBackRight"
           class="slide absolute inset-0 w-full h-full object-contain opacity-0 z-10 transition-opacity duration-1000 ease-in-out"
-          src="/images/uploads/familia.jpg"
+          src="/images/uploads/campanha.jpg"
           alt="Background showcase image"
         >
       </div>
@@ -123,27 +123,27 @@
       <ul class="space-y-4">
         
         <li>
-          <a class="text-lg hover:underline" href="http://localhost:1313/photography/weddings/">Casamentos</a>
+          <a class="text-lg hover:underline pop-up-link" href="http://localhost:1313/photography/weddings/">Casamentos</a>
         </li>
         
         <li>
-          <a class="text-lg hover:underline" href="http://localhost:1313/photography/baptisms/">Batizados</a>
+          <a class="text-lg hover:underline pop-up-link" href="http://localhost:1313/photography/baptisms/">Batizados</a>
         </li>
         
         <li>
-          <a class="text-lg hover:underline" href="http://localhost:1313/photography/experiences/">Experiências Fotográficas</a>
+          <a class="text-lg hover:underline pop-up-link" href="http://localhost:1313/photography/experiences/">Experiências Fotográficas</a>
         </li>
         
         <li>
-          <a class="text-lg hover:underline" href="http://localhost:1313/photography/editorial/">Editorial</a>
+          <a class="text-lg hover:underline pop-up-link" href="http://localhost:1313/photography/editorial/">Editorial</a>
         </li>
         
         <li>
-          <a class="text-lg hover:underline" href="http://localhost:1313/photography/shows/">Eventos</a>
+          <a class="text-lg hover:underline pop-up-link" href="http://localhost:1313/photography/shows/">Eventos</a>
         </li>
         
         <li>
-          <a class="text-lg hover:underline" href="http://localhost:1313/photography/architecture/">Arquitetura</a>
+          <a class="text-lg hover:underline pop-up-link" href="http://localhost:1313/photography/architecture/">Arquitetura</a>
         </li>
         
       </ul>
@@ -224,10 +224,10 @@
 
     
     let idxL = 0;
-    let idxR = 1;
+    let idxR = Math.floor(thumbnails.length / 2);
 
     const duration = 10000;   
-    const fadeTime = 1500;   
+    const fadeTime = 1500;    
 
     
     [...layersL, ...layersR].forEach(img => {
@@ -265,7 +265,8 @@
       };
     }
 
-    setInterval(() => {
+    
+    function startCycle() {
       
       const nextL = (idxL + 1) % thumbnails.length;
       crossFade(layersL, nextL, newIdx => { idxL = newIdx; });
@@ -275,10 +276,16 @@
         const nextR = (idxR + 1) % thumbnails.length;
         crossFade(layersR, nextR, newIdx => { idxR = newIdx; });
       }, duration / 2);
+    }
 
-    }, duration);
+    
+    setTimeout(() => {
+      startCycle();
+      setInterval(startCycle, duration);
+    }, duration / 2);
   });
 </script>
+
 
 <a id="screen-effect" class="hidden"></a>
 <div id="pop-up" class="hidden">
