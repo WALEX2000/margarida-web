@@ -918,9 +918,9 @@ input:checked + .toggle-bg{
 .col-span-3{
   grid-column: span 3 / span 3;
 }
-.mx-4{
-  margin-left: 1rem;
-  margin-right: 1rem;
+.mx-6{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 .mx-auto{
   margin-left: auto;
@@ -1204,10 +1204,6 @@ input:checked + .toggle-bg{
 .bg-white\/50{
   background-color: rgb(255 255 255 / 0.5);
 }
-.object-contain{
-  -o-object-fit: contain;
-     object-fit: contain;
-}
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -1353,9 +1349,6 @@ input:checked + .toggle-bg{
   transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-.duration-1000{
-  transition-duration: 1000ms;
 }
 .ease-in-out{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
