@@ -1,7 +1,7 @@
 ---
 title: Experiências Fotográficas
 description: Fotografia individual, de casal, de família, gradivez, etc.
-thumbnail: /images/uploads/familia.jpg
+thumbnail: /images/uploads/ju.jpg
 order: 3
 ---
 
@@ -45,3 +45,5 @@ No próprio dia, eu darei indicações em todos os momentos e poderei até pedir
 ![](/images/uploads/solo.jpg)
 
 ![](/images/uploads/ju_5.jpg)
+
+![](/images/uploads/filipa-e-hélder-praia-79.jpg)
