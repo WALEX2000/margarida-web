@@ -1,7 +1,7 @@
 ---
 title: Batizados
 description: batizados são aquelas cenas que os padres fazem as crianças.
-thumbnail: /images/uploads/batizado.jpg
+thumbnail: /images/uploads/batizado-web_14.jpg
 order: 2
 ---
 ![]()
@@ -34,12 +34,12 @@ Nem todos os pais ou familiares desejam que todo o processo seja registado em fo
 
 ![](/images/uploads/batizado-web_11.jpg)
 
-![]()
+![](/images/uploads/batizado-web_1.jpg)
 
-![]()
+![](/images/uploads/batizado-web_12.jpg)
 
-![]()
+![](/images/uploads/batizado-web_4.jpg)
 
-![]()
+![](/images/uploads/batizado-web_8.jpg)
 
-![]()
+![](/images/uploads/batizado-web_13.jpg)
