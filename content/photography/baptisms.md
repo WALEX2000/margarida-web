@@ -1,13 +1,13 @@
 ---
 title: Batizados
 description: batizados são aquelas cenas que os padres fazem as crianças.
-thumbnail: /images/uploads/batizado-web_14.jpg
+thumbnail: /images/uploads/batizado-web_10.jpg
 order: 2
 ---
 ![]()
 
 
-<section class="section-bottom-aligned">
+<section class="section-top-aligned">
 
 O batizado representa um momento de celebração para a criança e todos os que bem e amor lhe desejam.
 
@@ -17,7 +17,7 @@ O batizado representa um momento de celebração para a criança e todos os que 
 ![](/images/uploads/batizado-web_3.jpg)
 
 
-<section class="section-top-aligned">
+<section class="section-center-aligned">
 
 O dia tende a repartir-se em três partes.
 
@@ -43,3 +43,5 @@ Nem todos os pais ou familiares desejam que todo o processo seja registado em fo
 ![](/images/uploads/batizado-web_8.jpg)
 
 ![](/images/uploads/batizado-web_13.jpg)
+
+![](/images/uploads/batizado-web_14.jpg)
