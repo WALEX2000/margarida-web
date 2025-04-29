@@ -86,32 +86,32 @@
 
     
     <div class="col-span-3 flex justify-center items-center relative">
-      <div class="w-1/2 mx-6 relative aspect-[3/4]">
+      <div class="w-2/5 mx-3 relative aspect-[3/4]">
         
         <img
           id="slideFrontLeft"
-          class="slide absolute inset-0 w-full h-full object-cover rounded-lg z-20 transition-opacity ease-in-out"
+          class="slide absolute inset-0 w-full h-full object-cover z-20 transition-opacity ease-in-out"
           src="/images/uploads/casamento.jpg"
           alt="Showcase image"
         >
         
         <img
           id="slideBackLeft"
-          class="slide absolute inset-0 w-full h-full object-cover rounded-lg opacity-0 z-10 transition-opacity ease-in-out"
+          class="slide absolute inset-0 w-full h-full object-cover opacity-0 z-10 transition-opacity ease-in-out"
           src="/images/uploads/batizado.jpg"
           alt="Background showcase image"
         >
       </div>
-      <div class="w-1/2 mx-6 relative aspect-[3/4]">
+      <div class="w-2/5 mx-3 relative aspect-[3/4]">
         <img
           id="slideFrontRight"
-          class="slide absolute inset-0 w-full h-full object-cover rounded-lg z-20 transition-opacity ease-in-out"
+          class="slide absolute inset-0 w-full h-full object-cover z-20 transition-opacity ease-in-out"
           src="/images/uploads/familia.jpg"
           alt="Showcase image"
         >
         <img
           id="slideBackRight"
-          class="slide absolute inset-0 w-full h-full object-cover rounded-lg opacity-0 z-10 transition-opacity ease-in-out"
+          class="slide absolute inset-0 w-full h-full object-cover opacity-0 z-10 transition-opacity ease-in-out"
           src="/images/uploads/campanha.jpg"
           alt="Background showcase image"
         >
@@ -119,36 +119,37 @@
     </div>
 
     
-    <nav class="col-span-1 flex h-screen flex-col justify-center items-center p-8">
-      <ul class="space-y-4">
+    <nav class="col-span-1 flex h-screen flex-col justify-center items-start ml-8">
+      <h2 class="w-3/5 roboto-bold mb-5 pb-5 border-b border-gray-400">Ana Margardia Calheiros</h2>
+      <ul class="w-3/5 space-y-1">
         
         <li>
-          <a class="text-lg hover:underline pop-up-link" href="http://localhost:1313/photography/weddings/">Casamentos</a>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/photography/weddings/">Casamentos</a>
         </li>
         
         <li>
-          <a class="text-lg hover:underline pop-up-link" href="http://localhost:1313/photography/baptisms/">Batizados</a>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/photography/baptisms/">Batizados</a>
         </li>
         
         <li>
-          <a class="text-lg hover:underline pop-up-link" href="http://localhost:1313/photography/experiences/">Experiências Fotográficas</a>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/photography/experiences/">Experiências Fotográficas</a>
         </li>
         
         <li>
-          <a class="text-lg hover:underline pop-up-link" href="http://localhost:1313/photography/editorial/">Editorial</a>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/photography/editorial/">Editorial</a>
         </li>
         
         <li>
-          <a class="text-lg hover:underline pop-up-link" href="http://localhost:1313/photography/shows/">Eventos</a>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/photography/shows/">Eventos</a>
         </li>
         
         <li>
-          <a class="text-lg hover:underline pop-up-link" href="http://localhost:1313/photography/architecture/">Arquitetura</a>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/photography/architecture/">Arquitetura</a>
         </li>
         
       </ul>
+      <p class="w-3/5 roboto-regular mt-5 pt-5 border-t border-gray-400">Contact Me Info: ...</p>
     </nav>
-
   </div>
 </div>
 
@@ -226,8 +227,8 @@
     let idxL = 0;
     let idxR = Math.floor(thumbnails.length / 2);
 
-    const duration = 10000;   
-    const fadeTime = 1500;    
+    const duration = 6000;   
+    const fadeTime = 1250;    
 
     
     [...layersL, ...layersR].forEach(img => {
