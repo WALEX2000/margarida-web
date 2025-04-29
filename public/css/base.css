@@ -912,6 +912,16 @@ input:checked + .toggle-bg{
 .z-50{
   z-index: 50;
 }
+.col-span-1{
+  grid-column: span 1 / span 1;
+}
+.col-span-3{
+  grid-column: span 3 / span 3;
+}
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -952,6 +962,9 @@ input:checked + .toggle-bg{
 .hidden{
   display: none;
 }
+.aspect-\[3\/4\]{
+  aspect-ratio: 3/4;
+}
 .h-16{
   height: 4rem;
 }
@@ -975,6 +988,9 @@ input:checked + .toggle-bg{
 }
 .h-full{
   height: 100%;
+}
+.h-screen{
+  height: 100vh;
 }
 .min-h-0{
   min-height: 0px;
@@ -1009,6 +1025,9 @@ input:checked + .toggle-bg{
 }
 .min-w-full{
   min-width: 100%;
+}
+.max-w-screen-2xl{
+  max-width: 1536px;
 }
 .max-w-xl{
   max-width: 36rem;
@@ -1102,6 +1121,11 @@ input:checked + .toggle-bg{
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
+.space-y-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
 .space-y-5 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1180,6 +1204,10 @@ input:checked + .toggle-bg{
 .bg-white\/50{
   background-color: rgb(255 255 255 / 0.5);
 }
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -1198,6 +1226,9 @@ input:checked + .toggle-bg{
 }
 .p-4{
   padding: 1rem;
+}
+.p-8{
+  padding: 2rem;
 }
 .px-2{
   padding-left: 0.5rem;
@@ -1323,6 +1354,12 @@ input:checked + .toggle-bg{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+.duration-1000{
+  transition-duration: 1000ms;
+}
+.ease-in-out{
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .ease-out{
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
@@ -1394,6 +1431,9 @@ html {
   .hover\:text-gray-900:hover{
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+  .hover\:underline:hover{
+  text-decoration-line: underline;
 }
   .focus\:outline-none:focus{
   outline: 2px solid transparent;

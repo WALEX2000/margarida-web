@@ -82,34 +82,76 @@
 
 
 <div class="md:block hidden h-full w-dvw mx-auto">
-  <div class="categories-showcase">
+  <div class="grid grid-cols-4 h-screen mx-auto max-w-screen-2xl">
+
     
-    <div class="showcase">
-      
-      <img id="slideFront" class="slide" src="/images/uploads/casamento.jpg" alt="Showcase image">
-      <img id="slideBack"  class="slide" src="/images/uploads/batizado.jpg" alt="Showcase image">
+    <div class="col-span-3 flex justify-center items-center relative">
+      <div class="w-1/2 mx-4 relative aspect-[3/4]">
+        
+        <img
+          id="slideFrontLeft"
+          class="slide absolute inset-0 w-full h-full object-contain z-20 transition-opacity duration-1000 ease-in-out"
+          src="/images/uploads/casamento.jpg"
+          alt="Showcase image"
+        >
+        
+        <img
+          id="slideBackLeft"
+          class="slide absolute inset-0 w-full h-full object-contain opacity-0 z-10 transition-opacity duration-1000 ease-in-out"
+          src="/images/uploads/batizado.jpg"
+          alt="Background showcase image"
+        >
+      </div>
+      <div class="w-1/2 mx-4 relative aspect-[3/4]">
+        <img
+          id="slideFrontRight"
+          class="slide absolute inset-0 w-full h-full object-contain z-20 transition-opacity duration-1000 ease-in-out"
+          src="/images/uploads/batizado.jpg"
+          alt="Showcase image"
+        >
+        <img
+          id="slideBackRight"
+          class="slide absolute inset-0 w-full h-full object-contain opacity-0 z-10 transition-opacity duration-1000 ease-in-out"
+          src="/images/uploads/familia.jpg"
+          alt="Background showcase image"
+        >
+      </div>
     </div>
 
     
-    <nav class="categories-list">
-      <ul>
-      
-        <li><a href="http://localhost:1313/photography/weddings/" class="pop-up-link">Casamentos</a></li>
-      
-        <li><a href="http://localhost:1313/photography/baptisms/" class="pop-up-link">Batizados</a></li>
-      
-        <li><a href="http://localhost:1313/photography/experiences/" class="pop-up-link">Experiências Fotográficas</a></li>
-      
-        <li><a href="http://localhost:1313/photography/editorial/" class="pop-up-link">Editorial</a></li>
-      
-        <li><a href="http://localhost:1313/photography/shows/" class="pop-up-link">Eventos</a></li>
-      
-        <li><a href="http://localhost:1313/photography/architecture/" class="pop-up-link">Arquitetura</a></li>
-      
+    <nav class="col-span-1 flex h-screen flex-col justify-center items-center p-8">
+      <ul class="space-y-4">
+        
+        <li>
+          <a class="text-lg hover:underline" href="http://localhost:1313/photography/weddings/">Casamentos</a>
+        </li>
+        
+        <li>
+          <a class="text-lg hover:underline" href="http://localhost:1313/photography/baptisms/">Batizados</a>
+        </li>
+        
+        <li>
+          <a class="text-lg hover:underline" href="http://localhost:1313/photography/experiences/">Experiências Fotográficas</a>
+        </li>
+        
+        <li>
+          <a class="text-lg hover:underline" href="http://localhost:1313/photography/editorial/">Editorial</a>
+        </li>
+        
+        <li>
+          <a class="text-lg hover:underline" href="http://localhost:1313/photography/shows/">Eventos</a>
+        </li>
+        
+        <li>
+          <a class="text-lg hover:underline" href="http://localhost:1313/photography/architecture/">Arquitetura</a>
+        </li>
+        
       </ul>
     </nav>
+
   </div>
 </div>
+
 
 
 <div class="md:hidden block h-full w-dvw mx-auto categories-container">
@@ -171,25 +213,41 @@
   const thumbnails_array = JSON.parse(thumbnails_str);
 
   window.addEventListener('DOMContentLoaded', () => {
-    const front = document.getElementById('slideFront');
-    const back  = document.getElementById('slideBack');
-    let current = 0;
+    const frontLeft = document.getElementById('slideFrontLeft');
+    const backLeft  = document.getElementById('slideBackLeft');
+    const frontRight = document.getElementById('slideFrontRight');
+    const backRight  = document.getElementById('slideBackRight');
+    let currentLeft = 0;
+    let currentRight = 1;
     const duration = 5000;    
     const fadeTime = 1000;    
 
     setInterval(() => {
-      const next = (current + 1) % thumbnails_array.length;
-      back.src = thumbnails_array[next];
-      back.style.opacity = 1;
-      front.style.opacity = 0;
+      const nextLeft = (currentLeft + 1) % thumbnails_array.length;
+      backLeft.src = thumbnails_array[nextLeft];
+      backLeft.style.opacity = 1;
+      frontLeft.style.opacity = 0;
 
-      
       setTimeout(() => {
-        front.src = thumbnails_array[next];
-        front.style.opacity = 1;
-        back.style.opacity = 0;
-        current = next;
+        frontLeft.src = thumbnails_array[nextLeft];
+        frontLeft.style.opacity = 1;
+        backLeft.style.opacity = 0;
+        currentLeft = nextLeft;
       }, fadeTime);
+
+      setTimeout(() => {
+        const nextRight = (currentRight + 1) % thumbnails_array.length;
+        backRight.src = thumbnails_array[nextRight];
+        backRight.style.opacity = 1;
+        frontRight.style.opacity = 0;
+
+        setTimeout(() => {
+          frontRight.src = thumbnails_array[nextRight];
+          frontRight.style.opacity = 1;
+          backRight.style.opacity = 0;
+          currentRight = nextRight;
+        }, fadeTime);
+      }, 3000);
     }, duration);
   });
 </script>

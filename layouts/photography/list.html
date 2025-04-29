@@ -4,24 +4,56 @@
 
 <!-- desktop version -->
 <div class="md:block hidden h-full w-dvw mx-auto">
-  <div class="categories-showcase">
-    <!-- LEFT: cross-fade slideshow container -->
-    <div class="showcase">
-      <!-- we'll swap these two back and forth -->
-      <img id="slideFront" class="slide" src="{{ (index $sortedPages 0).Params.thumbnail }}" alt="Showcase image">
-      <img id="slideBack"  class="slide" src="{{ (index $sortedPages 1).Params.thumbnail }}" alt="Showcase image">
+  <div class="grid grid-cols-4 h-screen mx-auto max-w-screen-2xl">
+
+    <!-- Left section: 3/4 width, two portrait images side by side -->
+    <div class="col-span-3 flex justify-center items-center relative">
+      <div class="w-1/2 mx-4 relative aspect-[3/4]">
+        <!-- Front image -->
+        <img
+          id="slideFrontLeft"
+          class="slide absolute inset-0 w-full h-full object-contain z-20 transition-opacity duration-1000 ease-in-out"
+          src="{{ (index $sortedPages 0).Params.thumbnail }}"
+          alt="Showcase image"
+        >
+        <!-- Back image (hidden) -->
+        <img
+          id="slideBackLeft"
+          class="slide absolute inset-0 w-full h-full object-contain opacity-0 z-10 transition-opacity duration-1000 ease-in-out"
+          src="{{ (index $sortedPages 1).Params.thumbnail }}"
+          alt="Background showcase image"
+        >
+      </div>
+      <div class="w-1/2 mx-4 relative aspect-[3/4]">
+        <img
+          id="slideFrontRight"
+          class="slide absolute inset-0 w-full h-full object-contain z-20 transition-opacity duration-1000 ease-in-out"
+          src="{{ (index $sortedPages 1).Params.thumbnail }}"
+          alt="Showcase image"
+        >
+        <img
+          id="slideBackRight"
+          class="slide absolute inset-0 w-full h-full object-contain opacity-0 z-10 transition-opacity duration-1000 ease-in-out"
+          src="{{ (index $sortedPages 2).Params.thumbnail }}"
+          alt="Background showcase image"
+        >
+      </div>
     </div>
 
-    <!-- RIGHT: static list of all categories -->
-    <nav class="categories-list">
-      <ul>
-      {{ range $sortedPages }}
-        <li><a href="{{ .Permalink }}" class="pop-up-link">{{ .Title }}</a></li>
-      {{ end }}
+    <!-- Right section: 1/4 width nav, links centered vertically and horizontally -->
+    <nav class="col-span-1 flex h-screen flex-col justify-center items-center p-8">
+      <ul class="space-y-4">
+        {{ range $sortedPages }}
+        <li>
+          <a class="text-lg hover:underline" href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
       </ul>
     </nav>
+
   </div>
 </div>
+
 
 <!-- mobile version -->
 <div class="md:hidden block h-full w-dvw mx-auto categories-container">
@@ -41,25 +73,41 @@
   const thumbnails_array = JSON.parse(thumbnails_str);
 
   window.addEventListener('DOMContentLoaded', () => {
-    const front = document.getElementById('slideFront');
-    const back  = document.getElementById('slideBack');
-    let current = 0;
+    const frontLeft = document.getElementById('slideFrontLeft');
+    const backLeft  = document.getElementById('slideBackLeft');
+    const frontRight = document.getElementById('slideFrontRight');
+    const backRight  = document.getElementById('slideBackRight');
+    let currentLeft = 0;
+    let currentRight = 1;
     const duration = 5000;    // ms between switches
     const fadeTime = 1000;    // CSS transition time
 
     setInterval(() => {
-      const next = (current + 1) % thumbnails_array.length;
-      back.src = thumbnails_array[next];
-      back.style.opacity = 1;
-      front.style.opacity = 0;
+      const nextLeft = (currentLeft + 1) % thumbnails_array.length;
+      backLeft.src = thumbnails_array[nextLeft];
+      backLeft.style.opacity = 1;
+      frontLeft.style.opacity = 0;
 
-      // after fadeTime, swap roles
       setTimeout(() => {
-        front.src = thumbnails_array[next];
-        front.style.opacity = 1;
-        back.style.opacity = 0;
-        current = next;
+        frontLeft.src = thumbnails_array[nextLeft];
+        frontLeft.style.opacity = 1;
+        backLeft.style.opacity = 0;
+        currentLeft = nextLeft;
       }, fadeTime);
+
+      setTimeout(() => {
+        const nextRight = (currentRight + 1) % thumbnails_array.length;
+        backRight.src = thumbnails_array[nextRight];
+        backRight.style.opacity = 1;
+        frontRight.style.opacity = 0;
+
+        setTimeout(() => {
+          frontRight.src = thumbnails_array[nextRight];
+          frontRight.style.opacity = 1;
+          backRight.style.opacity = 0;
+          currentRight = nextRight;
+        }, fadeTime);
+      }, 3000);
     }, duration);
   });
 </script>
