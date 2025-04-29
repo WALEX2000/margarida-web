@@ -2,14 +2,14 @@
 
 
 const container = document.querySelector('.categories-container');
-const thumbnails = Array.from(document.querySelectorAll('.category-thumbnail'));
+const thumbnails_array = Array.from(document.querySelectorAll('.category-thumbnail'));
 
 const {scrollWidth} = container;
 
 // Setup page
 // Duplicate thumbnails elements
-const firstDummy = thumbnails.map(thumbnail => thumbnail.cloneNode(true));
-const lastDummy = thumbnails.map(thumbnail => thumbnail.cloneNode(true));
+const firstDummy = thumbnails_array.map(thumbnail => thumbnail.cloneNode(true));
+const lastDummy = thumbnails_array.map(thumbnail => thumbnail.cloneNode(true));
 firstDummy.forEach(thumbnail => thumbnail.classList.add('dummy'));
 lastDummy.forEach(thumbnail => thumbnail.classList.add('dummy'));
 firstDummy.reverse().forEach(thumbnail => container.insertBefore(thumbnail, container.firstChild));
@@ -17,20 +17,20 @@ lastDummy.forEach(thumbnail => container.appendChild(thumbnail));
 container.append(...lastDummy);
 
 // Set the scroll so that the page starts centered on the first element of the original thumbnails
-const firstThumbnailRect = thumbnails[0].getBoundingClientRect();
+const firstThumbnailRect = thumbnails_array[0].getBoundingClientRect();
 const viewportWidth = window.innerWidth;
 const firstThumbnailCenter = firstThumbnailRect.left + firstThumbnailRect.width / 2;
 const viewportCenter = viewportWidth / 2;
 container.scrollLeft = firstThumbnailCenter - viewportCenter;
 
 const determineActiveElement = () => {
-    return [...thumbnails].reduce((mostVisible, thumbnail) => {
+    return [...thumbnails_array].reduce((mostVisible, thumbnail) => {
         const thumbnailRect = thumbnail.getBoundingClientRect();
         const mostVisibleRect = mostVisible.getBoundingClientRect();
         const visibleWidth = Math.min(thumbnailRect.right, window.innerWidth) - Math.max(thumbnailRect.left, 0);
         const mostVisibleWidth = Math.min(mostVisibleRect.right, window.innerWidth) - Math.max(mostVisibleRect.left, 0);
         return visibleWidth > mostVisibleWidth ? thumbnail : mostVisible;
-    }, thumbnails[0]);
+    }, thumbnails_array[0]);
 }
 
 document.addEventListener('touchend', () => {
@@ -53,15 +53,15 @@ const observer = new IntersectionObserver((entries, observer) => {
     });
 }, {root: container, threshold: 1.0});
 
-thumbnails.forEach(thumbnail => observer.observe(thumbnail));
+thumbnails_array.forEach(thumbnail => observer.observe(thumbnail));
 firstDummy.forEach(thumbnail => observer.observe(thumbnail));
 lastDummy.forEach(thumbnail => observer.observe(thumbnail));
 
 container.onscrollend = (event) => {
-    const thumbnailCount = thumbnails.length;
+    const thumbnailCount = thumbnails_array.length;
     const activeElement = [...container.children].find(child => child.classList.contains('active'));
     const activeIndex = [...container.children].indexOf(activeElement);
-    const activeThumbnail = thumbnails[activeIndex % thumbnailCount];
+    const activeThumbnail = thumbnails_array[activeIndex % thumbnailCount];
     
     if (activeElement !== activeThumbnail) {
         container.scrollTo({
