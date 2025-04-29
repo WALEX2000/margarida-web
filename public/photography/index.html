@@ -78,57 +78,121 @@
     </header>
     <main id="main" class="flex-grow min-h-0 relative">
       
-<div class="h-full w-dvw mx-auto categories-container">
+
+
+
+<div class="md:block hidden h-full w-dvw mx-auto">
+  <div class="categories-showcase">
     
-        <a class="category-thumbnail pop-up-link" href="http://localhost:1313/photography/weddings/">
+    <div class="showcase">
+      
+      <img id="slideFront" class="slide" src="/images/uploads/casamento.jpg" alt="Showcase image">
+      <img id="slideBack"  class="slide" src="/images/uploads/batizado.jpg" alt="Showcase image">
+    </div>
+
+    
+    <nav class="categories-list">
+      <ul>
+      
+        <li><a href="http://localhost:1313/photography/weddings/" class="pop-up-link">Casamentos</a></li>
+      
+        <li><a href="http://localhost:1313/photography/baptisms/" class="pop-up-link">Batizados</a></li>
+      
+        <li><a href="http://localhost:1313/photography/experiences/" class="pop-up-link">Experiências Fotográficas</a></li>
+      
+        <li><a href="http://localhost:1313/photography/editorial/" class="pop-up-link">Editorial</a></li>
+      
+        <li><a href="http://localhost:1313/photography/shows/" class="pop-up-link">Eventos</a></li>
+      
+        <li><a href="http://localhost:1313/photography/architecture/" class="pop-up-link">Arquitetura</a></li>
+      
+      </ul>
+    </nav>
+  </div>
+</div>
+
+
+<div class="md:hidden block h-full w-dvw mx-auto categories-container">
+  
+    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/photography/weddings/">
     <img
         class="object-cover min-w-full min-h-full"
         src="/images/uploads/casamento.jpg"
         alt="Thumbnail for Casamentos section.">
     <h1 class="category-title font-italiana-regular">Casamentos</h1>
 </a>
-    
-        <a class="category-thumbnail pop-up-link" href="http://localhost:1313/photography/baptisms/">
+  
+    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/photography/baptisms/">
     <img
         class="object-cover min-w-full min-h-full"
         src="/images/uploads/batizado.jpg"
         alt="Thumbnail for Batizados section.">
     <h1 class="category-title font-italiana-regular">Batizados</h1>
 </a>
-    
-        <a class="category-thumbnail pop-up-link" href="http://localhost:1313/photography/experiences/">
+  
+    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/photography/experiences/">
     <img
         class="object-cover min-w-full min-h-full"
         src="/images/uploads/familia.jpg"
         alt="Thumbnail for Experiências Fotográficas section.">
     <h1 class="category-title font-italiana-regular">Experiências Fotográficas</h1>
 </a>
-    
-        <a class="category-thumbnail pop-up-link" href="http://localhost:1313/photography/editorial/">
+  
+    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/photography/editorial/">
     <img
         class="object-cover min-w-full min-h-full"
         src="/images/uploads/campanha.jpg"
         alt="Thumbnail for Editorial section.">
     <h1 class="category-title font-italiana-regular">Editorial</h1>
 </a>
-    
-        <a class="category-thumbnail pop-up-link" href="http://localhost:1313/photography/shows/">
+  
+    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/photography/shows/">
     <img
         class="object-cover min-w-full min-h-full"
         src="/images/uploads/mandarins.jpg"
         alt="Thumbnail for Eventos section.">
     <h1 class="category-title font-italiana-regular">Eventos</h1>
 </a>
-    
-        <a class="category-thumbnail pop-up-link" href="http://localhost:1313/photography/architecture/">
+  
+    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/photography/architecture/">
     <img
         class="object-cover min-w-full min-h-full"
         src="/images/uploads/escadas.jpg"
         alt="Thumbnail for Arquitetura section.">
     <h1 class="category-title font-italiana-regular">Arquitetura</h1>
 </a>
-    
+  
 </div>
+
+
+<script>
+  
+  const thumbnails_str ="[\"/images/uploads/casamento.jpg\",\"/images/uploads/batizado.jpg\",\"/images/uploads/familia.jpg\",\"/images/uploads/campanha.jpg\",\"/images/uploads/mandarins.jpg\",\"/images/uploads/escadas.jpg\"]";
+  const thumbnails_array = JSON.parse(thumbnails_str);
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const front = document.getElementById('slideFront');
+    const back  = document.getElementById('slideBack');
+    let current = 0;
+    const duration = 5000;    
+    const fadeTime = 1000;    
+
+    setInterval(() => {
+      const next = (current + 1) % thumbnails_array.length;
+      back.src = thumbnails_array[next];
+      back.style.opacity = 1;
+      front.style.opacity = 0;
+
+      
+      setTimeout(() => {
+        front.src = thumbnails_array[next];
+        front.style.opacity = 1;
+        back.style.opacity = 0;
+        current = next;
+      }, fadeTime);
+    }, duration);
+  });
+</script>
 
 <a id="screen-effect" class="hidden"></a>
 <div id="pop-up" class="hidden">

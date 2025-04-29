@@ -1490,11 +1490,11 @@ html {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-  @media (min-width: 640px){
-  .sm\:block{
+  @media (min-width: 768px){
+  .md\:block{
     display: block;
   }
-  .sm\:hidden{
+  .md\:hidden{
     display: none;
   }
 }

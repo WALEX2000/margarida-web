@@ -1,10 +1,68 @@
 {{ define "main" }}
+{{/* grab and sort your pages once */}}
 {{- $sortedPages := .Pages.ByParam "order" }}
-<div class="h-full w-dvw mx-auto categories-container">
-    {{ range (.Paginate $sortedPages).Pages }}
-        {{ .Render "li"}}
-    {{ end }}
+
+<!-- desktop version -->
+<div class="md:block hidden h-full w-dvw mx-auto">
+  <div class="categories-showcase">
+    <!-- LEFT: cross-fade slideshow container -->
+    <div class="showcase">
+      <!-- we'll swap these two back and forth -->
+      <img id="slideFront" class="slide" src="{{ (index $sortedPages 0).Params.thumbnail }}" alt="Showcase image">
+      <img id="slideBack"  class="slide" src="{{ (index $sortedPages 1).Params.thumbnail }}" alt="Showcase image">
+    </div>
+
+    <!-- RIGHT: static list of all categories -->
+    <nav class="categories-list">
+      <ul>
+      {{ range $sortedPages }}
+        <li><a href="{{ .Permalink }}" class="pop-up-link">{{ .Title }}</a></li>
+      {{ end }}
+      </ul>
+    </nav>
+  </div>
 </div>
+
+<!-- mobile version -->
+<div class="md:hidden block h-full w-dvw mx-auto categories-container">
+  {{ range (.Paginate $sortedPages).Pages }}
+    {{ .Render "li"}}
+  {{ end }}
+</div>
+
+<!-- inline data + include your external JS -->
+<script>
+  // build a JS array of all thumbnails
+  const thumbnails_str = {{- $thumbs := slice -}}
+  {{- range $sortedPages -}}
+    {{- $thumbs = $thumbs | append (print .Params.thumbnail) -}}
+  {{- end -}}
+  {{- $thumbs | jsonify }};
+  const thumbnails_array = JSON.parse(thumbnails_str);
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const front = document.getElementById('slideFront');
+    const back  = document.getElementById('slideBack');
+    let current = 0;
+    const duration = 5000;    // ms between switches
+    const fadeTime = 1000;    // CSS transition time
+
+    setInterval(() => {
+      const next = (current + 1) % thumbnails_array.length;
+      back.src = thumbnails_array[next];
+      back.style.opacity = 1;
+      front.style.opacity = 0;
+
+      // after fadeTime, swap roles
+      setTimeout(() => {
+        front.src = thumbnails_array[next];
+        front.style.opacity = 1;
+        back.style.opacity = 0;
+        current = next;
+      }, fadeTime);
+    }, duration);
+  });
+</script>
 
 <a id="screen-effect" class="hidden"></a>
 <div id="pop-up" class="hidden">
