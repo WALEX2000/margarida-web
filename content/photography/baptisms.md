@@ -21,3 +21,23 @@ O dia tende a repartir-se em três partes.\
 A primeira, mais intimista, é a preparação em casa, com a família, padrinhos e amigos mais próximos. Depois, o momento de celebração, por norma a fase mais emotiva de todo o dia e, por último, a festa!\
 Nem todos os pais ou familiares desejam que todo o processo seja registado em fotografia, de modo que o meu papel neste dia é ajustado a cada vontade.
 </section>
+
+![](/images/uploads/batizado-web_3.jpg)
+
+
+
+![](/images/uploads/batizado-web.jpg)
+
+![](/images/uploads/batizado-web_5.jpg)
+
+![](/images/uploads/batizado-web_11.jpg)
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
