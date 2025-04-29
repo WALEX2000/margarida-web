@@ -206,48 +206,76 @@
   
 </div>
 
-
 <script>
   
   const thumbnails_str ="[\"/images/uploads/casamento.jpg\",\"/images/uploads/batizado.jpg\",\"/images/uploads/familia.jpg\",\"/images/uploads/campanha.jpg\",\"/images/uploads/mandarins.jpg\",\"/images/uploads/escadas.jpg\"]";
-  const thumbnails_array = JSON.parse(thumbnails_str);
+  const thumbnails = JSON.parse(thumbnails_str);
 
   window.addEventListener('DOMContentLoaded', () => {
-    const frontLeft = document.getElementById('slideFrontLeft');
-    const backLeft  = document.getElementById('slideBackLeft');
-    const frontRight = document.getElementById('slideFrontRight');
-    const backRight  = document.getElementById('slideBackRight');
-    let currentLeft = 0;
-    let currentRight = 1;
-    const duration = 5000;    
-    const fadeTime = 1000;    
+    
+    let layersL = [
+      document.getElementById('slideFrontLeft'),
+      document.getElementById('slideBackLeft')
+    ];
+    let layersR = [
+      document.getElementById('slideFrontRight'),
+      document.getElementById('slideBackRight')
+    ];
+
+    
+    let idxL = 0;
+    let idxR = 1;
+
+    const duration = 10000;   
+    const fadeTime = 1500;   
+
+    
+    [...layersL, ...layersR].forEach(img => {
+      img.style.transitionDuration = fadeTime + 'ms';
+    });
+
+    
+    function crossFade(layers, nextIdx, updateIndexFn) {
+      const [visible, hidden] = layers;
+      const url = thumbnails[nextIdx];
+
+      
+      const tmp = new Image();
+      tmp.src = url;
+      tmp.onload = () => {
+        hidden.src = url;
+
+        
+        hidden.style.zIndex  = 20;
+        visible.style.zIndex = 10;
+        hidden.style.opacity  = 1;
+        visible.style.opacity = 0;
+
+        
+        setTimeout(() => {
+          
+          layers.unshift(layers.pop());
+
+          
+          layers[1].style.opacity = 0;
+
+          
+          updateIndexFn(nextIdx);
+        }, fadeTime);
+      };
+    }
 
     setInterval(() => {
-      const nextLeft = (currentLeft + 1) % thumbnails_array.length;
-      backLeft.src = thumbnails_array[nextLeft];
-      backLeft.style.opacity = 1;
-      frontLeft.style.opacity = 0;
+      
+      const nextL = (idxL + 1) % thumbnails.length;
+      crossFade(layersL, nextL, newIdx => { idxL = newIdx; });
 
+      
       setTimeout(() => {
-        frontLeft.src = thumbnails_array[nextLeft];
-        frontLeft.style.opacity = 1;
-        backLeft.style.opacity = 0;
-        currentLeft = nextLeft;
-      }, fadeTime);
+        const nextR = (idxR + 1) % thumbnails.length;
+        crossFade(layersR, nextR, newIdx => { idxR = newIdx; });
+      }, duration / 2);
 
-      setTimeout(() => {
-        const nextRight = (currentRight + 1) % thumbnails_array.length;
-        backRight.src = thumbnails_array[nextRight];
-        backRight.style.opacity = 1;
-        frontRight.style.opacity = 0;
-
-        setTimeout(() => {
-          frontRight.src = thumbnails_array[nextRight];
-          frontRight.style.opacity = 1;
-          backRight.style.opacity = 0;
-          currentRight = nextRight;
-        }, fadeTime);
-      }, 3000);
     }, duration);
   });
 </script>

@@ -62,7 +62,6 @@
   {{ end }}
 </div>
 
-<!-- inline data + include your external JS -->
 <script>
   // build a JS array of all thumbnails
   const thumbnails_str = {{- $thumbs := slice -}}
@@ -70,44 +69,73 @@
     {{- $thumbs = $thumbs | append (print .Params.thumbnail) -}}
   {{- end -}}
   {{- $thumbs | jsonify }};
-  const thumbnails_array = JSON.parse(thumbnails_str);
+  const thumbnails = JSON.parse(thumbnails_str);
 
   window.addEventListener('DOMContentLoaded', () => {
-    const frontLeft = document.getElementById('slideFrontLeft');
-    const backLeft  = document.getElementById('slideBackLeft');
-    const frontRight = document.getElementById('slideFrontRight');
-    const backRight  = document.getElementById('slideBackRight');
-    let currentLeft = 0;
-    let currentRight = 1;
-    const duration = 5000;    // ms between switches
-    const fadeTime = 1000;    // CSS transition time
+    // grab both layers for left & right
+    let layersL = [
+      document.getElementById('slideFrontLeft'),
+      document.getElementById('slideBackLeft')
+    ];
+    let layersR = [
+      document.getElementById('slideFrontRight'),
+      document.getElementById('slideBackRight')
+    ];
+
+    // initial indices into thumbnails[]
+    let idxL = 0;
+    let idxR = 1;
+
+    const duration = 10000;   // ms between cycle starts
+    const fadeTime = 1500;   // longer fade (1.5s)
+
+    // override the CSS transition-duration on each image
+    [...layersL, ...layersR].forEach(img => {
+      img.style.transitionDuration = fadeTime + 'ms';
+    });
+
+    // cross-fade helper: layers = [visible, hidden], nextIdx = index to load
+    function crossFade(layers, nextIdx, updateIndexFn) {
+      const [visible, hidden] = layers;
+      const url = thumbnails[nextIdx];
+
+      // preload into the hidden layer
+      const tmp = new Image();
+      tmp.src = url;
+      tmp.onload = () => {
+        hidden.src = url;
+
+        // bring hidden above and fade in, fade out visible
+        hidden.style.zIndex  = 20;
+        visible.style.zIndex = 10;
+        hidden.style.opacity  = 1;
+        visible.style.opacity = 0;
+
+        // after fadeTime, swap the layer order & reset
+        setTimeout(() => {
+          // swap array order so hidden becomes new "visible"
+          layers.unshift(layers.pop());
+
+          // hide the now-back layer for next cycle
+          layers[1].style.opacity = 0;
+
+          // update the external index
+          updateIndexFn(nextIdx);
+        }, fadeTime);
+      };
+    }
 
     setInterval(() => {
-      const nextLeft = (currentLeft + 1) % thumbnails_array.length;
-      backLeft.src = thumbnails_array[nextLeft];
-      backLeft.style.opacity = 1;
-      frontLeft.style.opacity = 0;
+      // LEFT: compute next, cross-fade, then store new idx
+      const nextL = (idxL + 1) % thumbnails.length;
+      crossFade(layersL, nextL, newIdx => { idxL = newIdx; });
 
+      // RIGHT (staggered by half of duraation)
       setTimeout(() => {
-        frontLeft.src = thumbnails_array[nextLeft];
-        frontLeft.style.opacity = 1;
-        backLeft.style.opacity = 0;
-        currentLeft = nextLeft;
-      }, fadeTime);
+        const nextR = (idxR + 1) % thumbnails.length;
+        crossFade(layersR, nextR, newIdx => { idxR = newIdx; });
+      }, duration / 2);
 
-      setTimeout(() => {
-        const nextRight = (currentRight + 1) % thumbnails_array.length;
-        backRight.src = thumbnails_array[nextRight];
-        backRight.style.opacity = 1;
-        frontRight.style.opacity = 0;
-
-        setTimeout(() => {
-          frontRight.src = thumbnails_array[nextRight];
-          frontRight.style.opacity = 1;
-          backRight.style.opacity = 0;
-          currentRight = nextRight;
-        }, fadeTime);
-      }, 3000);
     }, duration);
   });
 </script>
