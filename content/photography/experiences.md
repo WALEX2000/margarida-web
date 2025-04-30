@@ -2,7 +2,7 @@
 title: família e amor próprio
 description: Fotografia individual, de casal, de família, gradivez, etc.
 thumbnail: /images/uploads/ju.jpg
-order: 1
+order: 2
 ---
 
 <section class="section-top-aligned">
