@@ -1,10 +1,10 @@
-<div class="header-color h-16 w-dvw flex items-center justify-start sticky left-0">
+<div class="header-color h-16 w-dvw flex items-center justify-start sticky left-0 top-0 z-40">
     {{ $logo := resources.Get "images/logos/curto_branco.png" }}
     <a class="h-2/3 w-auto ml-4" href="{{ .Site.BaseURL }}">
         <img src="{{ $logo.Permalink }}" class="h-full w-auto" alt="My logo!">
     </a>
 
-    <nav class="ml-auto mr-4 flex items-center space-x-4">
+    <nav class="hidden md:flex ml-auto mr-4 items-center space-x-4">
         {{ if eq .Section "architecture"}}
           <a class="header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/architecture">Arquitetura</a>
         {{ else }}
@@ -21,7 +21,50 @@
           <a class="header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
         {{ end }}
     </nav>
+
+    <!-- hamburger mobile nav button -->
+    <button id="mobile-menu-button" class="block md:hidden ml-auto p-4">
+        <span class="block w-6 h-0.5 bg-white mb-1"></span>
+        <span class="block w-6 h-0.5 bg-white mb-1"></span>
+        <span class="block w-6 h-0.5 bg-white"></span>
+    </button>
 </div>
+
+<!-- mobile menu panel -->
+<nav id="mobile-menu" class="absolute top-full left-0 w-full bg-black bg-opacity-70 z-30 transform -translate-y-[calc(100%_+_4rem)] transition-transform duration-300 md:hidden">
+    <ul class="mt-4 mb-4 space-y-4 px-6">
+      <!-- Arquitetura -->
+      <details class="text-white">
+        <summary class="cursor-pointer font-italiana-regular text-xl">Arquitetura</summary>
+        <ul class="mt-2 ml-4 space-y-1">
+          {{ range where .Site.RegularPages "Section" "architecture" }}
+            <li><a href="{{ .Permalink }}" class="block text-lg hover:underline">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </details>
+      <!-- Fotografia -->
+      <details class="text-white">
+        <summary class="cursor-pointer font-italiana-regular text-xl">Fotografia</summary>
+        <ul class="mt-2 ml-4 space-y-1">
+          {{ range where .Site.RegularPages "Section" "photography" }}
+            <li><a href="{{ .Permalink }}" class="block text-lg hover:underline">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </details>
+      <!-- Sobre Mim -->
+      <li>
+        <a href="{{ .Site.BaseURL }}#about" class="block text-white font-italiana-regular text-xl hover:underline">Sobre Mim</a>
+      </li>
+    </ul>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('mobile-menu-button');
+    const menu = document.getElementById('mobile-menu');
+    btn.addEventListener('click', () => menu.classList.toggle('-translate-y-[calc(100%_+_4rem)]'));
+});
+</script>
 
 
     {{/* TODO: Remove this when I have the contacts elsewhere */}}
