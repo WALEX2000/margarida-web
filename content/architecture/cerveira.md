@@ -1,13 +1,14 @@
 ---
 title: caminho dos paraísos
 description: Projeto de Cerveira
-thumbnail: /images/uploads/10-sem-fundo-preto.jpg
+thumbnail: /images/uploads/10-sem-fundo-preto-copy2.webp
 order: 1
 ---
 
 <section class="section-bottom-aligned">
 
 2024 - atualidade | Estudos preliminares Habitação Unifamiliar
+\
 Portugal | Vila Nova de Cerveira
 </section>
 
@@ -17,9 +18,9 @@ Localizado numa encosta, este projeto pretende criar uma conexão entre interior
 
 </section>
 
-![]()
+![](/images/uploads/20250107moradia-única-tiff-copy.webp)
 
-![]()
+![](/images/uploads/pip-10-dragged-copy.webp)
 
 <section class="section-undefined-aligned">
 
@@ -27,6 +28,6 @@ A distribuição proposta contribui para uma enorme flexibilidade. Esta opção 
 
 </section>
 
-![]()
+![](/images/uploads/pip-8-dragged-copy.webp)
 
-![]()
+![](/images/uploads/pip-tiff-12-dragged-copy.webp)
