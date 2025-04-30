@@ -4,17 +4,11 @@ draft: false
 ---
 
 
-![](/images/uploads/4q8a2311.jpg)
-
-
-<section class="section-undefined-aligned">
-
-Olá!\
-\
-Que bom ver-te por cá!
-</section>
-
 ![](/images/uploads/4q8a1910.jpg)
+
+
+
+![](/images/uploads/4q8a2311.jpg)
 
 Olá, eu sou a Panducha!\
 \
