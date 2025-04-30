@@ -7,9 +7,12 @@ order: 1
 
 <section class="section-bottom-aligned">
 
+
+
 2024 - atualidade | Estudos preliminares Habitação Unifamiliar
 \
 Portugal | Vila Nova de Cerveira
+
 </section>
 
 <section class="section-undefined-aligned">
@@ -30,4 +33,4 @@ A distribuição proposta contribui para uma enorme flexibilidade. Esta opção 
 
 ![](/images/uploads/pip-8-dragged-copy.webp)
 
-![](/images/uploads/pip-tiff-12-dragged-copy.webp)
+![](/images/uploads/13-copy.webp)
