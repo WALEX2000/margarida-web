@@ -37,6 +37,8 @@ Procuro o detalhe, os toques suaves e os sorrisos tímidos, porque acredito os s
 
 </section>
 
+![](/images/uploads/4q8a2500.jpg)
+
 ![Margarida](/images/margarida_drawing.png)
 
 
