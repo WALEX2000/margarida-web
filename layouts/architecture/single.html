@@ -1,22 +1,10 @@
 {{ define "main" }}
-<div id="background_page" class="h-full w-dvw mx-auto categories-container">
-    {{ $related := where .Site.RegularPages "Section" "architecture" }}
-    {{ $sortedPages := $related.ByParam "order" }}
-    {{ range $sortedPages }}
-        {{ .Render "li"}}
-    {{ end }}
-</div>
-
-<a id="screen-effect" href=".."></a>
-
-<div id="pop-up overflow-x-scroll">
-    <div id="content_wrapper">
-        <img id="cover_image" src="{{ .Params.thumbnail }}" alt="{{ .Title }} cover image." class="h-full object-cover">
-        <div id="content_box">
-            <p id="page_title" class="font-italiana-regular">{{ .Title | upper }}</p>
-            <div id="content_container" class="min-h-0">
-                {{ partial "content" . }}
-            </div>
+<div id="pop-up">
+    <div id="content_box">
+        <p id="page_title" class="source-serif-4">{{ .Title | upper }}</p>
+        <div id="content_container" class="min-h-0">
+            <img src="{{ .Params.thumbnail }}" alt="{{ .Title }} cover image.">
+            {{ partial "content" . }}
         </div>
     </div>
 </div>
