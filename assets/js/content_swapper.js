@@ -78,13 +78,17 @@ screen_effect_element.addEventListener('click', function() {
 function loadModalFromHash() {
     const section = window.location.hash.replace('#', '');
     const link = document.querySelector(`a.pop-up-link[href*="${section}"`);
+    
     if (link) {
-        link.dispatchEvent(new Event('click'));
+        link.click();
     }
 }
 
-if (window.location.hash) {
-	loadModalFromHash();
-}
-window.addEventListener('hashchange', loadModalFromHash);
-
+document.addEventListener('DOMContentLoaded', () => {
+    if (window.location.hash) {
+      loadModalFromHash();
+    }
+  
+    // keep your existing hashchange listener, too
+    window.addEventListener('hashchange', loadModalFromHash);
+});
