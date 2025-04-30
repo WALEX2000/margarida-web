@@ -78,37 +78,187 @@
     </header>
     <main id="main" class="flex-grow min-h-0 relative">
       
-<div class="h-full w-dvw mx-auto categories-container">
+
+
+
+<div class="md:block hidden h-full w-dvw mx-auto">
+  <div class="grid grid-cols-4 h-screen mx-auto max-w-screen-2xl">
+
     
-        <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/cerveira/">
+    <div class="col-span-3 flex justify-center items-center relative">
+      <div class="w-2/5 mx-3 relative aspect-[3/4]">
+        
+        <img
+          id="slideFrontLeft"
+          class="slide absolute inset-0 w-full h-full object-cover z-20 transition-opacity ease-in-out"
+          src="/images/uploads/cervo.jpg"
+          alt="Showcase image"
+        >
+        
+        <img
+          id="slideBackLeft"
+          class="slide absolute inset-0 w-full h-full object-cover opacity-0 z-10 transition-opacity ease-in-out"
+          src="/images/uploads/cerveira.jpg"
+          alt="Background showcase image"
+        >
+      </div>
+      <div class="w-2/5 mx-3 relative aspect-[3/4]">
+        <img
+          id="slideFrontRight"
+          class="slide absolute inset-0 w-full h-full object-cover z-20 transition-opacity ease-in-out"
+          src="/images/uploads/cerveira.jpg"
+          alt="Showcase image"
+        >
+        <img
+          id="slideBackRight"
+          class="slide absolute inset-0 w-full h-full object-cover opacity-0 z-10 transition-opacity ease-in-out"
+          src="/images/uploads/blind.jpg"
+          alt="Background showcase image"
+        >
+      </div>
+    </div>
+
+    
+    <nav class="col-span-1 flex h-screen flex-col justify-center items-start ml-8">
+      <h2 class="w-3/5 roboto-bold mb-5 pb-5 border-b border-gray-400">Ana Margardia Calheiros</h2>
+      <ul class="w-3/5 space-y-1">
+        
+        <li>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/cerveira/">Cerveira</a>
+        </li>
+        
+        <li>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/test/">Test</a>
+        </li>
+        
+        <li>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/tese/">Tese</a>
+        </li>
+        
+        <li>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/viana/">Apartamento Viana</a>
+        </li>
+        
+      </ul>
+      <p class="w-3/5 roboto-regular mt-5 pt-5 border-t border-gray-400">Contact Me Info: ...</p>
+    </nav>
+  </div>
+</div>
+
+
+
+<div class="md:hidden block h-full w-dvw mx-auto categories-container">
+  
+    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/cerveira/">
     <img
         class="object-cover min-w-full min-h-full"
         src="/images/uploads/cervo.jpg"
         alt="Thumbnail for Cerveira section.">
 </a>
-    
-        <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/test/">
+  
+    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/test/">
     <img
         class="object-cover min-w-full min-h-full"
         src="/images/uploads/cerveira.jpg"
         alt="Thumbnail for Test section.">
 </a>
-    
-        <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/tese/">
+  
+    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/tese/">
     <img
         class="object-cover min-w-full min-h-full"
         src="/images/uploads/blind.jpg"
         alt="Thumbnail for Tese section.">
 </a>
-    
-        <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/viana/">
+  
+    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/viana/">
     <img
         class="object-cover min-w-full min-h-full"
         src="/images/uploads/viana.jpg"
         alt="Thumbnail for Apartamento Viana section.">
 </a>
-    
+  
 </div>
+
+<script>
+  
+  const thumbnails_str ="[\"/images/uploads/cervo.jpg\",\"/images/uploads/cerveira.jpg\",\"/images/uploads/blind.jpg\",\"/images/uploads/viana.jpg\"]";
+  const thumbnails = JSON.parse(thumbnails_str);
+
+  window.addEventListener('DOMContentLoaded', () => {
+    
+    let layersL = [
+      document.getElementById('slideFrontLeft'),
+      document.getElementById('slideBackLeft')
+    ];
+    let layersR = [
+      document.getElementById('slideFrontRight'),
+      document.getElementById('slideBackRight')
+    ];
+
+    
+    let idxL = 0;
+    let idxR = Math.floor(thumbnails.length / 2);
+
+    const duration = 6000;   
+    const fadeTime = 1250;    
+
+    
+    [...layersL, ...layersR].forEach(img => {
+      img.style.transitionDuration = fadeTime + 'ms';
+    });
+
+    
+    function crossFade(layers, nextIdx, updateIndexFn) {
+      const [visible, hidden] = layers;
+      const url = thumbnails[nextIdx];
+
+      
+      const tmp = new Image();
+      tmp.src = url;
+      tmp.onload = () => {
+        hidden.src = url;
+
+        
+        hidden.style.zIndex  = 20;
+        visible.style.zIndex = 10;
+        hidden.style.opacity  = 1;
+        visible.style.opacity = 0;
+
+        
+        setTimeout(() => {
+          
+          layers.unshift(layers.pop());
+
+          
+          layers[1].style.opacity = 0;
+
+          
+          updateIndexFn(nextIdx);
+        }, fadeTime);
+      };
+    }
+
+    
+    function startCycle() {
+      
+      const nextL = (idxL + 1) % thumbnails.length;
+      crossFade(layersL, nextL, newIdx => { idxL = newIdx; });
+
+      
+      setTimeout(() => {
+        const nextR = (idxR + 1) % thumbnails.length;
+        crossFade(layersR, nextR, newIdx => { idxR = newIdx; });
+      }, duration / 2);
+    }
+
+    
+    setTimeout(() => {
+      startCycle();
+      setInterval(startCycle, duration);
+    }, duration / 2);
+  });
+</script>
+
 
 <a id="screen-effect" class="hidden"></a>
 <div id="pop-up" class="hidden">
