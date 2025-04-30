@@ -26,3 +26,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", allow_multiple: False}
       - {label: "Display Order", name: "order", widget: "number", default: 0, value_type: "int"}
+  - name: "about"
+    label: "About Page"
+    files:
+      - {name: "about", label: "About Page", file: "content/about.md", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Body", name: "body", widget: "markdown"}]} # The path to the about page file
+    create: true # Allow users to create or edit the about page
+
