@@ -93,7 +93,6 @@ function onHashChange() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    // initial check
     if (window.location.hash) {
       loadModalFromHash();
     }

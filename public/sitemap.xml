@@ -20,8 +20,6 @@
   </url><url>
     <loc>http://localhost:1313/photography/editorial/</loc>
   </url><url>
-    <loc>http://localhost:1313/architecture/tese/</loc>
-  </url><url>
     <loc>http://localhost:1313/photography/experiences/</loc>
   </url><url>
     <loc>http://localhost:1313/architecture/test/</loc>
@@ -29,6 +27,8 @@
     <loc>http://localhost:1313/</loc>
   </url><url>
     <loc>http://localhost:1313/architecture/in-between/</loc>
+  </url><url>
+    <loc>http://localhost:1313/architecture/tese/</loc>
   </url><url>
     <loc>http://localhost:1313/photography/</loc>
   </url><url>

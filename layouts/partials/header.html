@@ -1,26 +1,28 @@
 <div class="header-color h-16 w-dvw flex items-center justify-start sticky left-0">
     {{ $logo := resources.Get "images/logos/curto_branco.png" }}
-    <a class="h-2/3 w-auto ml-4 mr-2" href="{{ .Site.BaseURL }}">
+    <a class="h-2/3 w-auto ml-4" href="{{ .Site.BaseURL }}">
         <img src="{{ $logo.Permalink }}" class="h-full w-auto" alt="My logo!">
     </a>
 
-    {{ if eq .Section "architecture"}}
-        <a class="px-4 header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/architecture">Arquitetura</a>
-    {{ else }}
-        <a class="px-4 header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/architecture">Arquitetura</a>
-    {{ end }}
-    
-    {{ if eq .Section "photography"}}
-        <a class="px-4 header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/photography">Fotografia</a>
-    {{ else }}
-        <a class="px-4 header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/photography">Fotografia</a>
-    {{ end }}
-    
-    {{ if eq .Title "About Me"}}
-        <a class="px-4 header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
-    {{ else }}
-        <a class="px-4 header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
-    {{ end }}
+    <nav class="ml-auto mr-4 flex items-center space-x-4">
+        {{ if eq .Section "architecture"}}
+          <a class="header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/architecture">Arquitetura</a>
+        {{ else }}
+          <a class="header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/architecture">Arquitetura</a>
+        {{ end }}
+        {{ if eq .Section "photography"}}
+          <a class="header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/photography">Fotografia</a>
+        {{ else }}
+          <a class="header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/photography">Fotografia</a>
+        {{ end }}
+        {{ if eq .Title "About Me"}}
+          <a class="header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
+        {{ else }}
+          <a class="header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
+        {{ end }}
+    </nav>
+</div>
+
 
     {{/* TODO: Remove this when I have the contacts elsewhere */}}
     {{/*  <div class="contact-me flex">
@@ -34,4 +36,3 @@
             <img src="{{ $insta.Permalink }}" alt="Instagram">
         </a>
     </div>  */}}
-</div>
