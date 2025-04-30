@@ -1,7 +1,7 @@
 ---
 title: in between
 thumbnail: /images/uploads/_dsc0109.png
-order: 0
+order: 3
 ---
 
 <section class="section-undefined-aligned">
