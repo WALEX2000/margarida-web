@@ -15,7 +15,7 @@ Portugal | Viana do Castelo\
 </section>
 
 
-<section class="section-undefined-aligned">
+<section class="section-center-aligned">
 
 Experienciar o espaço é uma viagem. Experienciar o espaço é percorrer um caminho mentalmente apreendido que se forma e desvanece a cada passo num jogo entre a consciência e a subconsciência dos sentidos que originam a sua apropriação. No entanto, a singularidade de cada indivíduo implica que essa viagem seja diferente para todos.\
 \
@@ -27,7 +27,7 @@ A experiência do espaço é dependente de estímulos consecutivos que atuam tan
 ![]()
 
 
-<section class="section-undefined-aligned">
+<section class="section-center-aligned">
 
 A atividade realizou-se no Centro Cultural de Viana do Castelo, projetado por Eduardo Souto de Moura. Aqui, estudantes de arquitetura tiveram oportunidade de simular a cegueira através da utilização de vendas e percorrer o espaço arquitetónico com técnicas de guia e bengala branca.\
 \
