@@ -60,18 +60,18 @@ function openModal() {
 	} 
 }
 
-  
-screen_effect_element.addEventListener('click', function() {
+function closeModal() {
     screen_effect_element.classList.add('hidden');
     pop_up_element.classList.add('hidden');
+    history.replaceState({}, '', window.location.pathname);
     
-    const currentURL = window.location.href;
-    const newURL = currentURL.split('#')[0];
-    window.history.replaceState({}, '', newURL);
+    // TODO: Remove specific logic for about me
+    const aboutMeLink = document.querySelector('a.header-link[href$="#about"]');
+    if (aboutMeLink) aboutMeLink.classList.remove('header-link-current');
+}  
 
-	// TODO: Remove specific logic for about me
-	const aboutMeLink = document.querySelector('a.header-link[href$="#about"]');
-	aboutMeLink.classList.remove('header-link-current');
+screen_effect_element.addEventListener('click', function() {
+    closeModal();
 });
 
 // Load the modal if the user navigates directly to a url with the format #<section>
@@ -84,11 +84,24 @@ function loadModalFromHash() {
     }
 }
 
+function onHashChange() {
+    if (window.location.hash) {
+      loadModalFromHash();
+    } else {
+      closeModal();
+    }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+    // initial check
     if (window.location.hash) {
       loadModalFromHash();
     }
   
-    // keep your existing hashchange listener, too
-    window.addEventListener('hashchange', loadModalFromHash);
+    window.addEventListener('hashchange', onHashChange);
+    window.addEventListener('popstate', () => {
+      if (window.location.hash) loadModalFromHash();
+      else closeModal();
+    });
 });
+  
