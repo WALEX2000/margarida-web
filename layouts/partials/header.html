@@ -15,10 +15,15 @@
         {{ else }}
           <a class="header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/photography">Fotografia</a>
         {{ end }}
-        {{ if eq .Title "About Me"}}
+        {{ if eq .Title "Sobre Mim"}}
           <a class="header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
         {{ else }}
           <a class="header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
+        {{ end }}
+        {{ if eq .Title "Contactos"}}
+          <a class="header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#contacts">Contactos</a>
+        {{ else }}
+          <a class="header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#contacts">Contactos</a>
         {{ end }}
     </nav>
 
@@ -53,7 +58,10 @@
       </details>
       <!-- Sobre Mim -->
       <li>
-        <a href="{{ .Site.BaseURL }}#about" class="block text-white font-italiana-regular text-xl hover:underline">Sobre Mim</a>
+        <a href="{{ .Site.BaseURL }}about" class="block text-white font-italiana-regular text-xl hover:underline">Sobre Mim</a>
+      </li>
+      <li>
+        <a href="{{ .Site.BaseURL }}contacts" class="block text-white font-italiana-regular text-xl hover:underline">Contactos</a>
       </li>
     </ul>
 </nav>

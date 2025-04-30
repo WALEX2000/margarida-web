@@ -70,6 +70,9 @@
         
           <a class="header-link text-white font-italiana-regular text-xl" href="http://localhost:1313/#about">Sobre Mim</a>
         
+        
+          <a class="header-link text-white font-italiana-regular text-xl" href="http://localhost:1313/#contacts">Contactos</a>
+        
     </nav>
 
     
@@ -119,7 +122,10 @@
       </details>
       
       <li>
-        <a href="http://localhost:1313/#about" class="block text-white font-italiana-regular text-xl hover:underline">Sobre Mim</a>
+        <a href="http://localhost:1313/about" class="block text-white font-italiana-regular text-xl hover:underline">Sobre Mim</a>
+      </li>
+      <li>
+        <a href="http://localhost:1313/contacts" class="block text-white font-italiana-regular text-xl hover:underline">Contactos</a>
       </li>
     </ul>
 </nav>
@@ -151,14 +157,14 @@ document.addEventListener('DOMContentLoaded', () => {
         <img
           id="slideFrontLeft"
           class="slide absolute inset-0 w-full h-full object-cover z-20 transition-opacity ease-in-out"
-          src="/images/uploads/_dsc0109.png"
+          src="/images/uploads/10-sem-fundo-preto.jpg"
           alt="Showcase image"
         >
         
         <img
           id="slideBackLeft"
           class="slide absolute inset-0 w-full h-full object-cover opacity-0 z-10 transition-opacity ease-in-out"
-          src="/images/uploads/10-sem-fundo-preto.jpg"
+          src="/images/uploads/cerveira.jpg"
           alt="Background showcase image"
         >
       </div>
@@ -166,13 +172,13 @@ document.addEventListener('DOMContentLoaded', () => {
         <img
           id="slideFrontRight"
           class="slide absolute inset-0 w-full h-full object-cover z-20 transition-opacity ease-in-out"
-          src="/images/uploads/cerveira.jpg"
+          src="/images/uploads/viana.jpg"
           alt="Showcase image"
         >
         <img
           id="slideBackRight"
           class="slide absolute inset-0 w-full h-full object-cover opacity-0 z-10 transition-opacity ease-in-out"
-          src="/images/uploads/percurso-a%cc%80s-escuras_26.jpg"
+          src="/images/uploads/_dsc0109.png"
           alt="Background showcase image"
         >
       </div>
@@ -184,10 +190,6 @@ document.addEventListener('DOMContentLoaded', () => {
       <ul class="w-3/5 space-y-1">
         
         <li>
-          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/in-between/">in between</a>
-        </li>
-        
-        <li>
           <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/cerveira/">caminho dos paraísos</a>
         </li>
         
@@ -196,11 +198,15 @@ document.addEventListener('DOMContentLoaded', () => {
         </li>
         
         <li>
-          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/tese/">percurso às escuras</a>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/viana/">apartamento galiza</a>
         </li>
         
         <li>
-          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/viana/">apartamento galiza</a>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/in-between/">in between</a>
+        </li>
+        
+        <li>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/tese/">percurso às escuras</a>
         </li>
         
       </ul>
@@ -212,13 +218,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 <div class="md:hidden block h-full w-dvw mx-auto categories-container">
-  
-    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/in-between/">
-    <img
-        class="object-cover min-w-full min-h-full"
-        src="/images/uploads/_dsc0109.png"
-        alt="Thumbnail for in between section.">
-</a>
   
     <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/cerveira/">
     <img
@@ -234,13 +233,6 @@ document.addEventListener('DOMContentLoaded', () => {
         alt="Thumbnail for habitar a luz section.">
 </a>
   
-    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/tese/">
-    <img
-        class="object-cover min-w-full min-h-full"
-        src="/images/uploads/percurso-a%cc%80s-escuras_26.jpg"
-        alt="Thumbnail for percurso às escuras section.">
-</a>
-  
     <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/viana/">
     <img
         class="object-cover min-w-full min-h-full"
@@ -248,11 +240,25 @@ document.addEventListener('DOMContentLoaded', () => {
         alt="Thumbnail for apartamento galiza section.">
 </a>
   
+    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/in-between/">
+    <img
+        class="object-cover min-w-full min-h-full"
+        src="/images/uploads/_dsc0109.png"
+        alt="Thumbnail for in between section.">
+</a>
+  
+    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/tese/">
+    <img
+        class="object-cover min-w-full min-h-full"
+        src="/images/uploads/percurso-a%cc%80s-escuras_26.jpg"
+        alt="Thumbnail for percurso às escuras section.">
+</a>
+  
 </div>
 
 <script>
   
-  const thumbnails_str ="[\"/images/uploads/_dsc0109.png\",\"/images/uploads/10-sem-fundo-preto.jpg\",\"/images/uploads/cerveira.jpg\",\"/images/uploads/percurso-às-escuras_26.jpg\",\"/images/uploads/viana.jpg\"]";
+  const thumbnails_str ="[\"/images/uploads/10-sem-fundo-preto.jpg\",\"/images/uploads/cerveira.jpg\",\"/images/uploads/viana.jpg\",\"/images/uploads/_dsc0109.png\",\"/images/uploads/percurso-às-escuras_26.jpg\"]";
   const thumbnails = JSON.parse(thumbnails_str);
 
   window.addEventListener('DOMContentLoaded', () => {

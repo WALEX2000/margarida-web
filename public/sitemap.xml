@@ -18,6 +18,8 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/contacts/</loc>
+  </url><url>
     <loc>http://localhost:1313/photography/editorial/</loc>
   </url><url>
     <loc>http://localhost:1313/photography/experiences/</loc>

@@ -53,11 +53,19 @@ function openModal() {
     pop_up_element.classList.remove('hidden');
     screen_effect_element.classList.remove('hidden');
 
+
+    // TODO: Need to fix the header pop-ups because they are working due to a side-effect of having the pop-up links on the home page.
 	// TODO: Remove specific logic for about me
 	const aboutMeLink = document.querySelector('a.header-link[href$="#about"]');
-	if (window.location.hash === '#about' || link.href.endsWith('/about')) {
+	    if (window.location.hash === '#about' || window.location.pathname.endsWith('/about')) {
 		aboutMeLink.classList.add('header-link-current');
-	} 
+	}
+
+    // TODO: Remove specific logic for contact form
+    const contactFormLink = document.querySelector('a.header-link[href$="#contacts"]');
+    if (window.location.hash === '#contacts' || window.location.pathname.endsWith('/contacts')) {
+        contactFormLink.classList.add('header-link-current');
+    }
 }
 
 function closeModal() {
@@ -68,6 +76,10 @@ function closeModal() {
     // TODO: Remove specific logic for about me
     const aboutMeLink = document.querySelector('a.header-link[href$="#about"]');
     if (aboutMeLink) aboutMeLink.classList.remove('header-link-current');
+
+    // TODO: Remove specific logic for contact form
+    const contactFormLink = document.querySelector('a.header-link[href$="#contacts"]');
+    if (contactFormLink) contactFormLink.classList.remove('header-link-current');
 }  
 
 screen_effect_element.addEventListener('click', function() {
@@ -78,7 +90,6 @@ screen_effect_element.addEventListener('click', function() {
 function loadModalFromHash() {
     const section = window.location.hash.replace('#', '');
     const link = document.querySelector(`a.pop-up-link[href*="${section}"`);
-    
     if (link) {
         link.click();
     }

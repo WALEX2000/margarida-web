@@ -31,4 +31,9 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - {name: "about", label: "About Page", file: "content/about.md", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Body", name: "body", widget: "markdown"}]} # The path to the about page file
     create: true # Allow users to create or edit the about page
+  - name: "contacts"
+    label: "Contacts Page"
+    files:
+      - {name: "contacts", label: "Contacts Page", file: "content/contacts.md", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Body", name: "body", widget: "markdown"}]} # The path to the about page file
+    create: true # Allow users to create or edit the about page
 
