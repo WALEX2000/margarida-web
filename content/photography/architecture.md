@@ -1,6 +1,6 @@
 ---
-title: "Arquitetura"
-description: "Fotos de arquitetura e interiores."
+title: arquitetura
+description: Fotos de arquitetura e interiores.
 thumbnail: /images/uploads/escadas.jpg
 order: 6
 ---
