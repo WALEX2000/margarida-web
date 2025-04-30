@@ -2,7 +2,7 @@
 title: arquitetura
 description: Fotos de arquitetura e interiores.
 thumbnail: /images/uploads/paraíso-ago2024_21.webp
-order: 6
+order: 5
 ---
 
 <section class="section-bottom-aligned">
