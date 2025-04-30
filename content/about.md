@@ -1,8 +1,15 @@
 ---
-title: About Me
+title: sobre mim
 draft: false
 ---
-\
+
+
+![](/images/uploads/4q8a1910.jpg)
+
+
+
+![](/images/uploads/4q8a2311.jpg)
+
 Olá, eu sou a Panducha!\
 \
 Como vai o vosso dia?
@@ -30,13 +37,19 @@ Procuro o detalhe, os toques suaves e os sorrisos tímidos, porque acredito os s
 
 </section>
 
+![](/images/uploads/4q8a2500.jpg)
+
 ![Margarida](/images/margarida_drawing.png)
 
-<section>
+
+<section class="section-top-aligned">
+
+
 
 O processo e a presença de um fotógrafo num casamento não é igual para todos e a dinâmica é sempre estabelecida com os noivos.\
 É importante recordar que todas as cerimónias são diferentes e tudo que é o 'habitual' pode ser adaptado aos vossos gostos e ideias! No entanto, apresento-vos uma leve sequência de momentos e retratos de alguns dias especiais.\
 \
 No dia de casamento, fotografar a preparação do noivo e da noiva é um momento especial, porque os nervos começam a florescer e algumas lágrimas derramam-se ainda em casa. Captam-se alguns detalhes de vestuário e acessórios e as pessoas que lhes são mais próximas e que auxiliam nesta preparação.
+
 
 </section>
