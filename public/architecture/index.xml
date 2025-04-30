@@ -8,32 +8,46 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Apartamento Viana</title>
+      <title>apartamento galiza</title>
       <link>http://localhost:1313/architecture/viana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/architecture/viana/</guid>
       <description>&lt;p&gt;Renovação do Apartamento da Sofia&lt;/p&gt;&#xA;&lt;h6 id=&#34;heading&#34;&gt;&lt;/h6&gt;&#xA;&lt;p&gt;Mais colunas&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Cerveira</title>
+      <title>caminho dos paraísos</title>
       <link>http://localhost:1313/architecture/cerveira/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/architecture/cerveira/</guid>
-      <description>&lt;p&gt;Este projeto é muito fixe porque é o meu primeiro projeto.&lt;/p&gt;&#xA;&lt;h6 id=&#34;heading&#34;&gt;&lt;/h6&gt;&#xA;&lt;p&gt;Mais colunas&lt;/p&gt;</description>
+      <description>&lt;p&gt;Habitação Unifamiliar (2024 - atualidade)&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Tese</title>
+      <title>espaço mental no campo não visual</title>
       <link>http://localhost:1313/architecture/tese/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/architecture/tese/</guid>
       <description>&lt;p&gt;Esta tese foi super gira!&lt;/p&gt;&#xA;&lt;h6 id=&#34;heading&#34;&gt;&lt;/h6&gt;&#xA;&lt;p&gt;Mais colunas&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Test</title>
+      <title>habitar a luz</title>
       <link>http://localhost:1313/architecture/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/architecture/test/</guid>
       <description>&lt;p&gt;Isto é um teste simples.&lt;/p&gt;&#xA;&lt;p&gt;Estou a ver que vai ser um bocado de trabalho meter o rendering a funcionar direito aqui.&lt;/p&gt;&#xA;&lt;h1 id=&#34;dá-para-usar-os-estilos-diferentes-out-of-the-box&#34;&gt;Dá para usar os estilos diferentes out of the box&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Isso é bom&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mas faltam algumas coisas, &lt;strong&gt;como underline&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Também falta meter as column breaks&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/uploads/alex-compressed.jpeg&#34; alt=&#34;alex é lindo&#34; title=&#34;Alex&#34;&gt;&lt;p&gt;Mais texto&lt;/p&gt;&#xA;&lt;p&gt;só naquela de experimentar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>in between</title>
+      <link>http://localhost:1313/architecture/in-between/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/architecture/in-between/</guid>
+      <description>&lt;p&gt;projeto com a Alex&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rede</title>
+      <link>http://localhost:1313/architecture/rede/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/architecture/rede/</guid>
+      <description>&lt;p&gt;oi&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

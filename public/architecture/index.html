@@ -91,14 +91,14 @@
         <img
           id="slideFrontLeft"
           class="slide absolute inset-0 w-full h-full object-cover z-20 transition-opacity ease-in-out"
-          src="/images/uploads/cervo.jpg"
+          src="/images/uploads/_dsc0109.png"
           alt="Showcase image"
         >
         
         <img
           id="slideBackLeft"
           class="slide absolute inset-0 w-full h-full object-cover opacity-0 z-10 transition-opacity ease-in-out"
-          src="/images/uploads/cerveira.jpg"
+          src="/images/uploads/screenshot-2023-01-10-at-17.34.55.png"
           alt="Background showcase image"
         >
       </div>
@@ -106,13 +106,13 @@
         <img
           id="slideFrontRight"
           class="slide absolute inset-0 w-full h-full object-cover z-20 transition-opacity ease-in-out"
-          src="/images/uploads/cerveira.jpg"
+          src="/images/uploads/cervo.jpg"
           alt="Showcase image"
         >
         <img
           id="slideBackRight"
           class="slide absolute inset-0 w-full h-full object-cover opacity-0 z-10 transition-opacity ease-in-out"
-          src="/images/uploads/blind.jpg"
+          src="/images/uploads/cerveira.jpg"
           alt="Background showcase image"
         >
       </div>
@@ -124,19 +124,27 @@
       <ul class="w-3/5 space-y-1">
         
         <li>
-          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/cerveira/">Cerveira</a>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/in-between/">in between</a>
         </li>
         
         <li>
-          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/test/">Test</a>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/rede/">rede</a>
         </li>
         
         <li>
-          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/tese/">Tese</a>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/cerveira/">caminho dos paraísos</a>
         </li>
         
         <li>
-          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/viana/">Apartamento Viana</a>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/test/">habitar a luz</a>
+        </li>
+        
+        <li>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/tese/">espaço mental no campo não visual</a>
+        </li>
+        
+        <li>
+          <a class="text-lg hover:underline font-italiana-regular pop-up-link" href="http://localhost:1313/architecture/viana/">apartamento galiza</a>
         </li>
         
       </ul>
@@ -149,39 +157,53 @@
 
 <div class="md:hidden block h-full w-dvw mx-auto categories-container">
   
+    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/in-between/">
+    <img
+        class="object-cover min-w-full min-h-full"
+        src="/images/uploads/_dsc0109.png"
+        alt="Thumbnail for in between section.">
+</a>
+  
+    <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/rede/">
+    <img
+        class="object-cover min-w-full min-h-full"
+        src="/images/uploads/screenshot-2023-01-10-at-17.34.55.png"
+        alt="Thumbnail for rede section.">
+</a>
+  
     <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/cerveira/">
     <img
         class="object-cover min-w-full min-h-full"
         src="/images/uploads/cervo.jpg"
-        alt="Thumbnail for Cerveira section.">
+        alt="Thumbnail for caminho dos paraísos section.">
 </a>
   
     <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/test/">
     <img
         class="object-cover min-w-full min-h-full"
         src="/images/uploads/cerveira.jpg"
-        alt="Thumbnail for Test section.">
+        alt="Thumbnail for habitar a luz section.">
 </a>
   
     <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/tese/">
     <img
         class="object-cover min-w-full min-h-full"
         src="/images/uploads/blind.jpg"
-        alt="Thumbnail for Tese section.">
+        alt="Thumbnail for espaço mental no campo não visual section.">
 </a>
   
     <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/viana/">
     <img
         class="object-cover min-w-full min-h-full"
         src="/images/uploads/viana.jpg"
-        alt="Thumbnail for Apartamento Viana section.">
+        alt="Thumbnail for apartamento galiza section.">
 </a>
   
 </div>
 
 <script>
   
-  const thumbnails_str ="[\"/images/uploads/cervo.jpg\",\"/images/uploads/cerveira.jpg\",\"/images/uploads/blind.jpg\",\"/images/uploads/viana.jpg\"]";
+  const thumbnails_str ="[\"/images/uploads/_dsc0109.png\",\"/images/uploads/screenshot-2023-01-10-at-17.34.55.png\",\"/images/uploads/cervo.jpg\",\"/images/uploads/cerveira.jpg\",\"/images/uploads/blind.jpg\",\"/images/uploads/viana.jpg\"]";
   const thumbnails = JSON.parse(thumbnails_str);
 
   window.addEventListener('DOMContentLoaded', () => {
