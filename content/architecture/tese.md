@@ -2,7 +2,7 @@
 title: percurso às escuras
 description: Projeto da Tese
 thumbnail: /images/uploads/percurso-às-escuras_26.jpg
-order: 2
+order: 4
 ---
 
 <section class="section-bottom-aligned">
