@@ -8,13 +8,6 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;&lt;br&gt;&#xA;Olá, eu sou a Panducha!&lt;br&gt;&#xA;&lt;br&gt;&#xA;Como vai o vosso dia?&lt;/p&gt;&#xA;&lt;p&gt;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;strong&gt;E o meu papel no vosso dia?&lt;/strong&gt;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;Estou presente para documentar emoções e vivências de forma natural. Vou acompanhar-vos ao longo do dia e soltar algumas lágrimas tímidas por trás da câmera fotográfica que me esconde.&lt;br&gt;&#xA;&lt;br&gt;&#xA;Procuro o detalhe, os toques suaves e os sorrisos tímidos, porque acredito os sentimentos estão em todos os &lt;em&gt;nossos&lt;/em&gt; lugares. Prometo celebrar-vos nesse dia tão especial.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>apartamento galiza</title>
       <link>http://localhost:1313/architecture/viana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -40,7 +33,7 @@
       <link>http://localhost:1313/architecture/cerveira/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/architecture/cerveira/</guid>
-      <description>&lt;section class=&#34;section-bottom-aligned&#34;&gt;&#xA;&lt;p&gt;2024 - atualidade | Estudos preliminares Habitação Unifamiliar&#xA;Portugal | Vila Nova de Cerveira&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section class=&#34;section-undefined-aligned&#34;&gt;&#xA;&lt;p&gt;Localizado numa encosta, este projeto pretende criar uma conexão entre interior e exterior entre a habitação e a sua envolvente natural. O volume articula-se entre sobreiros e desníveis, o que originou uma segmentação que permite que todos os espaços desfrutem de vistas desimpedidas para o exterior.&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;img src=&#34;&#34; alt=&#34;&#34;&gt;&lt;img src=&#34;&#34; alt=&#34;&#34;&gt;&lt;section class=&#34;section-undefined-aligned&#34;&gt;&#xA;&lt;p&gt;A distribuição proposta contribui para uma enorme flexibilidade. Esta opção permite vários níveis de ocupação e dinâmica entre os espaços. Ao evitar aberturas a norte, a casa minimiza perdas de energia e tira o máximo partido da luz natural, assegurando condições térmicas eficientes.&lt;/p&gt;</description>
+      <description>&lt;section class=&#34;section-bottom-aligned&#34;&gt;&#xA;&lt;p&gt;2024 - atualidade | Estudos preliminares Habitação Unifamiliar&#xA;&lt;br&gt;&#xA;Portugal | Vila Nova de Cerveira&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section class=&#34;section-undefined-aligned&#34;&gt;&#xA;&lt;p&gt;Localizado numa encosta, este projeto pretende criar uma conexão entre interior e exterior entre a habitação e a sua envolvente natural. O volume articula-se entre sobreiros e desníveis, o que originou uma segmentação que permite que todos os espaços desfrutem de vistas desimpedidas para o exterior.&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/uploads/20250107moradia-u%CC%81nica-tiff-copy.webp&#34; alt=&#34;&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/uploads/pip-10-dragged-copy.webp&#34; alt=&#34;&#34;&gt;&lt;section class=&#34;section-undefined-aligned&#34;&gt;&#xA;&lt;p&gt;A distribuição proposta contribui para uma enorme flexibilidade. Esta opção permite vários níveis de ocupação e dinâmica entre os espaços. Ao evitar aberturas a norte, a casa minimiza perdas de energia e tira o máximo partido da luz natural, assegurando condições térmicas eficientes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>casamentos</title>
@@ -90,6 +83,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/architecture/tese/</guid>
       <description>&lt;section class=&#34;section-bottom-aligned&#34;&gt;&#xA;&lt;p&gt;2022 | atividade experimental e investigação teórica&#xA;Faculdade de Arquitetura da Universidade do Porto | dissertação de mestrado&#xA;Portugal | Viana do Castelo&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;em&gt;Percurso às Escuras&lt;/em&gt; foi uma atividade experimental desenvolvida no âmbito da dissertação de mestrado &lt;em&gt;Dimensão Sensitiva na Perceção da Arquitetura: construção do espaço mental no campo não visual&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section class=&#34;section-center-aligned&#34;&gt;&#xA;&lt;p&gt;Experienciar o espaço é uma viagem. Experienciar o espaço é percorrer um caminho mentalmente apreendido que se forma e desvanece a cada passo num jogo entre a consciência e a subconsciência dos sentidos que originam a sua apropriação. No entanto, a singularidade de cada indivíduo implica que essa viagem seja diferente para todos.&lt;br&gt;&#xA;&lt;br&gt;&#xA;A experiência do espaço é dependente de estímulos consecutivos que atuam tanto na perceção direta como no campo da memória. A orientação de uma pessoa no espaço é consequente, por sua vez, das reações que o corpo desencadeia e interpreta, e é a cinestesia que permite o equilíbrio e consciência corporal necessários ao movimento.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sobre mim</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/uploads/4q8a1910.jpg&#34; alt=&#34;&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/uploads/4q8a2311.jpg&#34; alt=&#34;&#34;&gt;&lt;p&gt;Olá, eu sou a Panducha!&lt;br&gt;&#xA;&lt;br&gt;&#xA;Como vai o vosso dia?&lt;/p&gt;&#xA;&lt;p&gt;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;strong&gt;E o meu papel no vosso dia?&lt;/strong&gt;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;Estou presente para documentar emoções e vivências de forma natural. Vou acompanhar-vos ao longo do dia e soltar algumas lágrimas tímidas por trás da câmera fotográfica que me esconde.&lt;br&gt;&#xA;&lt;br&gt;&#xA;Procuro o detalhe, os toques suaves e os sorrisos tímidos, porque acredito os sentimentos estão em todos os &lt;em&gt;nossos&lt;/em&gt; lugares. Prometo celebrar-vos nesse dia tão especial.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
