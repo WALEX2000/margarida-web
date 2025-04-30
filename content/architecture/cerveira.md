@@ -1,7 +1,7 @@
 ---
 title: caminho dos paraísos
 description: Projeto de Cerveira
-thumbnail: /images/uploads/cervo.jpg
+thumbnail: /images/uploads/10-sem-fundo-preto.jpg
 order: 1
 ---
 
