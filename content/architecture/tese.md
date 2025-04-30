@@ -1,5 +1,5 @@
 ---
-title: espaço mental no campo não visual
+title: percurso às escuras
 description: Projeto da Tese
 thumbnail: /images/uploads/blind.jpg
 order: 2
