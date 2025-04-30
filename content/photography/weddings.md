@@ -1,5 +1,5 @@
 ---
-title: Casamentos
+title: c
 thumbnail: /images/uploads/casamento.jpg
 order: 1
 draft: false
