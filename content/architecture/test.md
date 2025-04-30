@@ -1,5 +1,5 @@
 ---
-title: Test
+title: habitar a luz
 thumbnail: /images/uploads/cerveira.jpg
 order: 1
 ---
