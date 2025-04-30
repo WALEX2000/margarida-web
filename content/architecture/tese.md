@@ -1,6 +1,6 @@
 ---
-title: "Tese"
-description: "Projeto da Tese"
+title: espaço mental no campo não visual
+description: Projeto da Tese
 thumbnail: /images/uploads/blind.jpg
 order: 2
 ---
