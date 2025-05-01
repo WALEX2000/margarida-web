@@ -7,7 +7,7 @@ order: 1
 
 <section class="section-bottom-aligned">
 
-2024 - atualidade | Habitação Unifamiliar - Estudos Preliminares
+em processo | habitação unifamiliar
 
 Portugal | Vila Nova de Cerveira
 </section>
