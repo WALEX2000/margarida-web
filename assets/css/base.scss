@@ -6,10 +6,20 @@
 @tailwind utilities;
 
 html {
-    background-color: #f6f4f2;
+    background-color: #DED5CF;
 }
 
-.font-italiana-regular {
+.base-text-color {
+    --tw-text-opacity: 1;
+    color: #54463B;
+}
+
+.base-font {
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+}
+
+.header-font {
     font-family:'Italiana', sans-serif;
     font-weight: 400;
 }
@@ -31,11 +41,6 @@ html {
     font-family: "Roboto", serif;
     font-weight: 700;
     font-style: normal;
-}
-
-.header-color {
-    background-color: #000000;
-    opacity: 0.85;
 }
 
 /* hide scrollbar for all browsers */

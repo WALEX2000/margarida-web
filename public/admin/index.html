@@ -22,7 +22,7 @@
               h('div', {"id": "content_wrapper"},
                 h('img', {src: thumbnail, "id": "cover_image"}),
                 h('div', {"id": "content_box"},
-                  h('h1', {"id": "page_title", "className": "font-italiana-regular"}, entry.getIn(['data', 'title'])),
+                  h('h1', {"id": "page_title", "className": "header-font"}, entry.getIn(['data', 'title'])),
                   h('div', {"id": "content_container"}, this.props.widgetFor('body'))
                 ),
               ),

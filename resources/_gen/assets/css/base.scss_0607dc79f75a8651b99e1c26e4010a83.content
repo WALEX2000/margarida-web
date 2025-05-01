@@ -1226,6 +1226,10 @@ input:checked + .toggle-bg{
 .border-t{
   border-top-width: 1px;
 }
+.border-\[\#A6978C\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(166 151 140 / var(--tw-border-opacity));
+}
 .border-blue-600{
   --tw-border-opacity: 1;
   border-color: rgb(28 100 242 / var(--tw-border-opacity));
@@ -1268,6 +1272,9 @@ input:checked + .toggle-bg{
 }
 .bg-gray-900\/50{
   background-color: rgb(17 24 39 / 0.5);
+}
+.bg-transparent{
+  background-color: transparent;
 }
 .bg-white{
   --tw-bg-opacity: 1;
@@ -1453,9 +1460,17 @@ input:checked + .toggle-bg{
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 html {
-  background-color: #f6f4f2; }
+  background-color: #DED5CF; }
 
-.font-italiana-regular {
+.base-text-color {
+  --tw-text-opacity: 1;
+  color: #54463B; }
+
+.base-font {
+  font-family: 'Roboto', serif;
+  font-weight: 400; }
+
+.header-font {
   font-family: 'Italiana', sans-serif;
   font-weight: 400; }
 
@@ -1474,10 +1489,6 @@ html {
   font-family: "Roboto", serif;
   font-weight: 700;
   font-style: normal; }
-
-.header-color {
-  background-color: #000000;
-  opacity: 0.85; }
 
 /* hide scrollbar for all browsers */
 html {
