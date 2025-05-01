@@ -53,3 +53,17 @@ O edifício em galeria destacado está orientado a nascente/poente e possui vist
 ![](/images/uploads/tiff-portfólio-e-copy-2.webp)
 
 ![](/images/uploads/tiff-portfólio-f-copy-2.webp)
+
+![](/images/uploads/screenshot-2025-05-01-at-10.07.51-copy.webp)
+
+![](/images/uploads/screenshot-2023-01-10-at-14.20.55-copy.webp)
+
+![](/images/uploads/screenshot-2023-01-10-at-14.21.25-copy.webp)
+
+
+<section class="section-bottom-aligned">
+
+Também a escolha de materiais é feita de modo a acentuar essa relação. O betão e a madeira assumem um papel de destaque, e é com a interação de materiais entre o interior e o exterior que se cria um maior conforto que não leva a casa aos seus limites físicos, transpondo-a para todo o edifício. Quando esses limites deixam de existir, ainda que de forma abstrata, originam panos completos que transitam entre os dois lados da porta ou da janela. É neste sentido que a madeira que reveste o alçado da galeria transita para a parede que acompanha a escada, e o plano de microbetão que limita a varanda se estende para a sala, criando uma continuidade que visa trazer diversidade e flexibilidade aos espaços, dando origem a uma sensação de conforto, de casa, que existe já antes de atravessar o limite do privado.
+</section>
+
+![](/images/uploads/renderfinal2-copy.webp)
