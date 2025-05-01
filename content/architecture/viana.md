@@ -1,15 +1,15 @@
 ---
 title: apartamento galiza
 description: Renovação de apartamento
-thumbnail: /images/uploads/sala-e-cozinha.webp
+thumbnail: /images/uploads/cortado.webp
 order: 2
 ---
 
 <section class="section-bottom-aligned">
 
-em processo | remodelação de interiores
+**remodelação de interiores** em processo
 
-Portugal | Viana do Castelo
+**Portugal** Viana do Castelo
 
 em colaboração com Eduarda Silva e Rita Ramalhosa
 </section>
@@ -19,9 +19,12 @@ em colaboração com Eduarda Silva e Rita Ramalhosa
 
 
 
+
+
 Este projeto inside sobre uma intervenção de interiores num edifício de apartamentos. O apartamento sobre o qual trabalhamos sofreu inúmeras alterações ao longo dos anos, resultando na perda de vários elementos originais e de grande qualidade, como a madeira.
 
 O nosso objetivo foi devolver algum do caráter original ao apartamento através da introdução de elementos de madeira e potencializando uma leitura coesa e identitária do espaço. Ao mesmo tempo, a distribuição interior foi ligeiramente alterada para criar um ambiente mais funcional e adaptado às necessidades contemporâneas.
+
 
 </section>
 
