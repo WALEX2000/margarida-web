@@ -1,7 +1,7 @@
 ---
 title: " habitar a luz"
 thumbnail: /images/uploads/tiff-portfólio-alcadex-copy.webp
-order: 0
+order: 4
 ---
 
 <section class="section-bottom-aligned">
