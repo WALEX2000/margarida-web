@@ -5,7 +5,7 @@
         flex-direction: row;
         flex: 1 1 auto;
         gap: 1rem;
-        // align-items: center;
+        align-items: center;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
@@ -17,9 +17,8 @@
 
         .category-thumbnail {
             scroll-snap-align: center;
-            height: 85% !important;
-            min-width: 80dvw;
-            margin-top: 1rem;
+            min-width: 85dvw !important;
+            aspect-ratio: 2 / 3;
 
             img {
                 aspect-ratio: 2 / 3;
