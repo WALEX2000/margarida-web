@@ -19,7 +19,12 @@ Adoro desafios, tenho dificuldade em dizer *não* e ponho os meus valores, sempr
 Carrego o orgulho de abril no coração e encho a casa de cravos vermelhos.\
 Tenho a ambição de fazer a diferença no mundo, como todas as crianças.\
 \
-"El que sueña puede más que el que no sueña"\
+"El que sueña puede más que el que no sueña"
+</section>
+
+
+<section class="section-bottom-aligned">
+
 Vamos ser amigos?
 </section>
 
