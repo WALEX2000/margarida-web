@@ -95,5 +95,8 @@
     margin-bottom: 1rem; }
   #content_container section {
     margin-bottom: 1rem; }
+  #content_container p {
+    font-size: 1rem;
+    margin-bottom: 1rem; }
   #cover_image {
     display: none; } }
