@@ -16,7 +16,7 @@ Portugal | Porto
 
 <section class="section-undefined-aligned">
 
-undefined
+O planeamento urbano proposto para o espaço desocupado em Arca d’Água, no Porto, baseia-se numa estratégia de consolidação do edificado que tem como premissa incluir áreas residenciais, de lazer e comerciais, fechando o perímetro da envolvente e regularizando as traseiras das pré existências, o que cria um grande espaço central de lazer com acesso ao parque e ao lago por diferentes cotas.
 </section>
 
 ![](/images/uploads/tiff-2020_0619_td_m9_anamargaridacalheiros_f1-9_compressed-copy.webp)
