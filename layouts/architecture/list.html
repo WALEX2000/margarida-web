@@ -42,11 +42,13 @@
 
     <!-- Right section: 1/4 width nav, links centered vertically and horizontally -->
     <nav class="col-span-1 flex h-screen flex-col justify-center items-start ml-8">
-      <h2 class="w-3/5 header-font text-sm mb-5 pb-5 border-b border-[#A6978C]">Ana Margardia Calheiros</h2>
+      <a class="w-3/5 header-font text-sm mb-5 pb-5 border-b border-[#A6978C]" href="{{ .Site.BaseURL }}">
+        <h2>Ana Margarida Calheiros</h2>
+      </a>
       <ul class="w-3/5 space-y-1">
         {{ range $sortedPages }}
         <li>
-          <a class="text-sm hover:underline base-font pop-up-link" href="{{ .Permalink }}">{{ .Title }}</a>
+          <a class="text-base hover:font-bold base-font pop-up-link" href="{{ .Permalink }}">{{ .Title }}</a>
         </li>
         {{ end }}
       </ul>
