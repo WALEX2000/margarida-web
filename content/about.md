@@ -9,6 +9,8 @@ draft: false
 
 <section class="section-bottom-aligned">
 
+
+
 **Olá, sou a Margarida!**
 
 
@@ -24,12 +26,15 @@ Adoro desafios, tenho dificuldade em dizer *não* e ponho os meus valores, sempr
 Carrego o orgulho de abril no coração e encho a casa de cravos vermelhos.
 
 Tenho a ambição de fazer a diferença no mundo, como todas as crianças.
+
 </section>
 
-![](/images/uploads/4q8a2500.jpg)
+![](/images/uploads/4q8a2967-copy.webp)
 
 
-<section class="section-bottom-aligned">
+<section class="section-top-aligned">
+
+
 
 Tenho a *pessoa* como prioridade, tanto na arquitetura como na fotografia.
 
@@ -38,12 +43,16 @@ O meu trabalho destaca a forma como cada um se vê, os seus hábitos e aquilo co
 Na arquitetura, quero ajudar a criar aqueles que serão *lugares* especiais. Tenho conforto como prioridade e tirar partido das condições locais como premissa.
 
 Na fotografia, registo para imortalizar fases ou momentos das vidas de cada um, de forma autêntica e genuína.
+
 </section>
 
 
-<section class="section-top-aligned">
+<section class="section-bottom-aligned">
+
+
 
 Vamos ser amigos?
+
 </section>
 
-![](/images/uploads/4q8a2967-copy.webp)
+![](/images/uploads/4q8a3217-copy.webp)
