@@ -1,77 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex" />
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <title>Content Manager</title>
-  </head>
-  <body>
-    <!-- Include the script that builds the page and powers Decap CMS -->
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-    <script>CMS.registerPreviewStyle("/admin/preview.css");</script>
-    <script>
-      var PagePreviewer = createClass({
-        render: function() {
-          var entry = this.props.entry;
-          var thumbnail_path = entry.getIn(['data', 'thumbnail']);
-          var thumbnail = this.props.getAsset(thumbnail_path);
-          return h('body', {"id": "body"},
-            h('main', {"id": "main"},
-              h('div', {"id": "content_wrapper"},
-                h('img', {src: thumbnail, "id": "cover_image"}),
-                h('div', {"id": "content_box"},
-                  h('h1', {"id": "page_title", "className": "header-font"}, entry.getIn(['data', 'title'])),
-                  h('div', {"id": "content_container"}, this.props.widgetFor('body'))
-                ),
-              ),
-            ),
-          );
-        }
-      });
-    
-      CMS.registerPreviewTemplate("photography", PagePreviewer);
-    </script>
-    <script>
-      CMS.registerEditorComponent({
-        id: "section",
-        label: "Column Section",
-        fields: [
-          	{
+  	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="robots" content="noindex" />
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+		<title>Content Manager</title>
+	</head>
+  	<body>
+		<!-- Include the script that builds the page and powers Decap CMS -->
+		<script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+		<script>CMS.registerPreviewStyle("/admin/preview.css");</script>
+		<script>
+		var PagePreviewer = createClass({
+		render: function() {
+			var entry = this.props.entry;
+			var thumbnail_path = entry.getIn(['data', 'thumbnail']);
+			var thumbnail = this.props.getAsset(thumbnail_path);
+			return h('body', {"id": "body"},
+			h('main', {"id": "main"},
+				h('div', {"id": "content_wrapper"},
+				h('img', {src: thumbnail, "id": "cover_image"}),
+				h('div', {"id": "content_box"},
+					h('h1', {"id": "page_title", "className": "header-font"}, entry.getIn(['data', 'title'])),
+					h('div', {"id": "content_container"}, this.props.widgetFor('body'))
+				),
+				),
+			),
+			);
+		}
+		});
+
+		CMS.registerPreviewTemplate("photography", PagePreviewer);
+		</script>
+		<script>
+		CMS.registerEditorComponent({
+		id: "section",
+		label: "Column Section",
+		fields: [
+			{
 				name: "alignment",
 				label: "Section Alignment",
 				widget: "select",
 				options: ["top", "center", "bottom"]
-        	},    
-        	{
-                name: "content",
-                label: "Section Content",
-                widget: "markdown"
-            },
-        ],
-        pattern: /<section(?: class="section-(top|center|bottom)-aligned")?>(.*?)<\/section>/ms,
-        fromBlock: function(match) {
-            return {
+			},
+			{
+				name: "text_alignment",
+				label: "Section Text Alignment",
+				widget: "select",
+				options: ["left", "center", "justify", "right"],
+			}, 
+			{
+				name: "content",
+				label: "Section Content",
+				widget: "markdown"
+			},
+		],
+		pattern: /<section(?: class="section-(top|center|bottom)-aligned(?: text-(left|center|justify|right))?"?)>(.*?)<\/section>/ms,
+		fromBlock: function(match) {
+			return {
 				alignment: match[1] || "top",
-              	content: match[2],
-            };
-        },
-        toBlock: function(obj) {
-            return `
-<section class="section-${obj.alignment}-aligned">
+				text_alignment: match[2] || "left",
+				content: match[3],
+			};
+		},
+		toBlock: function(obj) {
+			return `
+<section class="section-${obj.alignment}-aligned text-${obj.text_alignment}">
 
 ${obj.content}
 <\/section>`;
-        },
-        toPreview: function(obj) {
-            return `
-<section class="section-${obj.alignment}-aligned">
+		},
+		toPreview: function(obj) {
+			return `
+<section class="section-${obj.alignment}-aligned text-${obj.text_alignment}">
 
 ${obj.content}
 <\/section>`;
-        },
-      });
-    </script>
+		},
+		});
+		</script>
   </body>
 </html>
