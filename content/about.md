@@ -2,54 +2,30 @@
 title: sobre mim
 draft: false
 ---
+![](/images/uploads/4q8a1910-copy.webp)
 
-
-![](/images/uploads/4q8a1910.jpg)
-
-
-
-![](/images/uploads/4q8a2311.jpg)
-
-Olá, eu sou a Panducha!\
-\
-Como vai o vosso dia?
-
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-**E o meu papel no vosso dia?**\
-\
-\
-Estou presente para documentar emoções e vivências de forma natural. Vou acompanhar-vos ao longo do dia e soltar algumas lágrimas tímidas por trás da câmera fotográfica que me esconde.\
-\
-Procuro o detalhe, os toques suaves e os sorrisos tímidos, porque acredito os sentimentos estão em todos os *nossos* lugares. Prometo celebrar-vos nesse dia tão especial.
-
-</section>
-
-![](/images/uploads/4q8a2500.jpg)
-
-![Margarida](/images/margarida_drawing.png)
+![](/images/uploads/4q8a2311-copy.webp)
 
 
 <section class="section-top-aligned">
 
+**Olá, sou a Margarida!**
 
-
-O processo e a presença de um fotógrafo num casamento não é igual para todos e a dinâmica é sempre estabelecida com os noivos.\
-É importante recordar que todas as cerimónias são diferentes e tudo que é o 'habitual' pode ser adaptado aos vossos gostos e ideias! No entanto, apresento-vos uma leve sequência de momentos e retratos de alguns dias especiais.\
+Sou fotógrafa e arquiteta, apaixonada por luz e pessoas.\
+Natural de Viana do Castelo, carrego o mar e a romaria ao peito.\
+Atravessei o mundo sozinha para ir ver montanhas.\
+Ouço música \[demasiado] alto e canto por cima.\
+Adoro desafios, tenho dificuldade em dizer *não* e ponho os meus valores, sempre, em cima da mesa.\
+Carrego o orgulho de abril no coração e encho a casa de cravos vermelhos.\
+Tenho a ambição de fazer a diferença no mundo, como todas as crianças.\
 \
-No dia de casamento, fotografar a preparação do noivo e da noiva é um momento especial, porque os nervos começam a florescer e algumas lágrimas derramam-se ainda em casa. Captam-se alguns detalhes de vestuário e acessórios e as pessoas que lhes são mais próximas e que auxiliam nesta preparação.
-
-
+"El que sueña puede más que el que no sueña"
 </section>
+
+
+<section class="section-bottom-aligned">
+
+Vamos ser amigos?
+</section>
+
+![](/images/uploads/4q8a2500.jpg)
