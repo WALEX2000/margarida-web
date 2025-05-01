@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/architecture/habitar-a-luz/</loc>
+  </url><url>
     <loc>http://localhost:1313/architecture/viana/</loc>
   </url><url>
     <loc>http://localhost:1313/architecture/</loc>
@@ -21,8 +23,6 @@
     <loc>http://localhost:1313/photography/editorial/</loc>
   </url><url>
     <loc>http://localhost:1313/photography/experiences/</loc>
-  </url><url>
-    <loc>http://localhost:1313/architecture/test/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
