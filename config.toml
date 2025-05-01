@@ -1,6 +1,6 @@
 baseURL = 'https://anamargaridacalheiros.com/'
-languageCode = 'en-us'
-title = 'Margarida Website'
+languageCode = 'pt'
+title = 'Ana Margarida Calheiros'
 
 [markup.goldmark.renderer]
 unsafe = true
