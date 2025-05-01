@@ -50,11 +50,7 @@ O edifício em galeria destacado está orientado a nascente/poente e possui vist
 
 ![](/images/uploads/todos.webp)
 
-![](/images/uploads/screenshot-2025-05-01-at-10.07.51-copy.webp)
-
-![](/images/uploads/screenshot-2023-01-10-at-14.20.55-copy.webp)
-
-![](/images/uploads/screenshot-2023-01-10-at-14.21.25-copy.webp)
+![](/images/uploads/esquema.webp)
 
 
 <section class="section-bottom-aligned">
