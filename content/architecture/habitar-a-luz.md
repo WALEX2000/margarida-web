@@ -6,7 +6,7 @@ order: 0
 
 <section class="section-bottom-aligned">
 
-2020 | habitação plurifamiliar
+2020 | Habitação Plurifamiliar
 Faculdade de Arquitetura da Universidade do Porto | 3º ano
 Portugal | Porto
 </section>
