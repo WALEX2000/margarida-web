@@ -6,29 +6,29 @@
 
     <nav class="hidden md:flex ml-auto mr-4 items-center space-x-4">
         {{ if eq .Permalink .Site.BaseURL }}
-        	<a class="header-link header-link-current base-text-color header-font text-xl" href="{{ .Site.BaseURL }}">Home</a>
+        	<a class="header-link header-link-current base-text-color header-font text-sm" href="{{ .Site.BaseURL }}">Home</a>
         {{ else }}
-          	<a class="header-link base-text-color header-font text-xl" href="{{ .Site.BaseURL }}">Home</a>
+          	<a class="header-link base-text-color header-font text-sm" href="{{ .Site.BaseURL }}">Home</a>
         {{ end }}
 		{{ if eq .Section "architecture"}}
-        	<a class="header-link header-link-current base-text-color header-font text-xl" href="{{ .Site.BaseURL }}/architecture">Arquitetura</a>
+        	<a class="header-link header-link-current base-text-color header-font text-sm" href="{{ .Site.BaseURL }}/architecture">Arquitetura</a>
         {{ else }}
-          	<a class="header-link base-text-color header-font text-xl" href="{{ .Site.BaseURL }}/architecture">Arquitetura</a>
+          	<a class="header-link base-text-color header-font text-sm" href="{{ .Site.BaseURL }}/architecture">Arquitetura</a>
         {{ end }}
         {{ if eq .Section "photography"}}
-          	<a class="header-link header-link-current base-text-color header-font text-xl" href="{{ .Site.BaseURL }}/photography">Fotografia</a>
+          	<a class="header-link header-link-current base-text-color header-font text-sm" href="{{ .Site.BaseURL }}/photography">Fotografia</a>
         {{ else }}
-          	<a class="header-link base-text-color header-font text-xl" href="{{ .Site.BaseURL }}/photography">Fotografia</a>
+          	<a class="header-link base-text-color header-font text-sm" href="{{ .Site.BaseURL }}/photography">Fotografia</a>
         {{ end }}
         {{ if eq .Title "Sobre Mim"}}
-          	<a class="header-link header-link-current base-text-color header-font text-xl" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
+          	<a class="header-link header-link-current base-text-color header-font text-sm" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
         {{ else }}
-          	<a class="header-link base-text-color header-font text-xl" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
+          	<a class="header-link base-text-color header-font text-sm" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
         {{ end }}
         {{ if eq .Title "Contactos"}}
-          	<a class="header-link header-link-current base-text-color header-font text-xl" href="{{ .Site.BaseURL }}#contacts">Contactos</a>
+          	<a class="header-link header-link-current base-text-color header-font text-sm" href="{{ .Site.BaseURL }}#contacts">Contactos</a>
         {{ else }}
-          	<a class="header-link base-text-color header-font text-xl" href="{{ .Site.BaseURL }}#contacts">Contactos</a>
+          	<a class="header-link base-text-color header-font text-sm" href="{{ .Site.BaseURL }}#contacts">Contactos</a>
         {{ end }}
     </nav>
 
@@ -45,14 +45,14 @@
 <nav id="mobile-menu" class="absolute top-full left-0 w-full bg-[#DED5CF] bg-opacity-90 z-30 transform -translate-y-[calc(100%_+_4rem)] transition-transform duration-300 md:hidden">
   	<ul class="py-4 space-y-4 px-6 base-text-color">
 		<li>
-			<a href="{{ .Site.BaseURL }}" class="block header-font text-xl {{ if eq .Permalink .Site.BaseURL }} underline {{ end }}">Home</a>
+			<a href="{{ .Site.BaseURL }}" class="block header-font text-sm {{ if eq .Permalink .Site.BaseURL }} underline {{ end }}">Home</a>
 		</li>
 
 		<!-- Arquitetura -->
 		<details {{ if eq .Page.Section "architecture" }} open {{ end }}>
 		<summary class="flex items-center justify-between cursor-pointer">
 			<!-- Link part: clicking this jumps to the page -->
-			<a href="{{ .Site.BaseURL }}/architecture" class="header-font text-xl {{ if eq .Page.RelPermalink "/architecture/" }} underline {{ end }}">Arquitetura</a>
+			<a href="{{ .Site.BaseURL }}/architecture" class="header-font text-sm {{ if eq .Page.RelPermalink "/architecture/" }} underline {{ end }}">Arquitetura</a>
 			<!-- Icon part: clicking this toggles the details -->
 			<svg class="arrow-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path d="M9 18l6-6-6-6" />
@@ -61,7 +61,7 @@
 		<ul class="mt-2 ml-4 space-y-1">
 			{{ range sort (where .Site.RegularPages "Section" "architecture") ".Params.order" "asc" }}
 			<li>
-				<a href="{{ .Permalink }}" class="block header-font text-lg {{ if eq $currentPage.Permalink .Permalink }} underline {{ end }}">{{ .Title }}</a>
+				<a href="{{ .Permalink }}" class="block header-font text-sm {{ if eq $currentPage.Permalink .Permalink }} underline {{ end }}">{{ .Title }}</a>
 			</li>
 			{{ end }}
 		</ul>
@@ -70,7 +70,7 @@
 		<!-- Fotografia -->
 		<details {{ if eq .Page.Section "photography" }} open {{ end }}>
 		<summary class="flex items-center justify-between cursor-pointer">
-			<a href="{{ .Site.BaseURL }}/photography"class="header-font text-xl {{ if eq .Page.RelPermalink "/photography/" }} underline {{ end }}">Fotografia</a>
+			<a href="{{ .Site.BaseURL }}/photography"class="header-font text-sm {{ if eq .Page.RelPermalink "/photography/" }} underline {{ end }}">Fotografia</a>
 			<svg class="arrow-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 			<path d="M9 18l6-6-6-6" />
 			</svg>
@@ -78,7 +78,7 @@
 		<ul class="mt-2 ml-4 space-y-1">
 			{{ range sort (where .Site.RegularPages "Section" "photography") ".Params.order" "asc" }}
 			<li>
-				<a href="{{ .Permalink }}" class="block header-font text-lg {{ if eq $currentPage.Permalink .Permalink }} underline {{ end }}">{{ .Title }}</a>
+				<a href="{{ .Permalink }}" class="block header-font text-sm {{ if eq $currentPage.Permalink .Permalink }} underline {{ end }}">{{ .Title }}</a>
 			</li>
 			{{ end }}
 		</ul>
@@ -86,12 +86,12 @@
 
 		<!-- Sobre Mim -->
 		<li>
-			<a href="{{ .Site.BaseURL }}about" class="block header-font text-xl {{ if eq .Page.RelPermalink "/about/" }} underline {{ end }}">Sobre Mim</a>
+			<a href="{{ .Site.BaseURL }}about" class="block header-font text-sm {{ if eq .Page.RelPermalink "/about/" }} underline {{ end }}">Sobre Mim</a>
 		</li>
 		
 		<!-- Contactos -->
 		<li>
-			<a href="{{ .Site.BaseURL }}contacts" class="block header-font text-xl {{ if eq .Page.RelPermalink "/contacts/" }} underline {{ end }}">Contactos</a>
+			<a href="{{ .Site.BaseURL }}contacts" class="block header-font text-sm {{ if eq .Page.RelPermalink "/contacts/" }} underline {{ end }}">Contactos</a>
 		</li>
 	</ul>
 </nav>

@@ -2,7 +2,7 @@
 <h3>HELLOOO</h3>
 <div id="pop-up">
     <div id="content_box">
-        <p id="page_title" class="source-serif-4">{{ .Title | upper }}</p>
+        <p id="page_title" class="header-font">{{ .Title | upper }}</p>
         <div id="content_container" class="min-h-0">
             <img src="{{ .Params.thumbnail }}" alt="{{ .Title }} cover image.">
             {{ partial "content" . }}
