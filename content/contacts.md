@@ -14,7 +14,7 @@ Conta-me a tua história, diz-me o que te trouxe até mim e de que forma te poss
 
 Entra em contacto comigo!
 <div class="flex items-center space-x-3">
-    <a href="mailto:a_calheiros@hotmail.com" class="block p-1" title="Email me">
+    <a href="mailto:anamargaridacalheiros@gmail.com" class="block p-1" title="Email me">
         <img src="https://anamargaridacalheiros.com/images/email.png" alt="Email icon" class="h-3.5 w-3.5 object-contain object-center">
     </a>
     <a href="https://wa.me/925306293" target="_blank" rel="noopener noreferrer" class="block p-1" title="Chat on WhatsApp">

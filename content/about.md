@@ -70,6 +70,17 @@ Na fotografia, registo para imortalizar fases ou momentos das vidas de cada um, 
 
 
 **Vamos conversar?**
+<div class="flex items-center space-x-3">
+    <a href="mailto:anamargaridacalheiros@gmail.com" class="block p-1" title="Email me">
+        <img src="https://anamargaridacalheiros.com/images/email.png" alt="Email icon" class="h-3.5 w-3.5 object-contain object-center">
+    </a>
+    <a href="https://wa.me/925306293" target="_blank" rel="noopener noreferrer" class="block p-1" title="Chat on WhatsApp">
+        <img src="https://anamargaridacalheiros.com/images/whatsapp.png" alt="WhatsApp icon" class="h-3.5 w-3.5 object-contain object-center">
+    </a>
+    <a href="https://www.instagram.com/ana_calheiros" target="_blank" rel="noopener noreferrer" class="block p-1" title="Follow me on Instagram">
+        <img src="https://anamargaridacalheiros.com/images/instagram.png" alt="Instagram icon" class="h-3.5 w-3.5 object-contain object-center">
+    </a>
+</div>
 
 </section>
 
