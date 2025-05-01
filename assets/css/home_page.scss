@@ -29,3 +29,31 @@
             linear-gradient(90deg, rgba(0,0,0,.25), rgba(0,0,0,0) 20%);
     }
 }
+
+/* 1. Remove native triangle marker */
+details summary {
+    list-style: none;
+    /* reset browser defaults */
+    margin: 0;
+    padding: 0;
+}
+details summary::-webkit-details-marker,
+details summary::marker {
+    display: none;
+}
+
+/* 2. Style our custom arrow */
+.arrow-icon {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    transition: transform 100ms ease-in-out;
+    stroke-width: 2;
+    stroke: currentColor;
+    fill: none;
+}
+
+/* 3. Rotate arrow when open */
+details[open] .arrow-icon {
+    transform: rotate(90deg);
+}

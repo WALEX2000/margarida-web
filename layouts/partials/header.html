@@ -6,24 +6,24 @@
 
     <nav class="hidden md:flex ml-auto mr-4 items-center space-x-4">
         {{ if eq .Section "architecture"}}
-          <a class="header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/architecture">Arquitetura</a>
+        	<a class="header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/architecture">Arquitetura</a>
         {{ else }}
-          <a class="header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/architecture">Arquitetura</a>
+          	<a class="header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/architecture">Arquitetura</a>
         {{ end }}
         {{ if eq .Section "photography"}}
-          <a class="header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/photography">Fotografia</a>
+          	<a class="header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/photography">Fotografia</a>
         {{ else }}
-          <a class="header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/photography">Fotografia</a>
+          	<a class="header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}/photography">Fotografia</a>
         {{ end }}
         {{ if eq .Title "Sobre Mim"}}
-          <a class="header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
+          	<a class="header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
         {{ else }}
-          <a class="header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
+          	<a class="header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#about">Sobre Mim</a>
         {{ end }}
         {{ if eq .Title "Contactos"}}
-          <a class="header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#contacts">Contactos</a>
+          	<a class="header-link header-link-current text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#contacts">Contactos</a>
         {{ else }}
-          <a class="header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#contacts">Contactos</a>
+          	<a class="header-link text-white font-italiana-regular text-xl" href="{{ .Site.BaseURL }}#contacts">Contactos</a>
         {{ end }}
     </nav>
 
@@ -35,36 +35,90 @@
     </button>
 </div>
 
-<!-- mobile menu panel -->
+<!-- MOBILE MENU PANEL -->
+{{ $currentPage := .Page }}
+<nav id="mobile-menu" class="absolute top-full left-0 w-full bg-black bg-opacity-90 z-30 transform -translate-y-[calc(100%_+_4rem)] transition-transform duration-300 md:hidden">
+  	<ul class="py-4 space-y-4 px-6 text-white">
+		<!-- Arquitetura -->
+		<details {{ if eq .Page.Section "architecture" }} open {{ end }}>
+		<summary class="flex items-center justify-between cursor-pointer">
+			<!-- Link part: clicking this jumps to the page -->
+			<a href="{{ .Site.BaseURL }}/architecture" class="font-italiana-regular text-xl {{ if eq .Page.RelPermalink "/architecture/" }} underline {{ end }}">Arquitetura</a>
+			<!-- Icon part: clicking this toggles the details -->
+			<svg class="arrow-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+				<path d="M9 18l6-6-6-6" />
+			</svg>
+		</summary>
+		<ul class="mt-2 ml-4 space-y-1">
+			{{ range sort (where .Site.RegularPages "Section" "architecture") ".Params.order" "asc" }}
+			<li>
+				<a href="{{ .Permalink }}" class="block font-italiana-regular text-lg {{ if eq $currentPage.Permalink .Permalink }} underline {{ end }}">{{ .Title }}</a>
+			</li>
+			{{ end }}
+		</ul>
+		</details>
+
+		<!-- Fotografia -->
+		<details {{ if eq .Page.Section "photography" }} open {{ end }}>
+		<summary class="flex items-center justify-between cursor-pointer">
+			<a href="{{ .Site.BaseURL }}/photography"class="font-italiana-regular text-xl {{ if eq .Page.RelPermalink "/photography/" }} underline {{ end }}">Fotografia</a>
+			<svg class="arrow-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+			<path d="M9 18l6-6-6-6" />
+			</svg>
+		</summary>
+		<ul class="mt-2 ml-4 space-y-1">
+			{{ range sort (where .Site.RegularPages "Section" "photography") ".Params.order" "asc" }}
+			<li>
+				<a href="{{ .Permalink }}" class="block font-italiana-regular text-lg {{ if eq $currentPage.Permalink .Permalink }} underline {{ end }}">{{ .Title }}</a>
+			</li>
+			{{ end }}
+		</ul>
+		</details>
+
+		<!-- Sobre Mim (no submenu) -->
+		<li>
+			<a href="{{ .Site.BaseURL }}#about" class="block font-italiana-regular text-xl">Sobre Mim</a>
+		</li>
+		
+		<!-- Contactos -->
+		<li>
+			<a href="{{ .Site.BaseURL }}contacts" class="block font-italiana-regular text-xl">Contactos</a>
+		</li>
+	</ul>
+</nav>
+
+
+{{/*  <!-- mobile menu panel -->
 <nav id="mobile-menu" class="absolute top-full left-0 w-full bg-black bg-opacity-70 z-30 transform -translate-y-[calc(100%_+_4rem)] transition-transform duration-300 md:hidden">
     <ul class="mt-4 mb-4 space-y-4 px-6">
       <!-- Arquitetura -->
       <details class="text-white">
         <summary class="cursor-pointer font-italiana-regular text-xl">Arquitetura</summary>
         <ul class="mt-2 ml-4 space-y-1">
-          {{ range where .Site.RegularPages "Section" "architecture" }}
-            <li><a href="{{ .Permalink }}" class="block text-lg hover:underline">{{ .Title }}</a></li>
-          {{ end }}
+        	{{ range where .Site.RegularPages "Section" "architecture" }}
+        	<li><a href="{{ .Permalink }}" class="block text-lg">{{ .Title }}</a></li>
+          	{{ end }}
         </ul>
       </details>
       <!-- Fotografia -->
       <details class="text-white">
         <summary class="cursor-pointer font-italiana-regular text-xl">Fotografia</summary>
         <ul class="mt-2 ml-4 space-y-1">
-          {{ range where .Site.RegularPages "Section" "photography" }}
-            <li><a href="{{ .Permalink }}" class="block text-lg hover:underline">{{ .Title }}</a></li>
-          {{ end }}
+          	{{ range where .Site.RegularPages "Section" "photography" }}
+            <li><a href="{{ .Permalink }}" class="block text-lg">{{ .Title }}</a></li>
+          	{{ end }}
         </ul>
       </details>
       <!-- Sobre Mim -->
       <li>
-        <a href="{{ .Site.BaseURL }}about" class="block text-white font-italiana-regular text-xl hover:underline">Sobre Mim</a>
+        <a href="{{ .Site.BaseURL }}about" class="block text-white font-italiana-regular text-xl">Sobre Mim</a>
       </li>
+      <!-- Contactos -->
       <li>
-        <a href="{{ .Site.BaseURL }}contacts" class="block text-white font-italiana-regular text-xl hover:underline">Contactos</a>
+        <a href="{{ .Site.BaseURL }}contacts" class="block text-white font-italiana-regular text-xl">Contactos</a>
       </li>
     </ul>
-</nav>
+</nav>  */}}
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {

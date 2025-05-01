@@ -1271,6 +1271,9 @@ input:checked + .toggle-bg{
 .bg-opacity-70{
   --tw-bg-opacity: 0.7;
 }
+.bg-opacity-90{
+  --tw-bg-opacity: 0.9;
+}
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -1317,6 +1320,10 @@ input:checked + .toggle-bg{
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .pb-5{
   padding-bottom: 1.25rem;
@@ -1377,6 +1384,9 @@ input:checked + .toggle-bg{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.underline{
+  text-decoration-line: underline;
 }
 .no-underline{
   text-decoration-line: none;
