@@ -28,3 +28,7 @@ O planeamento urbano proposto para o espaço desocupado em Arca d’Água, no Po
 
 O edifício em galeria destacado para desenvolvimento pormenorizado está orientado a nascente/poente e possui vista direta para o lago. A entrada é colocada numa plataforma criada no momento de torção do edifício, vencendo o natural declive da rua e acentuando o momento de exceção. As tipologias dos apartamentos são variáveis, bem como a sua extensão em dois pisos ou apenas um.
 </section>
+
+![](/images/uploads/tiff-portfólio-piso-0-2-copy.webp)
+
+![](/images/uploads/tiff-portfólio-c-copy.webp)
