@@ -5,11 +5,11 @@ order: 3
 ---
 <section class="section-undefined-aligned">
 
-2022 | equipamento
+**equipamento** 2022
 
-MUAS | 2º ano de mestrado
+**Áustria** Donaukanal, Viena
 
-Áustria | Donaukanal, Viena
+**MUAS** 2º ano de mestrado
 
 em colaboração com Alexandra Heckhoff
 
@@ -30,7 +30,10 @@ em colaboração com Alexandra Heckhoff
 
 <section class="section-top-aligned">
 
+
+
 Com uma estrutura que se eleva sobre a água do canal e uma constituição material onde a madeira é o elemento fundamental, o edifício relaciona-se em volumetria com os barcos que o cruzam e aqueles que se encontram permanentemente atracados. Os programas de diferentes naturezas e o diálogo entre elementos construídos permite que várias atividades se desenvolvam no local, com uma forte componente cultural e artística que se vê cercada em altura pela envolvente.
+
 </section>
 
 ![](/images/uploads/längsschnitt.webp)
@@ -40,7 +43,10 @@ Com uma estrutura que se eleva sobre a água do canal e uma constituição mater
 
 <section class="section-bottom-aligned">
 
+
+
 Desde o momento da entrada, o programa foi pensado como um circuito continuo e lógico de acontecimentos. Desde o jardim de ervas aromáticas e zona de partilha às salas de terapia, meditação e sauna, o ponto de maior estudo foi a incidência da luz e sua relação com o modo de ocupação do espaço.
+
 </section>
 
 ![](/images/uploads/atmospheric-scenerie-1-copy.webp)
