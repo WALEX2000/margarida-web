@@ -27,7 +27,7 @@ O planeamento urbano proposto para o espaço desocupado em Arca d’Água, no Po
 
 ![](/images/uploads/tiff-2020_0619_td_m9_anamargaridacalheiros_f1-9_compressed-copy.webp)
 
-![](/images/uploads/5-copy.webp)
+![](/images/uploads/desenho.webp)
 
 
 <section class="section-center-aligned">
