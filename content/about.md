@@ -7,7 +7,9 @@ draft: false
 ![](/images/uploads/4q8a2311-copy.webp)
 
 
-<section class="section-bottom-aligned">
+<section class="section-bottom-aligned text-left">
+
+
 
 
 
@@ -33,12 +35,15 @@ Tenho a ambição de fazer a diferença no mundo, como todas as crianças.
 
 
 
+
 </section>
 
 ![](/images/uploads/4q8a2967-copy.webp)
 
 
-<section class="section-bottom-aligned">
+<section class="section-bottom-aligned text-left">
+
+
 
 
 
@@ -56,12 +61,16 @@ Na fotografia, registo para imortalizar fases ou momentos das vidas de cada um, 
 
 
 
+
 </section>
 
 
-<section class="section-top-aligned">
+<section class="section-top-aligned text-right">
+
+
 
 **Vamos conversar?**
+
 </section>
 
 ![](/images/uploads/4q8a3217-copy.webp)
