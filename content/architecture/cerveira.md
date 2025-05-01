@@ -9,21 +9,25 @@ order: 1
 
 
 
+
+
 em processo | habitação unifamiliar
 
 Portugal | Vila Nova de Cerveira
 
-</section>
 
-
-<section class="section-top-aligned">
-
-Localizado numa encosta, este projeto pretende criar uma conexão entre interior e exterior entre a habitação e a sua envolvente natural. O volume articula-se entre sobreiros e desníveis, o que originou uma segmentação que permite que todos os espaços desfrutem de vistas desimpedidas para o exterior.
 </section>
 
 ![](/images/uploads/cerveira.jpg)
 
 
+<section class="section-top-aligned">
+
+
+
+Localizado numa encosta, este projeto pretende criar uma conexão entre interior e exterior entre a habitação e a sua envolvente natural. O volume articula-se entre sobreiros e desníveis, o que originou uma segmentação que permite que todos os espaços desfrutem de vistas desimpedidas para o exterior.
+
+</section>
 
 ![](/images/uploads/20250107moradia-única-tiff-copy.webp)
 
@@ -32,7 +36,10 @@ Localizado numa encosta, este projeto pretende criar uma conexão entre interior
 
 <section class="section-bottom-aligned">
 
+
+
 A distribuição proposta contribui para uma enorme flexibilidade. Esta opção permite vários níveis de ocupação e dinâmica entre os espaços. Ao evitar aberturas a norte, a casa minimiza perdas de energia e tira o máximo partido da luz natural, assegurando condições térmicas eficientes.
+
 </section>
 
 ![](/images/uploads/pip-8-dragged-copy.webp)
