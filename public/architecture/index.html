@@ -62,6 +62,9 @@
 
     <nav class="hidden md:flex ml-auto mr-4 items-center space-x-4">
         
+          	<a class="header-link base-text-color header-font text-xl" href="http://localhost:1313/">Home</a>
+        
+		
         	<a class="header-link header-link-current base-text-color header-font text-xl" href="http://localhost:1313//architecture">Arquitetura</a>
         
         
@@ -87,6 +90,10 @@
 
 <nav id="mobile-menu" class="absolute top-full left-0 w-full bg-[#DED5CF] bg-opacity-90 z-30 transform -translate-y-[calc(100%_+_4rem)] transition-transform duration-300 md:hidden">
   	<ul class="py-4 space-y-4 px-6 base-text-color">
+		<li>
+			<a href="http://localhost:1313/" class="block header-font text-xl ">Home</a>
+		</li>
+
 		
 		<details  open >
 		<summary class="flex items-center justify-between cursor-pointer">
@@ -141,10 +148,6 @@
 			</li>
 			
 			<li>
-				<a href="http://localhost:1313/photography/baptisms/" class="block header-font text-lg ">batizados</a>
-			</li>
-			
-			<li>
 				<a href="http://localhost:1313/photography/editorial/" class="block header-font text-lg ">editorial</a>
 			</li>
 			
@@ -157,12 +160,12 @@
 
 		
 		<li>
-			<a href="http://localhost:1313/about" class="block header-font text-xl">Sobre Mim</a>
+			<a href="http://localhost:1313/about" class="block header-font text-xl ">Sobre Mim</a>
 		</li>
 		
 		
 		<li>
-			<a href="http://localhost:1313/contacts" class="block header-font text-xl">Contactos</a>
+			<a href="http://localhost:1313/contacts" class="block header-font text-xl ">Contactos</a>
 		</li>
 	</ul>
 </nav>
@@ -197,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <img
           id="slideBackLeft"
           class="slide absolute inset-0 w-full h-full object-cover opacity-0 z-10 transition-opacity ease-in-out"
-          src="/images/uploads/sala-e-cozinha.webp"
+          src="/images/uploads/cortado.webp"
           alt="Background showcase image"
         >
       </div>
@@ -284,7 +287,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <a class="category-thumbnail pop-up-link" href="http://localhost:1313/architecture/viana/">
     <img
         class="object-cover min-w-full min-h-full"
-        src="/images/uploads/sala-e-cozinha.webp"
+        src="/images/uploads/cortado.webp"
         alt="Thumbnail for apartamento galiza section.">
 </a>
   
@@ -313,7 +316,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <script>
   
-  const thumbnails_str ="[\"/images/uploads/10-sem-fundo-preto-copy2.webp\",\"/images/uploads/sala-e-cozinha.webp\",\"/images/uploads/_dsc0109-copy2.webp\",\"/images/uploads/tiff-portfólio-alcadex-copy.webp\",\"/images/uploads/percurso-às-escuras_26-copy.webp\"]";
+  const thumbnails_str ="[\"/images/uploads/10-sem-fundo-preto-copy2.webp\",\"/images/uploads/cortado.webp\",\"/images/uploads/_dsc0109-copy2.webp\",\"/images/uploads/tiff-portfólio-alcadex-copy.webp\",\"/images/uploads/percurso-às-escuras_26-copy.webp\"]";
   const thumbnails = JSON.parse(thumbnails_str);
 
   window.addEventListener('DOMContentLoaded', () => {
