@@ -1,7 +1,7 @@
 ---
 title: apartamento galiza
 description: Renovação de apartamento
-thumbnail: /images/uploads/sala-e-cozinha.webp
+thumbnail: /images/uploads/cortado.webp
 order: 2
 ---
 
