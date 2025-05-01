@@ -19,26 +19,20 @@ Portugal | Viana do Castelo\
 
 </section>
 
-
-<section class="section-center-aligned">
-
-
-
-
-
-Experienciar o espaço é uma viagem. Experienciar o espaço é percorrer um caminho mentalmente apreendido que se forma e desvanece a cada passo num jogo entre a consciência e a subconsciência dos sentidos que originam a sua apropriação. No entanto, a singularidade de cada indivíduo implica que essa viagem seja diferente para todos.\
-\
-A experiência do espaço é dependente de estímulos consecutivos que atuam tanto na perceção direta como no campo da memória. A orientação de uma pessoa no espaço é consequente, por sua vez, das reações que o corpo desencadeia e interpreta, e é a cinestesia que permite o equilíbrio e consciência corporal necessários ao movimento.
-
-
-</section>
-
 ![](/images/uploads/esquema-pensamento-copy.webp)
+
+
+<section class="section-bottom-aligned">
+
+Experienciar o espaço é uma viagem. Experienciar o espaço é percorrer um caminho mentalmente apreendido que se forma e desvanece a cada passo num jogo entre a consciência e a subconsciência dos sentidos que originam a sua apropriação. No entanto, a singularidade de cada indivíduo implica que essa viagem seja diferente para todos.
+
+A experiência do espaço é dependente de estímulos consecutivos que atuam tanto na perceção direta como no campo da memória. A orientação de uma pessoa no espaço é consequente, por sua vez, das reações que o corpo desencadeia e interpreta, e é a cinestesia que permite o equilíbrio e consciência corporal necessários ao movimento.
+</section>
 
 ![](/images/uploads/percurso-às-escuras_15-copy.webp)
 
 
-<section class="section-center-aligned">
+<section class="section-top-aligned">
 
 
 
