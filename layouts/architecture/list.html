@@ -54,25 +54,24 @@
       <!-- CONTACT AREA -->
       <div class="w-3/5 mt-5 pt-5 border-t border-gray-400">
         <div class="flex items-center space-x-3">
-          <!-- INSTAGRAM -->
-          <a href="https://www.instagram.com/ana_calheiros" target="_blank" rel="noopener noreferrer" class="block p-1" title="Follow me on Instagram">
-            {{ $igIcon := resources.Get "images/instagram.png" }}
-            <img src="{{ $igIcon.Permalink }}" alt="Instagram icon" class="h-4 w-4 object-contain object-center">
+          <!-- EMAIL -->
+          <a href="mailto:a_calheiros@hotmail.com" class="block p-1" title="Email me">
+            {{ $emailIcon := resources.Get "images/email.png" }}
+            <img src="{{ $emailIcon.Permalink }}" alt="Email icon" class="h-3 w-3 object-contain object-center">
           </a>
 
           <!-- WHATSAPP -->
           <a href="https://wa.me/925306293" target="_blank" rel="noopener noreferrer" class="block p-1" title="Chat on WhatsApp">
             {{ $waIcon := resources.Get "images/whatsapp.png" }}
-            <img src="{{ $waIcon.Permalink }}" alt="WhatsApp icon" class="h-4 w-4 object-contain object-center">
+            <img src="{{ $waIcon.Permalink }}" alt="WhatsApp icon" class="h-3 w-3 object-contain object-center">
           </a>
 
-          <!-- EMAIL -->
-          <a href="mailto:a_calheiros@hotmail.com" class="block p-1" title="Email me">
-            {{ $emailIcon := resources.Get "images/email.png" }}
-            <img src="{{ $emailIcon.Permalink }}" alt="Email icon" class="h-4 w-4 object-contain object-center">
+          <!-- INSTAGRAM -->
+          <a href="https://www.instagram.com/ana_calheiros" target="_blank" rel="noopener noreferrer" class="block p-1" title="Follow me on Instagram">
+            {{ $igIcon := resources.Get "images/instagram.png" }}
+            <img src="{{ $igIcon.Permalink }}" alt="Instagram icon" class="h-3 w-3 object-contain object-center">
           </a>
         </div>
-        <p class="base-font mt-2 text-lg">Contacta-me!</p>
       </div>
     </nav>
   </div>

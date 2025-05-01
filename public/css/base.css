@@ -995,6 +995,9 @@ input:checked + .toggle-bg{
 .h-2\/3{
   height: 66.666667%;
 }
+.h-3{
+  height: 0.75rem;
+}
 .h-4{
   height: 1rem;
 }
@@ -1030,6 +1033,9 @@ input:checked + .toggle-bg{
 }
 .w-2\/5{
   width: 40%;
+}
+.w-3{
+  width: 0.75rem;
 }
 .w-3\/5{
   width: 60%;
