@@ -48,11 +48,7 @@ O edifício em galeria destacado está orientado a nascente/poente e possui vist
 É numa relação de variantes de luz e sombra que todo o sentido do espaço habitacional se desenvolve. Através do ripado que cria um pano rotativo no alçado poente, controlando a incidência da luz, e da desmaterialização do alçado nascente com as tábuas de madeira que cobrem parcialmente as janelas voltadas para a galeria, todo o interior dos apartamentos tem reflexos da influência direta da luz. As salas orientam-se a Oeste, abrindo-se para o lago com varandas que funcionam como suas extensões, proporcionando uma simbiose entre o interior e o exterior.
 </section>
 
-![](/images/uploads/tiff-portfólio-d-copy-2.webp)
-
-![](/images/uploads/tiff-portfólio-e-copy-2.webp)
-
-![](/images/uploads/tiff-portfólio-f-copy-2.webp)
+![](/images/uploads/todos.webp)
 
 ![](/images/uploads/screenshot-2025-05-01-at-10.07.51-copy.webp)
 
