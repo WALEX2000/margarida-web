@@ -57,15 +57,19 @@ function openModal() {
     // TODO: Need to fix the header pop-ups because they are working due to a side-effect of having the pop-up links on the home page.
 	// TODO: Remove specific logic for about me
 	const aboutMeLink = document.querySelector('a.header-link[href$="#about"]');
-	    if (window.location.hash === '#about' || window.location.pathname.endsWith('/about')) {
+	if (window.location.hash === '#about' || window.location.pathname.endsWith('/about')) {
 		aboutMeLink.classList.add('header-link-current');
+	} else {
+		aboutMeLink.classList.remove('header-link-current');
 	}
 
     // TODO: Remove specific logic for contact form
     const contactFormLink = document.querySelector('a.header-link[href$="#contacts"]');
     if (window.location.hash === '#contacts' || window.location.pathname.endsWith('/contacts')) {
         contactFormLink.classList.add('header-link-current');
-    }
+    } else {
+		contactFormLink.classList.remove('header-link-current');
+	}
 }
 
 function closeModal() {
