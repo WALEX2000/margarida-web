@@ -29,15 +29,15 @@
 
     <!-- hamburger mobile nav button -->
     <button id="mobile-menu-button" class="block md:hidden ml-auto p-4">
-        <span class="block w-8 h-0.5 bg-white mb-1.5"></span>
-        <span class="block w-8 h-0.5 bg-white mb-1.5"></span>
-        <span class="block w-8 h-0.5 bg-white"></span>
+        <span class="block w-8 h-0.5 bg-[#54463B] mb-1.5"></span>
+        <span class="block w-8 h-0.5 bg-[#54463B] mb-1.5"></span>
+        <span class="block w-8 h-0.5 bg-[#54463B]"></span>
     </button>
 </div>
 
 <!-- MOBILE MENU PANEL -->
 {{ $currentPage := .Page }}
-<nav id="mobile-menu" class="absolute top-full left-0 w-full bg-black bg-opacity-90 z-30 transform -translate-y-[calc(100%_+_4rem)] transition-transform duration-300 md:hidden">
+<nav id="mobile-menu" class="absolute top-full left-0 w-full bg-[#DED5CF] bg-opacity-90 z-30 transform -translate-y-[calc(100%_+_4rem)] transition-transform duration-300 md:hidden">
   	<ul class="py-4 space-y-4 px-6 base-text-color">
 		<!-- Arquitetura -->
 		<details {{ if eq .Page.Section "architecture" }} open {{ end }}>

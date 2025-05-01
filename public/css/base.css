@@ -1250,9 +1250,13 @@ input:checked + .toggle-bg{
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
-.bg-black{
+.bg-\[\#54463B\]{
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(84 70 59 / var(--tw-bg-opacity));
+}
+.bg-\[\#DED5CF\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(222 213 207 / var(--tw-bg-opacity));
 }
 .bg-blue-700{
   --tw-bg-opacity: 1;
