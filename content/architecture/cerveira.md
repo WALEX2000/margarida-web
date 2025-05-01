@@ -7,8 +7,8 @@ order: 1
 
 <section class="section-bottom-aligned">
 
-2024 - atualidade | Estudos preliminares Habitação Unifamiliar
-\
+2024 - atualidade | Habitação Unifamiliar - Estudos Preliminares
+
 Portugal | Vila Nova de Cerveira
 </section>
 
