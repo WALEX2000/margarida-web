@@ -11,6 +11,8 @@ draft: false
 
 
 
+
+
 **Olá, sou a Margarida!**
 
 
@@ -27,12 +29,15 @@ Carrego o orgulho de abril no coração e encho a casa de cravos vermelhos.
 
 Tenho a ambição de fazer a diferença no mundo, como todas as crianças.
 
+
 </section>
 
 ![](/images/uploads/4q8a2967-copy.webp)
 
 
-<section class="section-top-aligned">
+<section class="section-bottom-aligned">
+
+
 
 
 
@@ -44,15 +49,13 @@ Na arquitetura, quero ajudar a criar aqueles que serão *lugares* especiais. Ten
 
 Na fotografia, registo para imortalizar fases ou momentos das vidas de cada um, de forma autêntica e genuína.
 
+
 </section>
 
 
-<section class="section-bottom-aligned">
+<section class="section-top-aligned">
 
-
-
-Vamos ser amigos?
-
+**Vamos ser amigos?**
 </section>
 
 ![](/images/uploads/4q8a3217-copy.webp)
