@@ -28,13 +28,13 @@
         <img
           id="slideFrontRight"
           class="slide absolute inset-0 w-full h-full object-cover z-20 transition-opacity ease-in-out"
-          src="{{ (index $sortedPages (div (sub (len $sortedPages) 1) 2)).Params.thumbnail }}"
+          src="{{ (index $sortedPages (div (len $sortedPages) 2)).Params.thumbnail }}"
           alt="Showcase image"
         >
         <img
           id="slideBackRight"
           class="slide absolute inset-0 w-full h-full object-cover opacity-0 z-10 transition-opacity ease-in-out"
-          src="{{ (index $sortedPages (add 1 (div (sub (len $sortedPages) 1) 2))).Params.thumbnail }}"
+          src="{{ (index $sortedPages (add 1 (div (len $sortedPages) 2))).Params.thumbnail }}"
           alt="Background showcase image"
         >
       </div>
@@ -108,7 +108,7 @@
 
     // initial indices into thumbnails[]
     let idxL = 0;
-    let idxR = Math.floor(thumbnails.length / 2);
+    let idxR = Math.ceil(thumbnails.length / 2);
 
     const duration = 6000;   // ms between cycle starts
     const fadeTime = 1250;    // fade duration
