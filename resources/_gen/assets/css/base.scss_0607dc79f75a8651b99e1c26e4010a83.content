@@ -1091,8 +1091,8 @@ input:checked + .toggle-bg{
 .min-w-full{
   min-width: 100%;
 }
-.max-w-md{
-  max-width: 28rem;
+.max-w-44{
+  max-width: 11rem;
 }
 .max-w-screen-2xl{
   max-width: 1536px;
@@ -1487,9 +1487,6 @@ input:checked + .toggle-bg{
 html {
   background-color: #DED5CF; }
 
-.yellow-filter {
-  filter: brightness(0) saturate(100%) invert(98%) sepia(1%) saturate(2931%) hue-rotate(317deg) brightness(92%) contrast(89%); }
-
 .base-color-filter {
   filter: brightness(0) saturate(100%) invert(24%) sepia(27%) saturate(400%) hue-rotate(344deg) brightness(100%) contrast(87%); }
 
@@ -1658,6 +1655,13 @@ html {
   }
   .md\:hidden{
     display: none;
+  }
+  .md\:max-w-md{
+    max-width: 28rem;
+  }
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
   .rtl\:rotate-180:where([dir="rtl"], [dir="rtl"] *){

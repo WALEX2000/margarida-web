@@ -30,10 +30,6 @@ html {
     background-color: #DED5CF;
 }
 
-.yellow-filter {
-    filter: brightness(0) saturate(100%) invert(98%) sepia(1%) saturate(2931%) hue-rotate(317deg) brightness(92%) contrast(89%);
-}
-
 .base-color-filter {
     filter: brightness(0) saturate(100%) invert(24%) sepia(27%) saturate(400%) hue-rotate(344deg) brightness(100%) contrast(87%);
 }
