@@ -958,14 +958,17 @@ input:checked + .toggle-bg{
 .ml-4{
   margin-left: 1rem;
 }
+.ml-6{
+  margin-left: 1.5rem;
+}
 .ml-8{
   margin-left: 2rem;
 }
 .ml-auto{
   margin-left: auto;
 }
-.mr-4{
-  margin-right: 1rem;
+.mr-6{
+  margin-right: 1.5rem;
 }
 .mt-2{
   margin-top: 0.5rem;
@@ -1088,11 +1091,11 @@ input:checked + .toggle-bg{
 .min-w-full{
   min-width: 100%;
 }
+.max-w-\[45rem\]{
+  max-width: 45rem;
+}
 .max-w-screen-2xl{
   max-width: 1536px;
-}
-.max-w-xl{
-  max-width: 36rem;
 }
 .flex-1{
   flex: 1 1 0%;
@@ -1483,6 +1486,12 @@ input:checked + .toggle-bg{
 }
 html {
   background-color: #DED5CF; }
+
+.yellow-filter {
+  filter: brightness(0) saturate(100%) invert(98%) sepia(1%) saturate(2931%) hue-rotate(317deg) brightness(92%) contrast(89%); }
+
+.base-color-filter {
+  filter: brightness(0) saturate(100%) invert(24%) sepia(27%) saturate(400%) hue-rotate(344deg) brightness(100%) contrast(87%); }
 
 .base-text-color, .header-font, .base-font, p {
   --tw-text-opacity: 1;
