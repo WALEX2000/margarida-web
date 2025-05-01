@@ -1,6 +1,6 @@
 ---
 title: casamentos
-thumbnail: /images/uploads/casamento-bruna-e-miguel_1-copy.webp
+thumbnail: /images/uploads/casamento-bruna-e-miguel_7-copy.webp
 order: 1
 draft: false
 ---
