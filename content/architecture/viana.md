@@ -5,27 +5,24 @@ thumbnail: /images/uploads/cortado.webp
 order: 2
 ---
 
-<section class="section-bottom-aligned">
+<section class="section-bottom-aligned text-left">
+
+
 
 **remodelação de interiores** em processo
 
 **Portugal** Viana do Castelo
 
 em colaboração com Eduarda Silva e Rita Ramalhosa
+
 </section>
 
 
-<section class="section-top-aligned">
+<section class="section-top-aligned text-left">
 
-
-
-
-
-Este projeto inside sobre uma intervenção de interiores num edifício de apartamentos. O apartamento sobre o qual trabalhamos sofreu inúmeras alterações ao longo dos anos, resultando na perda de vários elementos originais e de grande qualidade, como a madeira.
+Este projeto incide sobre uma intervenção de interiores num edifício de apartamentos. O apartamento sobre o qual trabalhamos sofreu inúmeras alterações ao longo dos anos, resultando na perda de vários elementos originais e de grande qualidade, como a madeira.
 
 O nosso objetivo foi devolver algum do caráter original ao apartamento através da introdução de elementos de madeira e potencializando uma leitura coesa e identitária do espaço. Ao mesmo tempo, a distribuição interior foi ligeiramente alterada para criar um ambiente mais funcional e adaptado às necessidades contemporâneas.
-
-
 </section>
 
 ![](/images/uploads/20241104_alteração-final_estudo-prévio-dragged-.webp)
